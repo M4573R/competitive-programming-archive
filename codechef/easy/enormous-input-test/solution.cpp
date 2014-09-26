@@ -18,7 +18,7 @@ int main()
     cin >> number_of_entries >> divisor;
 
     unsigned int entry;
-    unsigned int divisible_entries = 0;
+    unsigned int divisible_entries {0};
 
     while (cin >> entry)
     {

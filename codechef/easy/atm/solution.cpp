@@ -3,7 +3,7 @@
 
 using namespace std;
 
-constexpr double fee = 0.50;
+constexpr double fee {0.50};
 
 inline void use_io_optimizations()
 {
