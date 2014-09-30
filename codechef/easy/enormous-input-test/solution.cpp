@@ -17,11 +17,13 @@ int main()
 
     cin >> number_of_entries >> divisor;
 
-    unsigned int entry;
     unsigned int divisible_entries {0};
 
-    while (cin >> entry)
+    for (unsigned int i {0}; i < number_of_entries; ++i)
     {
+        unsigned int entry;
+        cin >> entry;
+
         if (entry % divisor == 0)
         {
             ++divisible_entries;
