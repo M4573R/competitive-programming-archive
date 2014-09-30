@@ -43,7 +43,7 @@ integer $Z(N)$.
 
 ## Example
 
-### Input
+#### Input
 
 ```
 6
@@ -55,7 +55,7 @@ integer $Z(N)$.
 8735373
 ```
 
-### Output
+#### Output
 
 ```
 0

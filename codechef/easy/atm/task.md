@@ -19,13 +19,13 @@ complete the transaction, output the current bank balance.
 
 ## Example - Successful Transaction
 
-##### Input
+#### Input
 
 ```
 30 120.00
 ```
 
-##### Output
+#### Output
 
 ```
 89.50
