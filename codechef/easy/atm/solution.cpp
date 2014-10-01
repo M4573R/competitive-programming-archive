@@ -8,7 +8,7 @@ constexpr double fee {0.50};
 inline void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    cin.tie(nullptr);
 }
 
 int main()
