@@ -12,9 +12,14 @@ inline void use_io_optimizations()
 
 unsigned int longest_path(vector<vector<unsigned int>>& triangle)
 {
-    for (unsigned int i {triangle.size() - 1}; i > 0; --i)
+    if (triangle.empty())
     {
-        for (unsigned int j {0}; j < i; ++j)
+        return 0;
+    }
+
+    for (vector<unsigned int>::size_type i {triangle.size() - 1}; i > 0; --i)
+    {
+        for (vector<unsigned int>::size_type j {0}; j < i; ++j)
         {
             triangle[i - 1][j] += max(triangle[i][j], triangle[i][j + 1]);
         }
