@@ -13,6 +13,8 @@ inline void use_io_optimizations()
 
 int main()
 {
+    use_io_optimizations();
+
     vector<unsigned int> frequencies(max_number);
 
     unsigned int input_size;
