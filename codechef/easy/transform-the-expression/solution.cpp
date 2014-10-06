@@ -92,6 +92,8 @@ string read_expression()
 
 int main()
 {
+    use_io_optimizations();
+
     unsigned int test_cases;
     cin >> test_cases;
 

@@ -10,6 +10,8 @@ inline void use_io_optimizations()
 
 int main()
 {
+    use_io_optimizations();
+
     unsigned int test_cases;
     cin >> test_cases;
 

@@ -24,6 +24,8 @@ bool is_inverse(vector<unsigned int>& permutation)
 
 int main()
 {
+    use_io_optimizations();
+
     unsigned int permutation_size;
     cin >> permutation_size;
 
