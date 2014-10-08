@@ -64,3 +64,8 @@
 
 * [Problem statement](http://www.codechef.com/problems/NUMGAME)
 * [Solution](./yet_another_number_game.cpp)
+
+## Cooling Pies
+
+* [Problem statement](http://www.codechef.com/problems/COOLING)
+* [Solution](./cooling_pies.cpp)
