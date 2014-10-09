@@ -65,6 +65,8 @@ vector<unsigned int> primes_between(unsigned int m, unsigned int n)
 
 int main()
 {
+    use_io_optimizations();
+
     unsigned int test_cases;
     cin >> test_cases;
 
