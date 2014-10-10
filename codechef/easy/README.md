@@ -17,3 +17,4 @@
 | [Yet Another Number Game](http://www.codechef.com/problems/DOUBLE)             | [yet_another_number_game.cpp](./yet_another_number_game.cpp)                   |
 | [Cooling Pies](http://www.codechef.com/problems/COOLING)                       | [cooling_pies.cpp](./cooling_pies.cpp)                                         |
 | [Packaging Cupcakes](http://www.codechef.com/problems/MUFFINS3)                | [packaging_cupcakes.cpp](./packaging_cupcakes.cpp)                             |
+| [Prime Palindromes](http://www.codechef.com/problems/PRPALIN)                  | [prime_palindromes.cpp](./prime_palindromes.cpp)                               |
