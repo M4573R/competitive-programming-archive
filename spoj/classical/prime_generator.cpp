@@ -16,11 +16,11 @@ vector<bool> eratosthenes_sieve(unsigned int up_to)
     vector<bool> sieve(up_to + 1, true);
     unsigned int upper_bound = sqrt(up_to);
 
-    for (vector<bool>::size_type i = 2; i < sieve.size(); ++i)
+    for (vector<bool>::size_type i = 2; i < upper_bound; ++i)
     {
         if (sieve[i])
         {
-            for (vector<bool>::size_type j = i * i; j < upper_bound; j += i)
+            for (vector<bool>::size_type j = i * i; j < sieve.size(); j += i)
             {
                 sieve[j] = false;
             }
