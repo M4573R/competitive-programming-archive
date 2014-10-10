@@ -9,3 +9,4 @@
 | 24   | [Small factorials](http://www.spoj.com/problems/FCTRL2/)                 | [small_factorials.cpp](./small_factorials.cpp)                                 |
 | 42   | [Adding Reversed Numbers](http://www.spoj.com/problems/ADDREV/)          | [adding_reversed_numbers.cpp](./adding_reversed_numbers.cpp)                   |
 | 1112 | [Number Steps](http://www.spoj.com/problems/NSTEPS/)                     | [number_steps.cpp](./number_steps.cpp)                                         |
+| 3410 | [Feynman](http://www.spoj.com/problems/SAMER08F/)                        | [feynman.cpp](./feynman.cpp)                                                   |
