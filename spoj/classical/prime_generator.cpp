@@ -14,6 +14,13 @@ inline void use_io_optimizations()
 vector<bool> eratosthenes_sieve(unsigned int up_to)
 {
     vector<bool> sieve(up_to + 1, true);
+    sieve[0] = false;
+
+    if (up_to > 0)
+    {
+        sieve[1] = false;
+    }
+
     unsigned int upper_bound = sqrt(up_to);
 
     for (vector<bool>::size_type i = 2; i < upper_bound; ++i)
