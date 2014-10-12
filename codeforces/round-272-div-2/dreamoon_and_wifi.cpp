@@ -79,10 +79,12 @@ int main()
         return 0;
     }
 
-    unsigned int all_choices     = pow(2.0, unrecognized_count);
-    unsigned int correct_choices = (factorial(unrecognized_count) /
-                                    factorial(positive_count)     /
-                                    factorial(negative_count));
+    unsigned int all_choices = pow(2.0, unrecognized_count);
+    unsigned int correct_choices {
+        factorial(static_cast<unsigned int>(unrecognized_count)) /
+        factorial(static_cast<unsigned int>(positive_count))     /
+        factorial(static_cast<unsigned int>(negative_count))
+    };
 
     cout << static_cast<double>(correct_choices) / all_choices << '\n';
 
