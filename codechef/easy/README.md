@@ -19,3 +19,4 @@
 | [Packaging Cupcakes](http://www.codechef.com/problems/MUFFINS3)                | [packaging_cupcakes.cpp](./packaging_cupcakes.cpp)                             |
 | [Prime Palindromes](http://www.codechef.com/problems/PRPALIN)                  | [prime_palindromes.cpp](./prime_palindromes.cpp)                               |
 | [Ciel and A-B Problem](http://www.codechef.com/problems/CIELAB)                | [ciel_and_a_b_problem.cpp](./ciel_and_a_b_problem.cpp)                         |
+| [Ciel and Receipt](http://www.codechef.com/problems/CIELRCPT)                  | [ciel_and_receipt.cpp](./ciel_and_receipt.cpp)                                 |
