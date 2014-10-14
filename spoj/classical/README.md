@@ -11,3 +11,4 @@
 | 400  | [To and Fro](http://www.spoj.com/problems/TOANDFRO/)                     | [to_and_fro.cpp](./to_and_fro.cpp)                                             |
 | 1112 | [Number Steps](http://www.spoj.com/problems/NSTEPS/)                     | [number_steps.cpp](./number_steps.cpp)                                         |
 | 3410 | [Feynman](http://www.spoj.com/problems/SAMER08F/)                        | [feynman.cpp](./feynman.cpp)                                                   |
+| 7974 | [What's Next](http://www.spoj.com/problems/ACPC10A/)                     | [whats_next.cpp](./whats_next.cpp)                                             |
