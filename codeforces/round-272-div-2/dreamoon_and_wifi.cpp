@@ -71,6 +71,7 @@ int main()
             break;
         }
     }
+
     cout << fixed << setprecision(12);
 
     if (positive_count < 0 || negative_count < 0)
@@ -79,7 +80,7 @@ int main()
         return 0;
     }
 
-    unsigned int all_choices = pow(2.0, unrecognized_count);
+    unsigned int all_choices = pow(2, unrecognized_count);
     unsigned int correct_choices {
         factorial(static_cast<unsigned int>(unrecognized_count)) /
         factorial(static_cast<unsigned int>(positive_count))     /
