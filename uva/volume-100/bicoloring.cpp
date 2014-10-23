@@ -1,12 +1,12 @@
 #include <iostream>
-#include <map>
 #include <queue>
 #include <set>
+#include <vector>
 
 using namespace std;
 
 using Node          = unsigned int;
-using AdjacencyList = map<Node, set<Node>>;
+using AdjacencyList = vector<set<Node>>;
 
 enum class Color
 {
@@ -24,7 +24,7 @@ inline Color opposite_color(Color color)
     return color == Color::Red ? Color::Blue : Color::Red;
 }
 
-bool is_bipartite(AdjacencyList& graph)
+bool is_bipartite(const AdjacencyList& graph)
 {
     vector<Node>  visited(graph.size(), false);
     vector<Color> coloring(graph.size(), Color::None);
@@ -71,7 +71,7 @@ int main()
 
     while (cin >> nodes >> edges && nodes != 0)
     {
-        AdjacencyList graph;
+        AdjacencyList graph(nodes);
 
         for (unsigned int i {0}; i < edges; ++i)
         {
