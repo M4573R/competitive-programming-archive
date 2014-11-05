@@ -7,7 +7,7 @@ using namespace std;
 inline void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    cin.tie(nullptr);
 }
 
 class UnionFind
@@ -18,7 +18,7 @@ public:
         ranks(items),
         components(items)
     {
-        for (unsigned int i = 0; i < components; ++i)
+        for (unsigned int i {0}; i < components; ++i)
         {
             parents[i] = i;
         }
@@ -26,8 +26,8 @@ public:
 
     void link(unsigned int item, unsigned int another_item)
     {
-        unsigned int root_i = find(item);
-        unsigned int root_j = find(another_item);
+        unsigned int root_i {find(item)};
+        unsigned int root_j {find(another_item)};
 
         if (root_i == root_j)
         {
@@ -53,7 +53,7 @@ public:
 
     unsigned int find(unsigned int item)
     {
-        unsigned int root = item;
+        unsigned int root {item};
 
         while (root != parents[root])
         {
@@ -62,7 +62,7 @@ public:
 
         while (item != root)
         {
-            unsigned int parent = parents[item];
+            unsigned int parent {parents[item]};
 
             parents[item] = root;
             item          = parent;
@@ -90,9 +90,9 @@ private:
 
 struct Line
 {
-    int source;
-    int destination;
-    int length;
+    unsigned int source;
+    unsigned int destination;
+    unsigned int length;
 };
 
 bool operator<(const Line& left, const Line& right)
@@ -100,16 +100,16 @@ bool operator<(const Line& left, const Line& right)
     return left.length < right.length;
 }
 
-int min_cable_length(vector<Line>& measurements, int chairs)
+unsigned int min_cable_length(vector<Line>& measurements, unsigned int chairs)
 {
     UnionFind forest(chairs + 1);
 
     sort(measurements.begin(), measurements.end());
 
-    int cable_length = 0;
-    int cable_lines  = 0;
+    unsigned int cable_length = 0;
+    unsigned int cable_lines  = 0;
 
-    for (vector<Line>::size_type i = 0; cable_lines < chairs - 1; ++i)
+    for (vector<Line>::size_type i {0}; cable_lines < chairs - 1; ++i)
     {
         if (!forest.connected(measurements[i].source,
                               measurements[i].destination))
@@ -131,16 +131,16 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int i = 0; i < test_cases; ++i)
+    for (unsigned int i {0}; i < test_cases; ++i)
     {
-        int chairs;
-        int measurements_count;
+        unsigned int chairs;
+        unsigned int measurements_count;
 
         cin >> chairs >> measurements_count;
 
         vector<Line> measurements(measurements_count);
 
-        for (int i = 0; i < measurements_count; ++i)
+        for (unsigned int i {0}; i < measurements_count; ++i)
         {
             cin >> measurements[i].source
                 >> measurements[i].destination
