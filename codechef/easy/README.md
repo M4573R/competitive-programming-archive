@@ -1,7 +1,7 @@
 # Easy
 
-| Problem statement | Solution |
-|:------------------|:--------:|
+|                               Problem statement                                |                                    Solution                                    |
+|:-------------------------------------------------------------------------------|:------------------------------------------------------------------------------:|
 | [Life, the Universe, and Everything](http://www.codechef.com/problems/COOLING) | [life_the_universe_and_everything.cpp](./life_the_universe_and_everything.cpp) |
 | [ATM](http://www.codechef.com/problems/HS08TEST)                               | [atm.cpp](./atm.cpp)                                                           |
 | [Enormous Input Test](http://www.codechef.com/problems/INTEST)                 | [enormous_input_test.cpp](./enormous_input_test.cpp)                           |
@@ -20,3 +20,4 @@
 | [Prime Palindromes](http://www.codechef.com/problems/PRPALIN)                  | [prime_palindromes.cpp](./prime_palindromes.cpp)                               |
 | [Ciel and A-B Problem](http://www.codechef.com/problems/CIELAB)                | [ciel_and_a_b_problem.cpp](./ciel_and_a_b_problem.cpp)                         |
 | [Ciel and Receipt](http://www.codechef.com/problems/CIELRCPT)                  | [ciel_and_receipt.cpp](./ciel_and_receipt.cpp)                                 |
+| [Count of Maximum](http://www.codechef.com/problems/MAXCOUNT)                  | [count_of_maximum.cpp](./count_of_maximum.cpp)                                 |
