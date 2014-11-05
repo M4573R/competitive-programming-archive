@@ -18,7 +18,7 @@ public:
         ranks(items),
         components(items)
     {
-        for (unsigned int i = 0; i < components; ++i)
+        for (unsigned int i {0}; i < components; ++i)
         {
             parents[i] = i;
         }
@@ -113,9 +113,9 @@ vector<Edge> kruskal(vector<Edge>& edges, unsigned int nodes)
 
     sort(edges.begin(), edges.end());
 
-    unsigned int mst_edges = 0;
+    vector<Edge>::size_type mst_edges {0};
 
-    for (unsigned int i = 0; mst_edges < mst.size(); ++i)
+    for (unsigned int i {0}; mst_edges < mst.size(); ++i)
     {
         if (!forest.connected(edges[i].source, edges[i].destination))
         {
