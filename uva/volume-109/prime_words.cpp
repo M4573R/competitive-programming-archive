@@ -37,7 +37,7 @@ vector<char> eratosthenes_sieve(unsigned int up_to)
     return sieve;
 }
 
-constexpr unsigned int lower_a_value {1}
+constexpr unsigned int lower_a_value {1};
 constexpr unsigned int upper_a_value {27};
 
 unsigned int word_sum(const string& word)
@@ -59,15 +59,15 @@ unsigned int word_sum(const string& word)
     return sum;
 }
 
+constexpr unsigned int max_word_length {20};
+constexpr unsigned int max_word_sum    {max_word_length * 52};
+
 inline bool is_prime_word(const string& word)
 {
     static const vector<char> sieve {eratosthenes_sieve(max_word_sum + 1)};
 
     return sieve[word_sum(word)] == 1;
 }
-
-constexpr unsigned int max_word_length {20};
-constexpr unsigned int max_word_sum    {max_word_length * 52};
 
 int main()
 {
