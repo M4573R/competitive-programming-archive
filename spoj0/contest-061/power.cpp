@@ -13,11 +13,6 @@ long long exponentiate(unsigned int base,
                        unsigned int exponent,
                        unsigned int modulo)
 {
-    if (base == 0)
-    {
-        return 0;
-    }
-
     long long result    {1};
     long long aggregate {base};
 
