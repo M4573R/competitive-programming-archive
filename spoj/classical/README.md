@@ -13,3 +13,4 @@
 |  3410 | [Feynman](http://www.spoj.com/problems/SAMER08F/)                        | [feynman.cpp](./feynman.cpp)                                                   |
 |  7974 | [What's Next](http://www.spoj.com/problems/ACPC10A/)                     | [whats_next.cpp](./whats_next.cpp)                                             |
 | 10582 | [subarrays](http://www.spoj.com/problems/ARRAYSUB/)                      | [subarrays.cpp](./subarrays.cpp)                                               |
+| 11772 | [Negative Score](http://www.spoj.com/problems/RPLN/)                     | [negative_score.cpp](./negative_score.cpp)                                     |
