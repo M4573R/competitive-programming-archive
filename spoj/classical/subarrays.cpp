@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <cmath>
 #include <iostream>
 #include <vector>
@@ -10,52 +11,40 @@ inline void use_io_optimizations()
     cin.tie(NULL);
 }
 
-template <typename T>
 class StaticRmq
 {
 public:
-    StaticRmq(const vector<T>& array):
-        ranges(array.size(), vector<T>(log2(array.size()) + 1))
+    StaticRmq(const vector<unsigned int>& array):
+        ranges(array.size(), vector<unsigned int>(log2(array.size()) + 1))
     {
-        typename vector<T>::size_type n = array.size();
+        typedef vector<unsigned int>::size_type index;
 
-        for (typename vector<T>::size_type i = 0; i < n; ++i)
+        index n = array.size();
+
+        for (index i = 0; i < n; ++i)
         {
             ranges[i][0] = array[i];
         }
 
-        for (typename vector<T>::size_type j = 1; (1 << j) <= n; ++j)
+        for (index j = 1; (1 << j) <= n; ++j)
         {
-            for (typename vector<T>::size_type i = 0; i + (1 << j) - 1 < n; ++i)
+            for (index i = 0; i + (1 << j) - 1 < n; ++i)
             {
-                if (ranges[i][j - 1] > ranges[i + (1 << (j - 1))][j - 1])
-                {
-                    ranges[i][j] = ranges[i][j - 1];
-                }
-                else
-                {
-                    ranges[i][j] = ranges[i + (1 << (j - 1))][j - 1];
-                }
+                ranges[i][j] = max(ranges[i][j - 1],
+                                   ranges[i + (1 << (j - 1))][j - 1]);
             }
         }
     }
 
-    T query(unsigned int left, unsigned int right) const
+    unsigned int get(unsigned int left, unsigned int right) const
     {
         unsigned int k = log2(right - left + 1);
 
-        if (ranges[left][k] >= ranges[right - (1 << k) + 1][k])
-        {
-            return ranges[left][k];
-        }
-        else
-        {
-            return ranges[right - (1 << k) + 1][k];
-        }
+        return max(ranges[left][k], ranges[right - (1 << k) + 1][k]);
     }
 
 private:
-    vector< vector<T> > ranges;
+    vector< vector<unsigned int> > ranges;
 };
 
 void read_input(unsigned int& elements_count,
@@ -63,7 +52,6 @@ void read_input(unsigned int& elements_count,
                 unsigned int& subarray_size)
 {
     cin >> elements_count;
-
     elements = vector<unsigned int>(elements_count);
 
     for (unsigned int i = 0; i < elements_count; ++i)
@@ -76,11 +64,11 @@ void read_input(unsigned int& elements_count,
 
 void write_output(unsigned int elements_count,
                   unsigned int subarray_size,
-                  const StaticRmq<unsigned int>& rmq)
+                  const StaticRmq& rmq)
 {
     for (unsigned int i = 0; i < elements_count - subarray_size + 1; ++i)
     {
-        cout << rmq.query(i, i + subarray_size - 1);
+        cout << rmq.get(i, i + subarray_size - 1);
 
         if (i < elements_count - 1)
         {
@@ -101,7 +89,7 @@ int main()
 
     read_input(elements_count, elements, subarray_size);
 
-    StaticRmq<unsigned int> rmq(elements);
+    StaticRmq rmq(elements);
 
     write_output(elements_count, subarray_size, rmq);
 
