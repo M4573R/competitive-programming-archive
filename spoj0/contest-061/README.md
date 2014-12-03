@@ -1,4 +1,3 @@
 # Contest 61
 
-* [Islands](./Pranka-projects-islands-description.pdf)
-* [Power](./Pranka-projects-power-description.pdf)
+Problem statements and judge - [spoj0](http://judge.openfmi.net:9080/spoj0/contests.pl?contest_id=61)

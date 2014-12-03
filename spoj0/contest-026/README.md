@@ -1,3 +1,3 @@
 # Contest 26
 
-* [Football](./pranka2009-03-31-football-description.pdf)
+Problem statements and judge - [spoj0](http://judge.openfmi.net:9080/spoj0/contests.pl?contest_id=26)
