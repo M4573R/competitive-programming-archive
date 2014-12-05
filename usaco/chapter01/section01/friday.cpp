@@ -6,110 +6,70 @@
 
 #include <fstream>
 #include <map>
-#include <set>
+#include <vector>
 
 using namespace std;
 
-enum class Weekday
+class Weekday
 {
-    Monday,
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday
-};
+public:
+    static const Weekday Monday;
+    static const Weekday Tuesday;
+    static const Weekday Wednesday;
+    static const Weekday Thursday;
+    static const Weekday Friday;
+    static const Weekday Saturday;
+    static const Weekday Sunday;
 
-Weekday& operator++(Weekday& weekday)
-{
-    switch (weekday)
+    static const unsigned int days_in_week;
+
+    bool operator<(const Weekday& other) const
     {
-    case Weekday::Monday:
-        weekday = Weekday::Tuesday;
-        break;
-
-    case Weekday::Tuesday:
-        weekday = Weekday::Wednesday;
-        break;
-
-    case Weekday::Wednesday:
-        weekday = Weekday::Thursday;
-        break;
-
-    case Weekday::Thursday:
-        weekday = Weekday::Friday;
-        break;
-
-    case Weekday::Friday:
-        weekday = Weekday::Saturday;
-        break;
-
-    case Weekday::Saturday:
-        weekday = Weekday::Sunday;
-        break;
-
-    case Weekday::Sunday:
-        weekday = Weekday::Monday;
-        break;
-    }
-}
-
-constexpr unsigned int start_day     {1};
-constexpr unsigned int start_month   {1};
-constexpr unsigned int start_year    {1900};
-constexpr Weekday      start_weekday {Weekday::Monday};
-
-struct Date
-{
-    Date(unsigned int day   = start_day,
-         unsigned int month = start_month,
-         unsigned int year  = start_year,
-         Weekday weekday    = start_weekday):
-        day(day),
-        month(month),
-        year(year),
-        weekday(weekday)
-    { }
-
-    bool is_leap()
-    {
-        return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
+        return day < other.day;
     }
 
-    Date& operator++()
+    Weekday& operator+=(unsigned int days)
     {
-        ++day;
-        ++weekday;
-
-        if ((day == 29 && month == 2 && !is_leap())       ||
-            (day == 30 && month == 2 &&  is_leap())       ||
-            (day == 31 && thirty_day_months.count(month)) ||
-            (day == 32))
-        {
-            day = 1;
-            ++month;
-
-            if (month == 13)
-            {
-                month = 1;
-                ++year;
-            }
-        }
+        day = (day + days) % days_in_week;
 
         return *this;
     }
 
+private:
     unsigned int day;
-    unsigned int month;
-    unsigned int year;
 
-    Weekday weekday;
-
-    static const set<unsigned int> thirty_day_months;
+    Weekday(unsigned int day):
+        day(day)
+    { }
 };
 
-const set<unsigned int> Date::thirty_day_months {4, 6, 9, 11};
+const Weekday Weekday::Monday    {0};
+const Weekday Weekday::Tuesday   {1};
+const Weekday Weekday::Wednesday {2};
+const Weekday Weekday::Thursday  {3};
+const Weekday Weekday::Friday    {4};
+const Weekday Weekday::Saturday  {5};
+const Weekday Weekday::Sunday    {6};
+
+const unsigned int Weekday::days_in_week {7};
+
+const     Weekday      start_weekday {Weekday::Saturday};
+constexpr unsigned int start_month   {1};
+constexpr unsigned int start_year    {1900};
+
+inline bool is_leap(unsigned int year)
+{
+    return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
+}
+
+inline unsigned int month_days(unsigned int month, unsigned int year)
+{
+    static const vector<unsigned int> days {
+        31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
+    };
+
+    return days[month - 1] + (month == 2 ? is_leap(year) : 0);
+}
 
 int main()
 {
@@ -119,13 +79,15 @@ int main()
     unsigned int period;
     fin >> period;
 
+    Weekday current_day {start_weekday};
     map<Weekday, unsigned int> frequencies;
 
-    for (Date date; date.year < start_year + period; ++date)
+    for (unsigned int year {start_year}; year < start_year + period; ++year)
     {
-        if (date.day == 13)
+        for (unsigned int month {start_month}; month <= 12; ++month)
         {
-            ++frequencies[date.weekday];
+            ++frequencies[current_day];
+            current_day += month_days(month, year);
         }
     }
 
