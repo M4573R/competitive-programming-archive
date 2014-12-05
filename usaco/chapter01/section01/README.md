@@ -1,7 +1,6 @@
 # Section 1
 
-* [Sum the Numbers](http://cerberus.delosent.com:791/usacoprob2?S=test&a=XGNgEFNM7kO)
-* [Your Ride Is Here](http://cerberus.delosent.com:791/usacoprob2?a=SXK7NX9QaE9&S=ride)
-* [Greedy Gift Givers](http://cerberus.delosent.com:791/usacoprob2?a=SXK7NX9QaE9&S=gift1)
-* [Friday the Thirteenth](http://cerberus.delosent.com:791/usacoprob2?a=74vHVbmWiZe&S=friday)
-* [Broken Necklace](http://cerberus.delosent.com:791/usacoprob2?a=B9qJm7lHXN8&S=beads)
+* [Your Ride Is Here](http://usacotraining.blogspot.com/2013/08/problem-111-your-ride-is-here.html)
+* [Greedy Gift Givers](http://usacotraining.blogspot.com/2013/09/problem-112-greedy-gift-givers.html)
+* [Friday the Thirteenth](http://usacotraining.blogspot.com/2013/09/problem-113-friday-thirteenth.html)
+* [Broken Necklace](http://usacotraining.blogspot.com/2013/09/problem-114-broken-necklace.html)
