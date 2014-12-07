@@ -42,9 +42,12 @@ string number_in_base(unsigned int number, unsigned int base)
     return in_new_base;
 }
 
-bool is_palindrome(string& s)
+template <typename Sequence>
+bool is_palindromic(const Sequence& sequence)
 {
-    return equal(s.cbegin(), s.cbegin() + s.size() / 2, s.crbegin());
+    return equal(sequence.cbegin(),
+                 sequence.cbegin() + sequence.size() / 2,
+                 sequence.crbegin());
 }
 
 int main()
@@ -60,7 +63,7 @@ int main()
         string number_in_new_base {number_in_base(i, base)};
         string square_in_new_base {number_in_base(i * i, base)};
 
-        if (is_palindrome(square_in_new_base))
+        if (is_palindromic(square_in_new_base))
         {
             fout << number_in_new_base << ' ' << square_in_new_base << '\n';
         }
