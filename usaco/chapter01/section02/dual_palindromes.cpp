@@ -40,6 +40,21 @@ bool is_palindromic(const Sequence& sequence)
                  sequence.crbegin());
 }
 
+bool is_dual_palindrome(unsigned int number)
+{
+    unsigned int palindromic_bases {0};
+
+    for (unsigned int base {lowest_base}; base <= highest_base; ++base)
+    {
+        if (is_palindromic(number_in_base(number, base)))
+        {
+            ++palindromic_bases;
+        }
+    }
+
+    return palindromic_bases >= 2;
+}
+
 int main()
 {
     ifstream fin  {"dualpal.in"};
@@ -52,17 +67,7 @@ int main()
 
     for (unsigned int i {lower_limit + 1}, found {0}; found < numbers_count; ++i)
     {
-        unsigned int palindromic_bases {0};
-
-        for (unsigned int base {lowest_base}; base <= highest_base; ++base)
-        {
-            if (is_palindromic(number_in_base(i, base)))
-            {
-                ++palindromic_bases;
-            }
-        }
-
-        if (palindromic_bases >= 2)
+        if (is_dual_palindrome(i))
         {
             fout << i << '\n';
             ++found;
