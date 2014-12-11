@@ -2,6 +2,7 @@
 
 |  ID  |                               Problem statement                               |                            Solution                            |
 |:----:|:------------------------------------------------------------------------------|:--------------------------------------------------------------:|
+| 1264 | [Workdays](http://acm.timus.ru/problem.aspx?space=1&num=1264)                 | [workdays.cpp](./workdays.cpp)                                 |
 | 1272 | [Non-Yekaterinburg Subway](http://acm.timus.ru/problem.aspx?space=1&num=1272) | [non_yekaterinburg_subway.cpp](./non_yekaterinburg_subway.cpp) |
 | 1290 | [Sabotage](http://acm.timus.ru/problem.aspx?space=1&num=1290)                 | [sabotage.cpp](./sabotage.cpp)                                 |
 | 1293 | [Eniya](http://acm.timus.ru/problem.aspx?space=1&num=1293)                    | [eniya.cpp](./eniya.cpp)                                       |
