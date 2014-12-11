@@ -6,6 +6,7 @@
 | 1001 | [Reverse Root](http://acm.timus.ru/problem.aspx?space=1&num=1001)        | [reverse_root.cpp](./reverse_root.cpp)               |
 | 1005 | [Stone Pile](http://acm.timus.ru/problem.aspx?space=1&num=1005)          | [stone_pile.cpp](./stone_pile.cppp)                  |
 | 1009 | [K-based Numbers](http://acm.timus.ru/problem.aspx?space=1&num=1009)     | [k_based_numbers.cpp](./k_based_numbers.cpp)         |
+| 1020 | [Rope](http://acm.timus.ru/problem.aspx?space=1&num=1020)                | [rope.cpp](./rope.cpp)                               |
 | 1068 | [Sum](http://acm.timus.ru/problem.aspx?space=1&num=1068)                 | [sum.cpp](./sum.cpp)                                 |
 | 1025 | [Democracy in Danger](http://acm.timus.ru/problem.aspx?space=1&num=1025) | [democracy_in_danger.cpp](./democracy_in_danger.cpp) |
 | 1080 | [Map Coloring](http://acm.timus.ru/problem.aspx?space=1&num=1080)        | [map_coloring.cpp](./map_coloring.cpp)               |
