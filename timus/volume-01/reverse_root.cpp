@@ -5,6 +5,8 @@
 
 using namespace std;
 
+constexpr unsigned int precision {4};
+
 inline void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
@@ -15,21 +17,18 @@ int main()
 {
     use_io_optimizations();
 
-    long long number;
+    cout << fixed << setprecision(precision);
+
     vector<long long> numbers;
 
-    while (cin >> number)
+    for (long long number; cin >> number; )
     {
         numbers.push_back(number);
     }
 
-    cout << fixed << setprecision(4);
-
-    for (vector<long long>::const_reverse_iterator i {numbers.crbegin()};
-         i != numbers.crend();
-         ++i)
+    for (auto number = numbers.crbegin(); number != numbers.crend(); ++number)
     {
-        cout << sqrtl(*i) << '\n';
+        cout << sqrt(*number) << '\n';
     }
 
     return 0;
