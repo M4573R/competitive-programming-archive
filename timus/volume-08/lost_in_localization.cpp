@@ -2,12 +2,6 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-}
-
 constexpr unsigned int few_lower_bound     {1};
 constexpr unsigned int several_lower_bound {5};
 constexpr unsigned int pack_lower_bound    {10};
@@ -17,6 +11,12 @@ constexpr unsigned int throng_lower_bound  {100};
 constexpr unsigned int swarm_lower_bound   {250};
 constexpr unsigned int zounds_lower_bound  {500};
 constexpr unsigned int legion_lower_bound  {1000};
+
+inline void use_io_optimizations()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+}
 
 int main()
 {
