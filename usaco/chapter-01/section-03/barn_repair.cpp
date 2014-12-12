@@ -5,60 +5,11 @@
 */
 
 #include <algorithm>
+#include <functional>
 #include <fstream>
 #include <vector>
 
 using namespace std;
-
-unsigned int boards_for_occupied(const vector<bool>& is_occupied)
-{
-    unsigned int boards {0};
-
-    bool previous_was_occupied {false};
-
-    for (auto occupied : is_occupied)
-    {
-        if (occupied && !previous_was_occupied)
-        {
-            ++boards;
-        }
-
-        previous_was_occupied = occupied;
-    }
-
-    return boards;
-}
-
-vector<unsigned int> gaps_between_occupied(const vector<bool>& is_occupied)
-{
-    vector<unsigned int> gaps;
-
-    vector<bool>::size_type low  {0};
-    vector<bool>::size_type high {is_occupied.size() - 1};
-
-    for (; low < is_occupied.size() && !is_occupied[low]; ++low)
-    { }
-
-    for (; high >= 0 && !is_occupied[high]; --high)
-    { }
-
-    for (; low <= high; ++low)
-    {
-        unsigned int gap {0};
-
-        for (; low <= high && !is_occupied[low]; ++low)
-        {
-            ++gap;
-        }
-
-        if (gap > 0)
-        {
-            gaps.push_back(gap);
-        }
-    }
-
-    return gaps;
-}
 
 int main()
 {
@@ -67,41 +18,40 @@ int main()
 
     unsigned int boards;
     unsigned int stalls;
-    unsigned int occupied_stalls;
+    unsigned int cows;
 
-    fin >> boards >> stalls >> occupied_stalls;
+    fin >> boards >> stalls >> cows;
 
-    vector<bool> is_occupied(stalls);
+    vector<unsigned int> occupied_stalls(cows);
 
-    for (unsigned int i {0}; i < occupied_stalls; ++i)
+    for (unsigned int i {0}; i < cows; ++i)
     {
-        unsigned int stall;
-        fin >> stall;
-
-        is_occupied[stall - 1] = true;
+        fin >> occupied_stalls[i];
     }
 
-    unsigned int used_boards {boards_for_occupied(is_occupied)};
+    sort(occupied_stalls.begin(), occupied_stalls.end(), greater<unsigned int>());
 
-    if (used_boards <= boards)
+    vector<unsigned int> gaps;
+
+    for (unsigned int i {0}; i < cows - 1; ++i)
     {
-        fout << occupied_stalls << '\n';
-    }
-    else
-    {
-        vector<unsigned int> gaps {gaps_between_occupied(is_occupied)};
-        sort(gaps.begin(), gaps.end());
-
-        unsigned int blocked_stalls {occupied_stalls};
-
-        for (unsigned int i {0}; used_boards > boards; ++i)
+        if (occupied_stalls[i] - occupied_stalls[i + 1] > 1)
         {
-            blocked_stalls += gaps[i];
-            --used_boards;
+            gaps.push_back(occupied_stalls[i] - occupied_stalls[i + 1] - 1);
         }
-
-        fout << blocked_stalls << '\n';
     }
+
+    sort(gaps.begin(), gaps.end(), greater<unsigned int>());
+
+    unsigned int non_blocked_stalls {occupied_stalls.back() - 1 +
+                                     stalls - occupied_stalls.front()};
+
+    for (unsigned int i {0}; i < gaps.size() && i < boards - 1; ++i)
+    {
+        non_blocked_stalls += gaps[i];
+    }
+
+    fout << stalls - non_blocked_stalls << '\n';
 
     return 0;
 }
