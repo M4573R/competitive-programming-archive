@@ -15,18 +15,18 @@ constexpr int alphabet_size {26};
 
 enum class NumerationSystem
 {
-    first, second
+    First, Second
 };
 
 NumerationSystem numeration_system(string& coordinates)
 {
     if (isalpha(coordinates[1]) || coordinates.find('C', 1) == string::npos)
     {
-        return NumerationSystem::first;
+        return NumerationSystem::First;
     }
     else
     {
-        return NumerationSystem::second;
+        return NumerationSystem::Second;
     }
 }
 
@@ -70,11 +70,9 @@ string second_to_first(string& coordinates)
         column /= alphabet_size;
     }
 
-    for (list<char>::const_iterator i = converted_column.cbegin();
-         i != converted_column.cend();
-         ++i)
+    for (auto symbol : converted_column)
     {
-        to_first << *i;
+        to_first << symbol;
     }
 
     to_first << row;
@@ -96,15 +94,12 @@ int main()
 
         switch (numeration_system(cell_coordinates))
         {
-        case NumerationSystem::first:
+        case NumerationSystem::First:
             cout << first_to_second(cell_coordinates) << '\n';
             break;
 
-        case NumerationSystem::second:
+        case NumerationSystem::Second:
             cout << second_to_first(cell_coordinates) << '\n';
-            break;
-
-        default:
             break;
         }
     }
