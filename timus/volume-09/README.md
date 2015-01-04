@@ -8,3 +8,4 @@
 | 1877 | [Bicycle Codes](http://acm.timus.ru/problem.aspx?space=1&num=1877)          | [bicycle_codes.cpp](./bicycle_codes.cpp)                   |
 | 1880 | [Psych Up's Eigenvalues](http://acm.timus.ru/problem.aspx?space=1&num=1880) | [psych_ups_eigenvalues.cpp](./psych_ups_eigenvalues.cpp)   |
 | 1881 | [Long problem statement](http://acm.timus.ru/problem.aspx?space=1&num=1881) | [long_problem_statement.cpp](./long_problem_statement.cpp) |
+| 1893 | [A380](http://acm.timus.ru/problem.aspx?space=1&num=1893)                   | [a380.cpp](./a380.cpp)                                     |
