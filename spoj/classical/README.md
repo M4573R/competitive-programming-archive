@@ -12,7 +12,6 @@
 |  1112 | [Number Steps](http://www.spoj.com/problems/NSTEPS/)                     | [number_steps.cpp](./number_steps.cpp)                                         |
 |  1684 | [Frequent Values](http://www.spoj.com/problems/FREQUENT/)                | [frequent_values.cpp](./frequent_values.cpp)                                   |
 |  2123 | [Candy I](http://www.spoj.com/problems/CANDY/)                           | [candy1.cpp](./candy1.cpp)                                                     |
-|  3321 | [The Knapsack Problem](http://www.spoj.com/problems/KNAPSACK/)           | [the_knapsack_problem.cpp](./the_knapsack_problem.cpp)                         |
 |  3410 | [Feynman](http://www.spoj.com/problems/SAMER08F/)                        | [feynman.cpp](./feynman.cpp)                                                   |
 |  7974 | [What's Next](http://www.spoj.com/problems/ACPC10A/)                     | [whats_next.cpp](./whats_next.cpp)                                             |
 | 10582 | [subarrays](http://www.spoj.com/problems/ARRAYSUB/)                      | [subarrays.cpp](./subarrays.cpp)                                               |
