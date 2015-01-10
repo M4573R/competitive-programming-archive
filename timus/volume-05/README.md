@@ -4,3 +4,4 @@
 |:----:|:-----------------------------------------------------------------------------|:------------------------------------------------------------:|
 | 1409 | [Two Gangsters](http://acm.timus.ru/problem.aspx?space=1&num=1409)           | [two_gangsters.cpp](./two_gangsters.cpp)                     |
 | 1493 | [One Step from Happiness](http://acm.timus.ru/problem.aspx?space=1&num=1493) | [one_step_from_happiness.cpp](./one_step_from_happiness.cpp) |
+| 1496 | [Spammer](http://acm.timus.ru/problem.aspx?space=1&num=1496)                 | [spammer.cpp](./spammer.cpp)                                 |
