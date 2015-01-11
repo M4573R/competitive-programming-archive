@@ -8,3 +8,4 @@
 | [Maximizing XOR](https://www.hackerrank.com/challenges/maximizing-xor)                   | [maximizing_xor.cpp](./maximizing_xor.cpp)                   |
 | [Alternating Charaters](https://www.hackerrank.com/challenges/alternating-characters)    | [alternating_characters.cpp](./alternating_characters.cpp)   |
 | [The Love-Letter Mystery](https://www.hackerrank.com/challenges/the-love-letter-mystery) | [the_love_letter_mystery.cpp](./the_love_letter_mystery.cpp) |
+| [Angry Children](https://www.hackerrank.com/challenges/angry-children)                   | [angry_children.cpp](./angry_children.cpp)                   |
