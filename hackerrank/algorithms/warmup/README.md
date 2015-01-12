@@ -10,3 +10,4 @@
 | [The Love-Letter Mystery](https://www.hackerrank.com/challenges/the-love-letter-mystery) | [the_love_letter_mystery.cpp](./the_love_letter_mystery.cpp) |
 | [Angry Children](https://www.hackerrank.com/challenges/angry-children)                   | [angry_children.cpp](./angry_children.cpp)                   |
 | [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones)             | [game_of_thrones_1.cpp](./game_of_thrones_1.cpp)             |
+| [ACM ICPC Team](https://www.hackerrank.com/challenges/acm-icpc-team)                     | [acm_icpc_team.cpp](./acm_icpc_team.cpp)                     |
