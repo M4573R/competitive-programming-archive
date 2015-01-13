@@ -18,7 +18,7 @@ int main()
 
     vector<unsigned int> groups_voters(groups_count);
 
-    for (unsigned int& voters : groups_voters)
+    for (auto& voters : groups_voters)
     {
         cin >> voters;
     }
