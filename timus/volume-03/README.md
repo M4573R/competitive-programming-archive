@@ -8,5 +8,6 @@
 | 1263 | [Elections](http://acm.timus.ru/problem.aspx?space=1&num=1263)                   | [elections.cpp](./elections.cpp)                                     |
 | 1264 | [Workdays](http://acm.timus.ru/problem.aspx?space=1&num=1264)                    | [workdays.cpp](./workdays.cpp)                                       |
 | 1272 | [Non-Yekaterinburg Subway](http://acm.timus.ru/problem.aspx?space=1&num=1272)    | [non_yekaterinburg_subway.cpp](./non_yekaterinburg_subway.cpp)       |
+| 1280 | [Topological Sorting](http://acm.timus.ru/problem.aspx?num=1280)                 | [topological_sorting.cpp](./topological_sorting.cpp)                 |
 | 1290 | [Sabotage](http://acm.timus.ru/problem.aspx?space=1&num=1290)                    | [sabotage.cpp](./sabotage.cpp)                                       |
 | 1293 | [Eniya](http://acm.timus.ru/problem.aspx?space=1&num=1293)                       | [eniya.cpp](./eniya.cpp)                                             |
