@@ -27,3 +27,8 @@ judge archives.
 * [spoj0](http://judge.openfmi.net:9080/spoj0/)
 * [Maycamp Arena](http://arena.maycamp.com/)
 * [DAA Practicum](http://judge.openfmi.net:9280/)
+
+## Copyright
+
+Copyright (c) 2015 Bozhidar Batsov. See [LICENSE](./LICENSE) for further
+details.
