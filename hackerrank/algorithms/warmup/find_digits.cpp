@@ -22,7 +22,7 @@ int main()
 
         unsigned int digit_divisors {0};
 
-        for (long long i {number}; i > 0; i /= 10)
+        for (unsigned long long i {number}; i > 0; i /= 10)
         {
             unsigned int digit {i % 10};
 
