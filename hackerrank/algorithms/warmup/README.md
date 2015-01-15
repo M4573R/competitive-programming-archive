@@ -14,3 +14,4 @@
 | [ACM ICPC Team](https://www.hackerrank.com/challenges/acm-icpc-team)                     | [acm_icpc_team.cpp](./acm_icpc_team.cpp)                     |
 | [Filling Jars](https://www.hackerrank.com/challenges/filling-jars)                       | [filling_jars.cpp](./filling_jars.cpp)                       |
 | [Chocolate Feast](https://www.hackerrank.com/challenges/chocolate-feast)                 | [chocolate_feast.cpp](./chocolate_feast.cpp)                 |
+| [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares)       | [sherlock_and_squares.cpp](./sherlock_and_squares.cpp)       |
