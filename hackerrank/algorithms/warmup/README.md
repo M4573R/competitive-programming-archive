@@ -17,3 +17,4 @@
 | [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares)       | [sherlock_and_squares.cpp](./sherlock_and_squares.cpp)       |
 | [Halloween party](https://www.hackerrank.com/challenges/halloween-party)                 | [halloween_party.cpp](./halloween_party.cpp)                 |
 | [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones)             | [manasa_and_stones.cpp](./manasa_and_stones.cpp)             |
+| [Sherlock and GCD](https://www.hackerrank.com/challenges/sherlock-and-gcd)               | [sherlock_and_gcd.cpp](./sherlock_and_gcd.cpp)               |
