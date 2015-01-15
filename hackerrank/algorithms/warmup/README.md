@@ -20,3 +20,4 @@
 | [Sherlock and GCD](https://www.hackerrank.com/challenges/sherlock-and-gcd)               | [sherlock_and_gcd.cpp](./sherlock_and_gcd.cpp)               |
 | [Sherlock and The Beast](https://www.hackerrank.com/challenges/sherlock-and-the-beast)   | [sherlock_and_the_beast.cpp](./sherlock_and_the_beast.cpp)   |
 | [Find Digits](https://www.hackerrank.com/challenges/find-digits)                         | [find_digits.cpp](./find_digits.cpp)                         |
+| [Is Fibo](https://www.hackerrank.com/challenges/is-fibo)                                 | [is_fibo.cpp](./is_fibo.cpp)                                 |
