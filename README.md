@@ -30,5 +30,4 @@ judge archives.
 
 ## Copyright
 
-Copyright (c) 2015 Bozhidar Batsov. See [LICENSE](./LICENSE) for further
-details.
+Copyright (c) 2015 Georgy Shopov. See [LICENSE](./LICENSE) for further details.
