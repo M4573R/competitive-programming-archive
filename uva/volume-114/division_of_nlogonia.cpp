@@ -12,7 +12,7 @@ int main()
 {
     use_io_optimizations();
 
-    for (unsigned int queries; cin >> queries && queries != 0;)
+    for (unsigned int queries; cin >> queries && queries != 0; )
     {
         int origin_x;
         int origin_y;
@@ -34,7 +34,7 @@ int main()
             {
                 cout << (x < origin_x ?
                             (y > origin_y ? "NO" : "SO") :
-                            (y > origin_y ? "NE": "SE"));
+                            (y > origin_y ? "NE" : "SE"));
             }
 
             cout << '\n';
