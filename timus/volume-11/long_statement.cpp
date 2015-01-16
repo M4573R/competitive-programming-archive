@@ -17,16 +17,16 @@ int main()
 {
     use_io_optimizations();
 
-    unsigned int pieces_count;
+    int pieces_count;
     cin >> pieces_count;
 
-    unsigned int as_count {0};
-    unsigned int bs_count {0};
-    unsigned int cs_count {0};
+    int as_count {0};
+    int bs_count {0};
+    int cs_count {0};
 
-    for (unsigned int i {0}; i < pieces_count; ++i)
+    for (int i {0}; i < pieces_count; ++i)
     {
-        unsigned int piece;
+        int piece;
         cin >> piece;
 
         switch (piece)
@@ -45,9 +45,7 @@ int main()
         }
     }
 
-    long long upper_bound = (pieces_count > 5 ?
-                                static_cast<long long>(pieces_count) - 1 :
-                                static_cast<long long>(pieces_count) - 2);
+    int upper_bound {pieces_count > 5 ? pieces_count - 1 : pieces_count - 2};
 
     if (as_count > upper_bound ||
         bs_count > upper_bound ||
