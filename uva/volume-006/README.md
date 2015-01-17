@@ -1,5 +1,6 @@
 # Volume 6
 
-| ID  |                                                          Problem statement                                                          |                  Solution                  |
-|:---:|:------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------:|
-| 608 | [Counterfeit Dollar](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=8&page=show_problem&problem=549) | [counterfeit_dollar](./counterfeit_dollar) |
+| ID  |                                                          Problem statement                                                          |                      Solution                      |
+|:---:|:------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------:|
+| 608 | [Counterfeit Dollar](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=8&page=show_problem&problem=549) | [counterfeit_dollar.cpp](./counterfeit_dollar.cpp) |
+| 621 | [Secret Research](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=8&page=show_problem&problem=562)    | [secret_research.cpp](./secret_research.cpp)       |
