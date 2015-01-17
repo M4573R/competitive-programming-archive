@@ -48,10 +48,7 @@ int main()
         cout << *player;
     }
 
-    if (!first_team.empty())
-    {
-        cout << '\n';
-    }
+    cout << '\n';
 
     return 0;
 }
