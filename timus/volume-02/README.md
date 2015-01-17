@@ -3,6 +3,7 @@
 |  ID  |                       Problem statement                              |                   Solution                   |
 |:----:|:---------------------------------------------------------------------|:--------------------------------------------:|
 | 1100 | [Final Standings](http://acm.timus.ru/problem.aspx?space=1&num=1100) | [final_standings.cpp](./final_standings.cpp) |
+| 1106 | [Two Teams](http://acm.timus.ru/problem.aspx?space=1&num=1106)       | [two_teams.cpp](./two_teams.cpp)             |
 | 1110 | [Power](http://acm.timus.ru/problem.aspx?space=1&num=1110)           | [power.cpp](./power.cpp)                     |
 | 1119 | [Metro](http://acm.timus.ru/problem.aspx?space=1&num=1119)           | [metro.cpp](./metro.cpp)                     |
 | 1131 | [Copying](http://acm.timus.ru/problem.aspx?space=1&num=1131)         | [copying.cpp](./copying.cpp)                 |
