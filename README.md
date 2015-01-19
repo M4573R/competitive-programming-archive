@@ -27,6 +27,7 @@ judge archives.
 * [spoj0](http://judge.openfmi.net:9080/spoj0/)
 * [Maycamp Arena](http://arena.maycamp.com/)
 * [DAA Practicum](http://judge.openfmi.net:9280/)
+* [Don Mills Online Judge](http://www.dmoj.ca/)
 
 ## Copyright
 
