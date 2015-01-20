@@ -3,3 +3,4 @@
 * [Logging Log](http://www.dmoj.ca/problem/dmopc14c2p1)
 * [Cutting Logs](http://www.dmoj.ca/problem/dmopc14c2p2)
 * [Sawmill](http://www.dmoj.ca/problem/dmopc14c2p3)
+* [Deforestation](http://www.dmoj.ca/problem/dmopc14c2p4)
