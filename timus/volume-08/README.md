@@ -7,3 +7,4 @@
 | 1785 | [Lost in Localization](http://acm.timus.ru/problem.aspx?space=1&num=1785) | [lost_in_localization.cpp](./lost_in_localization.cpp) |
 | 1787 | [Turn for MEGA](http://acm.timus.ru/problem.aspx?space=1&num=1787)        | [turn_for_mega.cpp](./turn_for_mega.cpp)               |
 | 1792 | [Hamming Code](http://acm.timus.ru/problem.aspx?space=1&num=1792)         | [hamming_code.cpp](./hamming_code.cpp)                 |
+| 1796 | [Amusement Park](http://acm.timus.ru/problem.aspx?space=1&num=1796)       | [amusement_park.cpp](./amusement_park.cpp)             |
