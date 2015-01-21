@@ -28,6 +28,7 @@ judge archives.
 * [Maycamp Arena](http://arena.maycamp.com/)
 * [DAA Practicum](http://judge.openfmi.net:9280/)
 * [Don Mills Online Judge](http://www.dmoj.ca/)
+* [PEG](http://wcipeg.com/)
 
 ## Copyright
 
