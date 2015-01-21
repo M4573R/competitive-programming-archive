@@ -2,3 +2,4 @@
 
 * [Median Mark](http://www.dmoj.ca/problem/dmopc14c1p1)
 * [Tiles](http://www.dmoj.ca/problem/dmopc14c1p2)
+* [New Students](http://www.dmoj.ca/problem/dmopc14c1p3)
