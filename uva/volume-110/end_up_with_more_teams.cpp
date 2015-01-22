@@ -48,10 +48,7 @@ public:
                     if (!(mask & (1 << z)) &&
                         (abilities[x] + abilities[y] + abilities[z] >= 20))
                     {
-                        teams = max(teams, count(mask     |
-                                                 (1 << x) |
-                                                 (1 << y) |
-                                                 (1 << z)));
+                        teams = max(teams, count(mask | (1 << x) | (1 << y) | (1 << z)));
                         found_team = true;
                     }
                 }
