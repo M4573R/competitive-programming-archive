@@ -1,49 +1,50 @@
-#include <algorithm>
-#include <cmath>
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-}
-
-int min_difference(vector<int>& weights,
-                   vector<int>::const_iterator i,
-                   int difference)
-{
-    if (i == weights.cend())
-    {
-        return difference;
-    }
-
-    if (difference == 0)
-    {
-        return abs(min_difference(weights, i + 1, difference + *i));
-    }
-
-    return min(abs(min_difference(weights, i + 1, difference + *i)),
-               abs(min_difference(weights, i + 1, difference - *i)));
 }
 
 int main()
 {
     use_io_optimizations();
 
-    unsigned int stones_count;
-    cin >> stones_count;
+    unsigned int stones;
+    cin >> stones;
 
-    vector<int> stones_weights(stones_count);
+    unsigned int total_weight {0};
+    vector<unsigned int> weights(stones);
 
-    for (auto i = stones_weights.begin(); i != stones_weights.end(); ++i)
+    for (auto& weight : weights)
     {
-        cin >> *i;
+        cin >> weight;
+        total_weight += weight;
     }
 
-    cout << min_difference(stones_weights, stones_weights.cbegin(), 0);
+    vector<bool> has_pile(total_weight / 2 + 1);
+    has_pile[0] = true;
+
+    for (auto weight : weights)
+    {
+        for (unsigned int i {has_pile.size() - 1}; i >= weight; --i)
+        {
+            has_pile[i] = has_pile[i] || has_pile[i - weight];
+        }
+    }
+
+    for (unsigned int i {has_pile.size() - 1}; i >= 0; --i)
+    {
+        if (has_pile[i])
+        {
+            cout << total_weight - 2 * i << '\n';
+            break;
+        }
+    }
 
     return 0;
 }
