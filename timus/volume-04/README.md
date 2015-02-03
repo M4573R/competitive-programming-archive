@@ -6,3 +6,4 @@
 | 1319 | [Hotel](http://acm.timus.ru/problem.aspx?space=1&num=1319)                        | [hotel.cpp](./hotel.cpp)                                             |
 | 1327 | [Fuses](http://acm.timus.ru/problem.aspx?space=1&num=1327)                        | [fuses.cpp](./fuses.cpp)                                             |
 | 1349 | [Farm](http://acm.timus.ru/problem.aspx?space=1&num=1349)                         | [farm.cpp](./farm.cpp)                                               |
+| 1354 | [Palindrome. Again Palindrome](http://acm.timus.ru/problem.aspx?space=1&num=1354) | [palindrome_again_palindrome.cpp](./palindrome_again_palindrome.cpp) |
