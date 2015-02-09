@@ -6,3 +6,4 @@
 | [List Minimum](http://www.dmoj.ca/problem/bf1)            | [list_minimum.cpp](./list_minimum.cpp)           |
 | [Boolean](http://www.dmoj.ca/problem/boolean)             | [boolean.cpp](./boolean.cpp)                     |
 | [List Minimum (Hard)](http://www.dmoj.ca/problem/bf1hard) | [list_minimum_hard.cpp](./list_minimum_hard.cpp) |
+| [Next Prime](http://www.dmoj.ca/problem/bf3)              | [next_prime.cpp](./next_prime.cpp)               |
