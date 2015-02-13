@@ -8,6 +8,7 @@
 |    11 | [Factorial](http://www.spoj.com/problems/FCTRL/)                         | [factorial.cpp](./factorial.cpp)                                               |
 |    24 | [Small factorials](http://www.spoj.com/problems/FCTRL2/)                 | [small_factorials.cpp](./small_factorials.cpp)                                 |
 |    42 | [Adding Reversed Numbers](http://www.spoj.com/problems/ADDREV/)          | [adding_reversed_numbers.cpp](./adding_reversed_numbers.cpp)                   |
+|   263 | [Period](http://www.spoj.com/problems/PERIOD/)                           | [period.cpp](./period.cpp)                                                     |
 |   400 | [To and Fro](http://www.spoj.com/problems/TOANDFRO/)                     | [to_and_fro.cpp](./to_and_fro.cpp)                                             |
 |  1112 | [Number Steps](http://www.spoj.com/problems/NSTEPS/)                     | [number_steps.cpp](./number_steps.cpp)                                         |
 |  1684 | [Frequent Values](http://www.spoj.com/problems/FREQUENT/)                | [frequent_values.cpp](./frequent_values.cpp)                                   |
