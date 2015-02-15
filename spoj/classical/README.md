@@ -7,6 +7,7 @@
 |     4 | [Transform the Expression](http://www.spoj.com/problems/ONP/)            | [transform_the_expression.cpp](./transform_the_expression.cpp)                 |
 |    11 | [Factorial](http://www.spoj.com/problems/FCTRL/)                         | [factorial.cpp](./factorial.cpp)                                               |
 |    24 | [Small factorials](http://www.spoj.com/problems/FCTRL2/)                 | [small_factorials.cpp](./small_factorials.cpp)                                 |
+|    26 | [Build the Fence](http://www.spoj.com/problems/BSHEEP/)                  | [build_the_fence.cpp](./build_the_fence.cpp)                                   |
 |    42 | [Adding Reversed Numbers](http://www.spoj.com/problems/ADDREV/)          | [adding_reversed_numbers.cpp](./adding_reversed_numbers.cpp)                   |
 |   263 | [Period](http://www.spoj.com/problems/PERIOD/)                           | [period.cpp](./period.cpp)                                                     |
 |   400 | [To and Fro](http://www.spoj.com/problems/TOANDFRO/)                     | [to_and_fro.cpp](./to_and_fro.cpp)                                             |
