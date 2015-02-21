@@ -19,3 +19,4 @@
 |  8545 | [Subset sum](http://www.spoj.com/problems/MAIN72/)                       | [subset_sum.cpp](./subset_sum.cpp)                                             |
 | 10582 | [subarrays](http://www.spoj.com/problems/ARRAYSUB/)                      | [subarrays.cpp](./subarrays.cpp)                                               |
 | 11772 | [Negative Score](http://www.spoj.com/problems/RPLN/)                     | [negative_score.cpp](./negative_score.cpp)                                     |
+| 13990 | [Web islands](http://www.spoj.com/problems/WEBISL/)                      | [web_islands.cpp](./web_islands.cpp)                                           |
