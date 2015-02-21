@@ -46,7 +46,10 @@ int main()
         unsigned int students;
         cin >> students;
 
-        vector<unsigned int> groups(students);
+        vector<unsigned int> groups(students + 2);
+
+        groups[students]     = 4;
+        groups[students + 1] = 5;
 
         for (unsigned int i = 0; i < students; ++i)
         {
