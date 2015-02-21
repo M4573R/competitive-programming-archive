@@ -4,6 +4,8 @@
 
 using namespace std;
 
+const double epsilon = 1e-12;
+
 inline
 void use_io_optimizations()
 {
@@ -11,42 +13,40 @@ void use_io_optimizations()
     cin.tie(NULL);
 }
 
-const double eps = 1e-12;
-
 struct Point
 {
-    double x, y;
+    double x;
+    double y;
 
-    Point(double x, double y):
+    Point(double x = 0, double y = 0):
         x(x), y(y)
     { }
 };
 
 struct Line
 {
-    double a, b, c;
+    long long a;
+    long long b;
+    long long c;
 };
 
-bool zero(double d)
+bool are_parallel(const Line& first, const Line& second)
 {
-    return d > -eps && d < eps;
+    return first.a * second.b - first.b * second.a == 0;
 }
 
-bool parallel(const Line& l1, const Line& l2)
+Point intersection(const Line& first, const Line& second)
 {
-    return zero(l1.a * l2.b - l1.b * l2.a);
-}
+    double denominator = first.a * second.b - first.b * second.a;
 
-Point intersect(const Line& l1, const Line& l2)
-{
-    double denom = l1.a * l2.b - l1.b * l2.a;
-    return Point((l2.c * l1.b - l2.b * l1.c) / denom,
-                 (l1.c * l2.a - l1.a * l2.c) / denom);
+    return Point((second.c * first.b  - second.b * first.c)  / denominator,
+                 (first.c  * second.a - first.a  * second.c) / denominator);
 }
 
 double oriented_area(const Point& a, const Point& b, const Point& c)
 {
-    return (a.x * b.y + b.x * c.y + c.x * a.y - a.y * b.x - b.y * c.x - c.y * a.x) * 0.5;
+    return (a.x * b.y + b.x * c.y + c.x * a.y -
+            a.y * b.x - b.y * c.x - c.y * a.x) * 0.5;
 }
 
 int main()
@@ -54,19 +54,31 @@ int main()
     use_io_optimizations();
 
     cout << fixed << setprecision(12);
-    int t;
-    cin >> t;
-    while (t--) {
-        Line l1, l2, l3;
-        cin >> l1.a >> l1.b >> l1.c >> l2.a >> l2.b >> l2.c >> l3.a >> l3.b >> l3.c;
-        if (parallel(l1, l2) || parallel(l1, l3) || parallel(l2, l3)) {
+
+    unsigned int test_cases;
+    cin >> test_cases;
+
+    for (unsigned int i {0}; i < test_cases; ++i)
+    {
+        Line ab;
+        Line ac;
+        Line bc;
+
+        cin >> ab.a >> ab.b >> ab.c
+            >> ac.a >> ac.b >> ac.c
+            >> bc.a >> bc.b >> bc.c;
+
+        if (are_parallel(ab, ac) || are_parallel(ab, bc) || are_parallel(ac, bc))
+        {
             cout << "IMPOSSIBLE\n";
             continue;
         }
-        Point x1 = intersect(l1, l2);
-        Point x2 = intersect(l1, l3);
-        Point x3 = intersect(l2, l3);
-        cout << fabs(oriented_area(x1, x2, x3)) << '\n';
+
+        Point a = intersection(ab, ac);
+        Point b = intersection(ab, bc);
+        Point c = intersection(ac, bc);
+
+        cout << fabs(oriented_area(a, b, c)) << '\n';
     }
 
     return 0;
