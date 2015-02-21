@@ -23,11 +23,11 @@ vector<bool> eratosthenes_sieve(unsigned int up_to)
 
     unsigned int upper_bound = sqrt(up_to);
 
-    for (vector<bool>::size_type i = 2; i < upper_bound; ++i)
+    for (vector<bool>::size_type i {2}; i < upper_bound; ++i)
     {
         if (sieve[i])
         {
-            for (vector<bool>::size_type j = i * i; j < sieve.size(); j += i)
+            for (vector<bool>::size_type j {i * i}; j < sieve.size(); j += i)
             {
                 sieve[j] = false;
             }
@@ -37,18 +37,18 @@ vector<bool> eratosthenes_sieve(unsigned int up_to)
     return sieve;
 }
 
-vector<unsigned int> primes_between(unsigned int m, unsigned int n)
+vector<unsigned int> primes_between(unsigned int lower, unsigned int upper)
 {
-    vector<bool> segmented_sieve(n - m + 1, true);
-    vector<bool> sieve = eratosthenes_sieve(floor(sqrt(n)));
+    vector<bool> segmented_sieve(upper - lower + 1, true);
+    vector<bool> sieve {eratosthenes_sieve(sqrt(upper))};
 
-    for (vector<bool>::size_type i = 2; i < sieve.size(); ++i)
+    for (vector<bool>::size_type i {2}; i < sieve.size(); ++i)
     {
         if (sieve[i])
         {
-            unsigned int first_in_range = ceil(m / static_cast<double>(i)) * i;
+            unsigned int first_in_range {(lower + i - 1) / i * i};
 
-            for (vector<bool>::size_type j = max(i * i, first_in_range) - m;
+            for (vector<bool>::size_type j {max(i * i, first_in_range) - lower};
                  j < segmented_sieve.size();
                  j += i)
             {
@@ -59,11 +59,11 @@ vector<unsigned int> primes_between(unsigned int m, unsigned int n)
 
     vector<unsigned int> primes;
 
-    for (unsigned int i = (m == 1 ? 1 : 0); i < segmented_sieve.size(); ++i)
+    for (unsigned int i {lower == 1 ? 1 : 0}; i < segmented_sieve.size(); ++i)
     {
         if (segmented_sieve[i])
         {
-            primes.push_back(i + m);
+            primes.push_back(i + lower);
         }
     }
 
@@ -77,20 +77,18 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int i = 0; i < test_cases; ++i)
+    for (unsigned int i {0}; i < test_cases; ++i)
     {
-        unsigned int m;
-        unsigned int n;
+        unsigned int lower;
+        unsigned int upper;
 
-        cin >> m >> n;
+        cin >> lower >> upper;
 
-        vector<unsigned int> primes = primes_between(m, n);
+        vector<unsigned int> primes {primes_between(lower, upper)};
 
-        for (vector<unsigned int>::const_iterator prime = primes.begin();
-             prime != primes.end();
-             ++prime)
+        for (auto prime : primes)
         {
-            cout << *prime << '\n';
+            cout << prime << '\n';
         }
 
         cout << '\n';
