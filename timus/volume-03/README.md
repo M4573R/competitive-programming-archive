@@ -12,6 +12,7 @@
 | 1280 | [Topological Sorting][]         | [topological_sorting.cpp][]         |
 | 1290 | [Sabotage][]                    | [sabotage.cpp][]                    |
 | 1293 | [Eniya][]                       | [eniya.cpp][]                       |
+| 1297 | [Palindrome][]                  | [palindrome.cpp][]                  |
 
 [1, 10, 100, 1000 ...]:        http://acm.timus.ru/problem.aspx?space=1&num=1209
 [Spiral]:                      http://acm.timus.ru/problem.aspx?space=1&num=1224
@@ -23,6 +24,7 @@
 [Topological Sorting]:         http://acm.timus.ru/problem.aspx?num=1280
 [Sabotage]:                    http://acm.timus.ru/problem.aspx?space=1&num=1290
 [Eniya]:                       http://acm.timus.ru/problem.aspx?space=1&num=1293
+[Palindrome]:                  http://acm.timus.ru/problem.aspx?space=1&num=1297
 
 [1_10_100_1000.cpp]:               1_10_100_1000.cpp
 [spiral.cpp]:                      spiral.cpp
@@ -34,3 +36,4 @@
 [topological_sorting.cpp]:         topological_sorting.cpp
 [sabotage.cpp]:                    sabotage.cpp
 [eniya.cpp]:                       eniya.cpp
+[palindrome.cpp]:                  palindrome.cpp
