@@ -3,6 +3,7 @@
 |                                    Problem Statement                                     |                           Solution                           |
 |:-----------------------------------------------------------------------------------------|:------------------------------------------------------------:|
 | [Solve me first](https://www.hackerrank.com/challenges/solve-me-first)                   | [solve_me_first.cpp](./solve_me_first.cpp)                   |
+| [Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer)                   | [lonely_integer.cpp](./lonely_integer.cpp)                   |
 | [Solve me second](https://www.hackerrank.com/challenges/solve-me-second)                 | [solve_me_second.cpp](./solve_me_second.cpp)                 |
 | [Flipping bits](https://www.hackerrank.com/challenges/flipping-bits)                     | [flipping_bits.cpp](./flipping_bits.cpp)                     |
 | [Utipian Tree](https://www.hackerrank.com/challenges/utopian-tree)                       | [utopian_tree.cpp](./utopian_tree.cpp)                       |
