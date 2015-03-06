@@ -11,6 +11,7 @@
 |    42 | [Adding Reversed Numbers][]            | [adding_reversed_numbers.cpp][]          |
 |   263 | [Period][]                             | [period.cpp][]                           |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
+|  1025 | [Fashion Shows][]                      | [fashion_shows.cpp][]                    |
 |  1112 | [Number Steps][]                       | [number_steps.cpp][]                     |
 |  1684 | [Frequent Values][]                    | [frequent_values.cpp][]                  |
 |  2123 | [Candy I][]                            | [candy1.cpp][]                           |
@@ -30,6 +31,7 @@
 [Adding Reversed Numbers]:            http://www.spoj.com/problems/ADDREV/
 [Period]:                             http://www.spoj.com/problems/PERIOD/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
+[Fashion Shows]:                      http://www.spoj.com/problems/FASHION/
 [Number Steps]:                       http://www.spoj.com/problems/NSTEPS/
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
@@ -49,6 +51,7 @@
 [adding_reversed_numbers.cpp]:          adding_reversed_numbers.cpp
 [period.cpp]:                           period.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
+[fashion_shows.cpp]:                    fashion_shows.cpp
 [number_steps.cpp]:                     number_steps.cpp
 [frequent_values.cpp]:                  frequent_values.cpp
 [candy1.cpp]:                           candy1.cpp
