@@ -9,6 +9,7 @@
 | [Equation][]       | [equation.cpp][]       |
 | [Exact Divisors][] | [exact_divisors.cpp][] |
 | [Direction][]      | [direction.cpp][]      |
+| [Min][]            | [min.cpp][]            |
 
 [Times Tables]:   http://wcipeg.com/problems/desc/P118EX4
 [Multiple]:       http://wcipeg.com/problems/desc/p79ex5
@@ -17,6 +18,7 @@
 [Equation]:       http://wcipeg.com/problems/desc/p84ex5
 [Exact Divisors]: http://wcipeg.com/problems/desc/p154ex8
 [Direction]:      http://wcipeg.com/problems/desc/p108ex8
+[Min]:            http://wcipeg.com/problems/desc/p287ex3
 
 [times_tables.cpp]:   times_tables.cpp
 [multiple.cpp]:       multiple.cpp
@@ -25,3 +27,4 @@
 [equation.cpp]:       equation.cpp
 [exact_divisors.cpp]: exact_divisors.cpp
 [direction.cpp]:      direction.cpp
+[min.cpp]:            min.cpp
