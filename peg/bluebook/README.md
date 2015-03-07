@@ -10,7 +10,8 @@
 | [Exact Divisors][] | [exact_divisors.cpp][] |
 | [Direction][]      | [direction.cpp][]      |
 | [Min][]            | [min.cpp][]            |
-| [Leap Year][]      | [leap_year.cpp][] |
+| [Leap Year][]      | [leap_year.cpp][]      |
+| [Max][]            | [max.cpp][]            |
 
 [Times Tables]:   http://wcipeg.com/problems/desc/P118EX4
 [Multiple]:       http://wcipeg.com/problems/desc/p79ex5
@@ -21,6 +22,7 @@
 [Direction]:      http://wcipeg.com/problems/desc/p108ex8
 [Min]:            http://wcipeg.com/problems/desc/p287ex3
 [Leap Year]:      http://wcipeg.com/problems/desc/p307ex9
+[Max]:            http://wcipeg.com/problems/desc/p171ex6a
 
 [times_tables.cpp]:   times_tables.cpp
 [multiple.cpp]:       multiple.cpp
@@ -31,3 +33,4 @@
 [direction.cpp]:      direction.cpp
 [min.cpp]:            min.cpp
 [leap_year.cpp]:      leap_year.cpp
+[max.cpp]:            max.cpp
