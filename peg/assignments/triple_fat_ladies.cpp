@@ -9,21 +9,6 @@ void use_io_optimizations()
     cin.tie(nullptr);
 }
 
-template <typename T>
-inline
-T cube(T number)
-{
-    return number * number * number;
-}
-
-inline
-bool ends_in_888(unsigned long long number)
-{
-    return (number       % 10 == 8 &&
-            number / 10  % 10 == 8 &&
-            number / 100 % 10 == 8);
-}
-
 int main()
 {
     use_io_optimizations();
@@ -36,7 +21,7 @@ int main()
         unsigned long long number;
         cin >> number;
 
-        while (!ends_in_888(cube(++number)))
+        for (number += 1; number * number * number % 1000 != 888; ++number)
         { }
 
         cout << number << '\n';
