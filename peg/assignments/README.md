@@ -10,6 +10,7 @@
 | [Mispelling][]              | [mispelling.cpp][]              |
 | [Mirrored Pairs][]          | [mirrored_pairs.cpp][]          |
 | [Rock Paper Scissors Fox][] | [rock_paper_scissors_fox.cpp][] |
+| [Max Flow][]                | [max_flow.cpp][]                |
 
 [A plus B]:                http://wcipeg.com/problems/desc/aplusb
 [3n+1]:                    http://wcipeg.com/problems/desc/3nplus1
@@ -19,6 +20,7 @@
 [Mispelling]:              http://wcipeg.com/problems/desc/a1
 [Mirrored Pairs]:          http://wcipeg.com/problems/desc/a2
 [Rock Paper Scissors Fox]: http://wcipeg.com/problems/desc/acmtryouts1a
+[Max Flow]:                http://wcipeg.com/problems/desc/acmtryouts0a
 
 [a_plus_b.cpp]:                a_plus_b.cpp
 [3n+1.cpp]:                    3n+1.cpp
@@ -28,3 +30,4 @@
 [mispelling.cpp]:              mispelling.cpp
 [mirrored_pairs.cpp]:          mirrored_pairs.cpp
 [rock_paper_scissors_fox.cpp]: rock_paper_scissors_fox.cpp
+[max_flow.cpp]:                max_flow.cpp
