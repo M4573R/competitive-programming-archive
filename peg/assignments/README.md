@@ -11,6 +11,7 @@
 | [Mirrored Pairs][]          | [mirrored_pairs.cpp][]          |
 | [Rock Paper Scissors Fox][] | [rock_paper_scissors_fox.cpp][] |
 | [Max Flow][]                | [max_flow.cpp][]                |
+| [Triple Fat Ladies][]       | [triple_fat_ladies.cpp][]       |
 
 [A plus B]:                http://wcipeg.com/problems/desc/aplusb
 [3n+1]:                    http://wcipeg.com/problems/desc/3nplus1
@@ -21,6 +22,7 @@
 [Mirrored Pairs]:          http://wcipeg.com/problems/desc/a2
 [Rock Paper Scissors Fox]: http://wcipeg.com/problems/desc/acmtryouts1a
 [Max Flow]:                http://wcipeg.com/problems/desc/acmtryouts0a
+[Triple Fat Ladies]:       http://wcipeg.com/problems/desc/a3
 
 [a_plus_b.cpp]:                a_plus_b.cpp
 [3n+1.cpp]:                    3n+1.cpp
@@ -31,3 +33,4 @@
 [mirrored_pairs.cpp]:          mirrored_pairs.cpp
 [rock_paper_scissors_fox.cpp]: rock_paper_scissors_fox.cpp
 [max_flow.cpp]:                max_flow.cpp
+[triple_fat_ladies.cpp]:       triple_fat_ladies.cpp
