@@ -15,6 +15,7 @@
 | [Column of Numbers][] | [column_of_numbers.cpp][] |
 | [Interest][]          | [interest.cpp][]          |
 | [Change][]            | [change.cpp][]            |
+| [Powers of 2][]       | [powers_of_2.cpp][] |
 
 [Times Tables]:      http://wcipeg.com/problems/desc/P118EX4
 [Multiple]:          http://wcipeg.com/problems/desc/p79ex5
@@ -29,6 +30,7 @@
 [Column of Numbers]: http://wcipeg.com/problems/desc/p140ex3
 [Interest]:          http://wcipeg.com/problems/desc/P124EX3
 [Change]:            http://wcipeg.com/problems/desc/P109EX10
+[Powers of 2]:       http://wcipeg.com/problems/desc/p129ex3
 
 [times_tables.cpp]:      times_tables.cpp
 [multiple.cpp]:          multiple.cpp
@@ -43,3 +45,4 @@
 [column_of_numbers.cpp]: column_of_numbers.cpp
 [interest.cpp]:          interest.cpp
 [change.cpp]:            change.cpp
+[powers_of_2.cpp]:       powers_of_2.cpp
