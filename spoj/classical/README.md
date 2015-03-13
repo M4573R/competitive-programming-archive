@@ -18,6 +18,7 @@
 |  2123 | [Candy I][]                            | [candy1.cpp][]                           |
 |  3410 | [Feynman][]                            | [feynman.cpp][]                          |
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
+|  4300 | [Rectangles][]                         | [rectangles.cpp][]                       |
 |  7974 | [What's Next][]                        | [whats_next.cpp][]                       |
 |  8545 | [Subset sum][]                         | [subset_sum.cpp][]                       |
 | 10582 | [subarrays][]                          | [subarrays.cpp][]                        |
@@ -45,6 +46,7 @@
 [Negative Score]:                     http://www.spoj.com/problems/RPLN/
 [Web islands]:                        http://www.spoj.com/problems/WEBISL/
 [The last digit]:                     http://www.spoj.com/problems/LASTDIG/
+[Rectangles]:                         http://www.spoj.com/problems/AE00/
 
 [life_the_universe_and_everything.cpp]: life_the_universe_and_everything.cpp
 [prime_generator.cpp]:                  prime_generator.cpp
@@ -67,3 +69,4 @@
 [negative_score.cpp]:                   negative_score.cpp
 [web_islands.cpp]:                      web_islands.cpp
 [the_last_digit.cpp]:                   the_last_digit.cpp
+[rectangles.cpp]:                       rectangles.cpp
