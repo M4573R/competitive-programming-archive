@@ -9,6 +9,7 @@
 |    24 | [Small factorials][]                   | [small_factorials.cpp][]                 |
 |    26 | [Build the Fence][]                    | [build_the_fence.cpp][]                  |
 |    42 | [Adding Reversed Numbers][]            | [adding_reversed_numbers.cpp][]          |
+|    54 | [Julka][]                              | [julka.cpp][]                            |
 |   263 | [Period][]                             | [period.cpp][]                           |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
 |  1025 | [Fashion Shows][]                      | [fashion_shows.cpp][]                    |
@@ -29,6 +30,7 @@
 [Small factorials]:                   http://www.spoj.com/problems/FCTRL2/
 [Build the Fence]:                    http://www.spoj.com/problems/BSHEEP/
 [Adding Reversed Numbers]:            http://www.spoj.com/problems/ADDREV/
+[Julka]:                              http://www.spoj.com/problems/JULKA/
 [Period]:                             http://www.spoj.com/problems/PERIOD/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
 [Fashion Shows]:                      http://www.spoj.com/problems/FASHION/
@@ -49,6 +51,7 @@
 [small_factorials.cpp]:                 small_factorials.cpp
 [build_the_fence.cpp]:                  small_factorials.cpp
 [adding_reversed_numbers.cpp]:          adding_reversed_numbers.cpp
+[julka.cpp]:                            julka.cpp
 [period.cpp]:                           period.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
 [fashion_shows.cpp]:                    fashion_shows.cpp
