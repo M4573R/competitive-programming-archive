@@ -19,6 +19,7 @@
 | [Digits][]            | [digits.cpp][]            |
 | [Lower Case][]        | [lower_case.cpp][]        |
 | [Power Base][]        | [power_base.cpp][]        |
+| [Cost][]              | [cost.cpp][]              |
 
 [Times Tables]:      http://wcipeg.com/problems/desc/P118EX4
 [Multiple]:          http://wcipeg.com/problems/desc/p79ex5
@@ -37,6 +38,7 @@
 [Digits]:            http://wcipeg.com/problems/desc/p287ex5
 [Lower Case]:        http://wcipeg.com/problems/desc/p299ex3
 [Power Base]:        http://wcipeg.com/problems/desc/p124ex5
+[Cost]:              http://wcipeg.com/problems/desc/p108ex7
 
 [times_tables.cpp]:      times_tables.cpp
 [multiple.cpp]:          multiple.cpp
@@ -55,3 +57,4 @@
 [digits.cpp]:            digits.cpp
 [lower_case.cpp]:        lower_case.cpp
 [power_base.cpp]:        power_base.cpp
+[cost.cpp]:              cost.cpp
