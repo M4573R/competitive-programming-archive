@@ -12,6 +12,7 @@
 | [Rock Paper Scissors Fox][] | [rock_paper_scissors_fox.cpp][] |
 | [Max Flow][]                | [max_flow.cpp][]                |
 | [Triple Fat Ladies][]       | [triple_fat_ladies.cpp][]       |
+| [Woburn Idol][]             | [woburn_idol.cpp][]             |
 
 [A plus B]:                http://wcipeg.com/problems/desc/aplusb
 [3n+1]:                    http://wcipeg.com/problems/desc/3nplus1
@@ -23,6 +24,7 @@
 [Rock Paper Scissors Fox]: http://wcipeg.com/problems/desc/acmtryouts1a
 [Max Flow]:                http://wcipeg.com/problems/desc/acmtryouts0a
 [Triple Fat Ladies]:       http://wcipeg.com/problems/desc/a3
+[Woburn Idol]:             http://wcipeg.com/problems/desc/q2
 
 [a_plus_b.cpp]:                a_plus_b.cpp
 [3n+1.cpp]:                    3n+1.cpp
@@ -34,3 +36,4 @@
 [rock_paper_scissors_fox.cpp]: rock_paper_scissors_fox.cpp
 [max_flow.cpp]:                max_flow.cpp
 [triple_fat_ladies.cpp]:       triple_fat_ladies.cpp
+[woburn_idol.cpp]:             woburn_idol.cpp
