@@ -23,6 +23,7 @@
 | [Find the Character][] | [find_the_character.cpp][] |
 | [Voting][]             | [voting.cpp][]             |
 | [Prime][]              | [prime.cpp][]              |
+| [Max is Last][]        | [max_is_last.cpp][]        |
 
 [Times Tables]:       http://wcipeg.com/problems/desc/P118EX4
 [Multiple]:           http://wcipeg.com/problems/desc/p79ex5
@@ -45,6 +46,7 @@
 [Find the Character]: http://wcipeg.com/problems/desc/p129ex5
 [Voting]:             http://wcipeg.com/problems/desc/p184ex8
 [Prime]:              http://wcipeg.com/problems/desc/p299ex4
+[Max is Last]:        http://wcipeg.com/problems/desc/P118EX5
 
 [times_tables.cpp]:       times_tables.cpp
 [multiple.cpp]:           multiple.cpp
@@ -67,3 +69,4 @@
 [find_the_character.cpp]: find_the_character.cpp
 [voting.cpp]:             voting.cpp
 [prime.cpp]:              prime.cpp
+[max_is_last.cpp]:        max_is_last.cpp
