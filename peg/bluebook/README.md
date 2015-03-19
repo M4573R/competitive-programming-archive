@@ -25,6 +25,7 @@
 | [Prime][]              | [prime.cpp][]              |
 | [Max is Last][]        | [max_is_last.cpp][]        |
 | [World Pop][]          | [world_pop.cpp][]          |
+| [Pop Explosion][]      | [pop_explosion.cpp][]      |
 
 [Times Tables]:       http://wcipeg.com/problems/desc/P118EX4
 [Multiple]:           http://wcipeg.com/problems/desc/p79ex5
@@ -49,6 +50,7 @@
 [Prime]:              http://wcipeg.com/problems/desc/p299ex4
 [Max is Last]:        http://wcipeg.com/problems/desc/P118EX5
 [World Pop]:          http://wcipeg.com/problems/desc/p124ex4
+[Pop Explosion]:      http://wcipeg.com/problems/desc/p154ex6
 
 [times_tables.cpp]:       times_tables.cpp
 [multiple.cpp]:           multiple.cpp
@@ -73,3 +75,4 @@
 [prime.cpp]:              prime.cpp
 [max_is_last.cpp]:        max_is_last.cpp
 [world_pop.cpp]:          world_pop.cpp
+[pop_explosion.cpp]:      pop_explosion.cpp
