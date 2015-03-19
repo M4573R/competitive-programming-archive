@@ -20,8 +20,8 @@ int main()
     string votes;
     cin >> votes;
 
-    unsigned int a_votes = count(votes.cbegin(), votes.cend(), 'A');
-    unsigned int b_votes = count(votes.cbegin(), votes.cend(), 'B');
+    auto a_votes = count(votes.cbegin(), votes.cend(), 'A');
+    auto b_votes = count(votes.cbegin(), votes.cend(), 'B');
 
     cout << (a_votes < b_votes ? "B" :
              a_votes > b_votes ? "A" :
