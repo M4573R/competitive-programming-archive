@@ -13,6 +13,7 @@
 | [Max Flow][]                | [max_flow.cpp][]                |
 | [Triple Fat Ladies][]       | [triple_fat_ladies.cpp][]       |
 | [Woburn Idol][]             | [woburn_idol.cpp][]             |
+| [Adding Reversed Numbers][] | [adding_reversed_numbers.cpp][] |
 
 [A plus B]:                http://wcipeg.com/problems/desc/aplusb
 [3n+1]:                    http://wcipeg.com/problems/desc/3nplus1
@@ -25,6 +26,7 @@
 [Max Flow]:                http://wcipeg.com/problems/desc/acmtryouts0a
 [Triple Fat Ladies]:       http://wcipeg.com/problems/desc/a3
 [Woburn Idol]:             http://wcipeg.com/problems/desc/q2
+[Adding Reversed Numbers]: http://wcipeg.com/problems/desc/b2
 
 [a_plus_b.cpp]:                a_plus_b.cpp
 [3n+1.cpp]:                    3n+1.cpp
@@ -37,3 +39,4 @@
 [max_flow.cpp]:                max_flow.cpp
 [triple_fat_ladies.cpp]:       triple_fat_ladies.cpp
 [woburn_idol.cpp]:             woburn_idol.cpp
+[adding_reversed_numbers.cpp]: adding_reversed_numbers.cpp
