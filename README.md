@@ -29,6 +29,7 @@ judge archives.
 * [DAA Practicum](http://judge.openfmi.net:9280/)
 * [Don Mills Online Judge](http://www.dmoj.ca/)
 * [PEG](http://wcipeg.com/)
+* [URI](https://www.urionlinejudge.com.br)
 
 ## Copyright
 
