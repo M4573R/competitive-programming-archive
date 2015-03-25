@@ -16,6 +16,7 @@
 | [Adding Reversed Numbers][] | [adding_reversed_numbers.cpp][] |
 | [Interleaving Leaves][]     | [interleaving_leaves.cpp][]     |
 | [Cyclopian Air][]           | [cyclopian_air.cpp][]           |
+| [Cyclopian Cash][]          | [cyclopian_cash.cpp][]          |
 
 [A plus B]:                http://wcipeg.com/problems/desc/aplusb
 [3n+1]:                    http://wcipeg.com/problems/desc/3nplus1
@@ -31,6 +32,7 @@
 [Adding Reversed Numbers]: http://wcipeg.com/problems/desc/b2
 [Interleaving Leaves]:     http://wcipeg.com/problems/desc/acmtryouts0b
 [Cyclopian Air]:           http://wcipeg.com/problems/desc/fur1
+[Cyclopian Cash]:          http://wcipeg.com/problems/desc/fur3
 
 [a_plus_b.cpp]:                a_plus_b.cpp
 [3n+1.cpp]:                    3n+1.cpp
@@ -46,3 +48,4 @@
 [adding_reversed_numbers.cpp]: adding_reversed_numbers.cpp
 [interleaving_leaves.cpp]:     interleaving_leaves.cpp
 [cyclopian_air.cpp]:           cyclopian_air.cpp
+[cyclopian_cash.cpp]:          cyclopian_cash.cpp
