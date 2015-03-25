@@ -28,6 +28,7 @@
 | [Pop Explosion][]      | [pop_explosion.cpp][]      |
 | [Sieve][]              | [sieve.cpp][]              |
 | [Digits and Sums][]    | [digits_and_sums.cpp][]    |
+| [First Blank][]        | [first_blank.cpp][]        |
 
 [Times Tables]:       http://wcipeg.com/problems/desc/P118EX4
 [Multiple]:           http://wcipeg.com/problems/desc/p79ex5
@@ -55,6 +56,7 @@
 [Pop Explosion]:      http://wcipeg.com/problems/desc/p154ex6
 [Sieve]:              http://wcipeg.com/problems/desc/p183ex7
 [Digits and Sums]:    http://wcipeg.com/problems/desc/p154ex7
+[First Blank]:        http://wcipeg.com/problems/desc/p287ex4
 
 [times_tables.cpp]:       times_tables.cpp
 [multiple.cpp]:           multiple.cpp
@@ -82,3 +84,4 @@
 [pop_explosion.cpp]:      pop_explosion.cpp
 [sieve.cpp]:              sieve.cpp
 [digits_and_sums.cpp]:    digits_and_sums.cpp
+[first_blank.cpp]:        first_blank.cpp
