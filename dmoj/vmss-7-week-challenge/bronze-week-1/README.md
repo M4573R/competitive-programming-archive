@@ -1,4 +1,4 @@
-# VMSS 7 Week Challenge Week 1
+# VMSS 7 Week Challenge Bronze Week 1
 
 * [Goon][]
 

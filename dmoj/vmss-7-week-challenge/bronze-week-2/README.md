@@ -1,4 +1,4 @@
-# VMSS 7 Week Challenge Week 2
+# VMSS 7 Week Challenge Bronze Week 2
 
 * [Recruits!][]
 
