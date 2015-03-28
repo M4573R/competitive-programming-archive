@@ -25,10 +25,10 @@ int main()
 
     for (unsigned int i {0}; i < opened; ++i)
     {
-        unsigned int index;
-        cin >> index;
+        unsigned int briefcase;
+        cin >> briefcase;
 
-        money_left -= amounts[index - 1];
+        money_left -= amounts[briefcase - 1];
     }
 
     unsigned int offer;
