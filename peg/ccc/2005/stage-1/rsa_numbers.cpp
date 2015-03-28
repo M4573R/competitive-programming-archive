@@ -9,6 +9,21 @@ void use_io_optimizations()
     cin.tie(nullptr);
 }
 
+bool is_rsa(unsigned int number)
+{
+    unsigned int divisors {0};
+
+    for (unsigned int i {1}; i <= number; ++i)
+    {
+        if (number % i == 0)
+        {
+            ++divisors;
+        }
+    }
+
+    return divisors == 4;
+}
+
 int main()
 {
     use_io_optimizations();
@@ -22,17 +37,7 @@ int main()
 
     for (unsigned int number {lower_bound}; number <= upper_bound; ++number)
     {
-        unsigned int divisors {0};
-
-        for (unsigned int i {1}; i <= number; ++i)
-        {
-            if (number % i == 0)
-            {
-                ++divisors;
-            }
-        }
-
-        if (divisors == 4)
+        if (is_rsa(number))
         {
             ++rsa_numbers;
         }
