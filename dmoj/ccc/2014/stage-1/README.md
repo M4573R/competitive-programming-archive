@@ -2,6 +2,8 @@
 
 * [Triangle Times][]
 * [Vote Count][]
+* [Double Dice][]
 
 [Triangle Times]: http://www.dmoj.ca/problem/ccc14j1
 [Vote Count]:     http://www.dmoj.ca/problem/ccc14j2
+[Double Dice]:    http://www.dmoj.ca/problem/ccc14j3
