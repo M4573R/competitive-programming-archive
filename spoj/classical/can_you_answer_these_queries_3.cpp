@@ -46,8 +46,8 @@ struct Node
 class SegmentTree
 {
 public:
-    SegmentTree(const vector<int>& item):
-        size(item.size())
+    SegmentTree(const vector<int>& items):
+        size(items.size())
     {
         unsigned int height {0};
 
@@ -57,7 +57,7 @@ public:
         }
 
         tree.resize(1 << (height + 1));
-        build(item, 1, 0, size - 1);
+        build(items, 1, 0, size - 1);
     }
 
     int query(unsigned int query_lower, unsigned int query_upper) const
