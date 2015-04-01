@@ -21,6 +21,7 @@
 |  2123 | [Candy I][]                            | [candy1.cpp][]                           |
 |  3410 | [Feynman][]                            | [feynman.cpp][]                          |
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
+|  3693 | [Maximum Sum][]                        | [maximum_sum.cpp][]                      |
 |  4300 | [Rectangles][]                         | [rectangles.cpp][]                       |
 |  7974 | [What's Next][]                        | [whats_next.cpp][]                       |
 |  8545 | [Subset sum][]                         | [subset_sum.cpp][]                       |
@@ -46,13 +47,14 @@
 [Can you answer these queries III]:   http://www.spoj.com/problems/GSS3/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
 [Feynman]:                            http://www.spoj.com/problems/SAMER08F/
+[The last digit]:                     http://www.spoj.com/problems/LASTDIG/
+[Maximum Sum]:                        http://www.spoj.com/problems/KGSS/
+[Rectangles]:                         http://www.spoj.com/problems/AE00/
 [What's Next]:                        http://www.spoj.com/problems/ACPC10A/
 [Subset sum]:                         http://www.spoj.com/problems/MAIN72/
 [subarrays]:                          http://www.spoj.com/problems/ARRAYSUB/
 [Negative Score]:                     http://www.spoj.com/problems/RPLN/
 [Web islands]:                        http://www.spoj.com/problems/WEBISL/
-[The last digit]:                     http://www.spoj.com/problems/LASTDIG/
-[Rectangles]:                         http://www.spoj.com/problems/AE00/
 
 [life_the_universe_and_everything.cpp]: life_the_universe_and_everything.cpp
 [prime_generator.cpp]:                  prime_generator.cpp
@@ -72,10 +74,11 @@
 [can_you_answer_these_queries_3.cpp]:   can_you_answer_these_queries_3.cpp
 [candy1.cpp]:                           candy1.cpp
 [feynman.cpp]:                          feynman.cpp
+[the_last_digit.cpp]:                   the_last_digit.cpp
+[maximum_sum.cpp]:                      maximum_sum.cpp
+[rectangles.cpp]:                       rectangles.cpp
 [whats_next.cpp]:                       whats_next.cpp
 [subset_sum.cpp]:                       subset_sum.cpp
 [subarrays.cpp]:                        subarrays.cpp
 [negative_score.cpp]:                   negative_score.cpp
 [web_islands.cpp]:                      web_islands.cpp
-[the_last_digit.cpp]:                   the_last_digit.cpp
-[rectangles.cpp]:                       rectangles.cpp
