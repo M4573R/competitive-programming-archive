@@ -16,6 +16,7 @@
 |  1043 | [Can you answer these queries I][]     | [can_you_answer_these_queries_1.cpp][]   |
 |  1112 | [Number Steps][]                       | [number_steps.cpp][]                     |
 |  1684 | [Frequent Values][]                    | [frequent_values.cpp][]                  |
+|  1716 | [Can you answer these queries III][]   | [can_you_answer_these_queries_3.cpp][]   |
 |  2123 | [Candy I][]                            | [candy1.cpp][]                           |
 |  3410 | [Feynman][]                            | [feynman.cpp][]                          |
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
@@ -40,6 +41,7 @@
 [Can you answer these queries I]:     http://www.spoj.com/problems/GSS1/
 [Number Steps]:                       http://www.spoj.com/problems/NSTEPS/
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
+[Can you answer these queries III]:   http://www.spoj.com/problems/GSS3/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
 [Feynman]:                            http://www.spoj.com/problems/SAMER08F/
 [What's Next]:                        http://www.spoj.com/problems/ACPC10A/
@@ -64,6 +66,7 @@
 [can_you_answer_these_queries_1.cpp]:   can_you_answer_these_queries_1.cpp
 [number_steps.cpp]:                     number_steps.cpp
 [frequent_values.cpp]:                  frequent_values.cpp
+[can_you_answer_these_queries_3.cpp]:   can_you_answer_these_queries_3.cpp
 [candy1.cpp]:                           candy1.cpp
 [feynman.cpp]:                          feynman.cpp
 [whats_next.cpp]:                       whats_next.cpp
