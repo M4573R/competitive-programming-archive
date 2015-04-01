@@ -10,6 +10,7 @@
 |    26 | [Build the Fence][]                    | [build_the_fence.cpp][]                  |
 |    42 | [Adding Reversed Numbers][]            | [adding_reversed_numbers.cpp][]          |
 |    54 | [Julka][]                              | [julka.cpp][]                            |
+|    61 | [Brackets][]                           | [brackets.cpp][]                         |
 |   263 | [Period][]                             | [period.cpp][]                           |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
 |  1025 | [Fashion Shows][]                      | [fashion_shows.cpp][]                    |
@@ -35,6 +36,7 @@
 [Build the Fence]:                    http://www.spoj.com/problems/BSHEEP/
 [Adding Reversed Numbers]:            http://www.spoj.com/problems/ADDREV/
 [Julka]:                              http://www.spoj.com/problems/JULKA/
+[Brackets]:                           http://www.spoj.com/problems/BRCKTS/
 [Period]:                             http://www.spoj.com/problems/PERIOD/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
 [Fashion Shows]:                      http://www.spoj.com/problems/FASHION/
@@ -60,6 +62,7 @@
 [build_the_fence.cpp]:                  small_factorials.cpp
 [adding_reversed_numbers.cpp]:          adding_reversed_numbers.cpp
 [julka.cpp]:                            julka.cpp
+[brackets.cpp]:                         brackets.cpp
 [period.cpp]:                           period.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
 [fashion_shows.cpp]:                    fashion_shows.cpp
