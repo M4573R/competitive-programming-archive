@@ -6,8 +6,6 @@
 
 using namespace std;
 
-typedef vector< pair<unsigned int, unsigned int> > Query;
-
 inline void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
@@ -16,140 +14,145 @@ inline void use_io_optimizations()
 
 struct Node
 {
-    unsigned int max_frequency;
-    unsigned int leftmost_frequency;
-    unsigned int rightmost_frequency;
+    int left_value;
+    int right_value;
 
-    Node(unsigned int max_frequency       = 0,
-         unsigned int leftmost_frequency  = 0,
-         unsigned int rightmost_frequency = 0):
-        max_frequency(max_frequency),
-        leftmost_frequency(leftmost_frequency),
-        rightmost_frequency(rightmost_frequency)
-    { }
+    unsigned int max_frequency;
+    unsigned int left_frequency;
+    unsigned int right_frequency;
+
+    void assign(int value)
+    {
+        left_value  = value;
+        right_value = value;
+
+        max_frequency   = 1;
+        left_frequency  = 1;
+        right_frequency = 1;
+    }
+
+    void merge(const Node& left, const Node& right)
+    {
+        max_frequency = max(left.max_frequency, right.max_frequency);
+
+        if (left.right_value == right.left_value)
+        {
+            max_frequency = max(max_frequency,
+                                left.right_frequency + right.left_frequency);
+        }
+
+        left_value      = left.left_value;
+        left_frequency  = left.left_frequency;
+
+        right_value     = right.right_value;
+        right_frequency = right.right_frequency;
+
+        if (left.left_value == right.left_value)
+        {
+            left_frequency += right.left_frequency;
+        }
+
+        if (left.right_value == right.right_value)
+        {
+            right_frequency += left.right_frequency;
+        }
+    }
+
+    int get() const
+    {
+        return max_frequency;
+    }
 };
 
 class SegmentTree
 {
 public:
-    SegmentTree(const vector<int>& array):
-        items(array),
-        tree(2 * pow(2.0, ceil(log2(array.size()))))
+    SegmentTree(const vector<int>& items):
+        size(items.size())
     {
-        initialize(1, 0, items.size() - 1);
+        unsigned int height {0};
+
+        while ((1 << height) < size)
+        {
+            ++height;
+        }
+
+        tree.resize(1 << (height + 1));
+        build(items, 1, 0, size - 1);
     }
 
-    unsigned int get(unsigned int query_left, unsigned int query_right)
+    int query(unsigned int query_lower, unsigned int query_upper) const
     {
-        return get(1, 0, items.size() - 1, query_left, query_right);
+        return query(1, 0, size - 1, query_lower, query_upper).get();
     }
 
 private:
-    vector<int> items;
     vector<Node> tree;
+    unsigned int size;
 
-    void initialize(unsigned int node, unsigned int left, unsigned int right)
+    void build(const vector<int>& items,
+               unsigned int node,
+               unsigned int lower,
+               unsigned int upper)
     {
-        if (left == right)
+        if (lower == upper)
         {
-            tree[node] = Node(1, 1, 1);
+            tree[node].assign(items[lower]);
+            return;
         }
-        else
-        {
-            unsigned int middle = (left + right) / 2;
 
-            unsigned int left_child  = 2 * node;
-            unsigned int right_child = left_child + 1;
+        unsigned int middle {(lower + upper) / 2};
 
-            initialize(2 * node, left, middle);
-            initialize(2 * node + 1, middle + 1, right);
+        unsigned int left   {left_child (node)};
+        unsigned int right  {right_child(node)};
 
-            merge(tree[node], tree[left_child], tree[right_child], left, right);
-        }
+        build(items, left,  lower,      middle);
+        build(items, right, middle + 1, upper);
+
+        tree[node].merge(tree[left], tree[right]);
     }
 
-    void merge(Node& parent,
-               Node& left_child,
-               Node& right_child,
-               unsigned int left,
-               unsigned int right)
+    Node query(unsigned int node,
+               unsigned int lower,
+               unsigned int upper,
+               unsigned int query_lower,
+               unsigned int query_upper) const
     {
-        parent.max_frequency       = max(left_child.max_frequency,
-                                         right_child.max_frequency);
-
-        parent.leftmost_frequency  = left_child.leftmost_frequency;
-        parent.rightmost_frequency = right_child.rightmost_frequency;
-
-        unsigned int middle = (left + right) / 2;
-
-        if (items[left] == items[middle + 1])
+        if (lower >= query_lower && upper <= query_upper)
         {
-            parent.leftmost_frequency += right_child.leftmost_frequency;
+            return tree[node];
         }
 
-        if (items[middle] == items[right])
+        unsigned int middle {(lower + upper) / 2};
+
+        unsigned int left   {left_child (node)};
+        unsigned int right  {right_child(node)};
+
+        if (query_lower > middle)
         {
-            parent.rightmost_frequency += left_child.rightmost_frequency;
+            return query(right, middle + 1, upper, query_lower, query_upper);
         }
 
-        if (items[middle] == items[middle + 1])
+        if (query_upper <= middle)
         {
-            parent.max_frequency = max(parent.max_frequency,
-                                       left_child.rightmost_frequency +
-                                       right_child.leftmost_frequency);
+            return query(left, lower, middle, query_lower, query_upper);
         }
+
+        Node result;
+        result.merge(query(left,  lower,      middle, query_lower, query_upper),
+                     query(right, middle + 1, upper,  query_lower, query_upper));
+
+        return result;
     }
 
-    unsigned int get(unsigned int node,
-                     unsigned int left,
-                     unsigned int right,
-                     unsigned int query_left,
-                     unsigned int query_right)
+    unsigned int left_child(unsigned int node) const
     {
-        if (left >= query_left && right <= query_right)
-        {
-            return tree[node].max_frequency;
-        }
+        return 2 * node;
+    }
 
-        unsigned int middle = (left + right) / 2;
-
-        unsigned int left_child  = 2 * node;
-        unsigned int right_child = left_child + 1;
-
-        if (query_right <= middle)
-        {
-            return get(left_child, left, middle, query_left, query_right);
-        }
-
-        if (query_left > middle)
-        {
-            return get(right_child, middle + 1, right, query_left, query_right);
-        }
-
-        unsigned int left_frequency  = get(2 * node,
-                                           left,
-                                           middle,
-                                           query_left,
-                                           query_right);
-
-        unsigned int right_frequency = get(2 * node + 1,
-                                           middle + 1,
-                                           right,
-                                           query_left,
-                                           query_right);
-
-        unsigned int max_frequency = max(left_frequency, right_frequency);
-
-        if (items[middle] == items[middle + 1])
-        {
-            max_frequency = max(max_frequency,
-                                (min(tree[left_child].rightmost_frequency,
-                                     middle - query_left + 1) +
-                                 min(tree[right_child].leftmost_frequency,
-                                     query_right - middle)));
-        }
-
-        return max_frequency;
+    unsigned int right_child(unsigned int node) const
+    {
+        return 2 * node + 1;
     }
 };
 
@@ -157,28 +160,28 @@ int main()
 {
     use_io_optimizations();
 
-    unsigned int sequence_length;
-    unsigned int queries_count;
-
-    while ((cin >> sequence_length >> queries_count) && (sequence_length != 0))
+    for (unsigned int length; cin >> length && length != 0; )
     {
-        vector<int> sequence(sequence_length);
+        unsigned int queries;
+        cin >> queries;
 
-        for (unsigned int i = 0; i < sequence_length; ++i)
+        vector<int> sequence(length);
+
+        for (unsigned int i = 0; i < length; ++i)
         {
             cin >> sequence[i];
         }
 
         SegmentTree tree(sequence);
 
-        for (unsigned int i = 0; i < queries_count; ++i)
+        for (unsigned int i {0}; i < queries; ++i)
         {
-            unsigned int left;
-            unsigned int right;
+            unsigned int lower;
+            unsigned int upper;
 
-            cin >> left >> right;
+            cin >> lower >> upper;
 
-            cout << tree.get(left - 1, right - 1) << '\n';
+            cout << tree.query(lower - 1, upper - 1) << '\n';
         }
     }
 
