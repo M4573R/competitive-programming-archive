@@ -3,47 +3,31 @@
 
 using namespace std;
 
-constexpr int not_computed {-1};
-
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-bool could_be_made(const vector<unsigned int>& bars,
-                   unsigned int index,
-                   long long length,
-                   vector<vector<int>>& computed)
+bool could_be_made(const vector<unsigned int>& lengths, unsigned int target)
 {
-    if (length < 0)
+    vector<bool> is_possible(target + 1);
+
+    is_possible[0] = true;
+
+    for (auto length : lengths)
     {
-        return false;
+        for (unsigned int i {target}; i >= length; --i)
+        {
+            if (!is_possible[i] && is_possible[i - length])
+            {
+                is_possible[i] = true;
+            }
+        }
     }
 
-    if (length == 0)
-    {
-        return true;
-    }
-
-    if (index == bars.size())
-    {
-        return false;
-    }
-
-    if (computed[index][length] != not_computed)
-    {
-        return computed[index][length];
-    }
-    else if (could_be_made(bars, index + 1, length, computed) ||
-             could_be_made(bars, index + 1, length - bars[index], computed))
-    {
-        return true;
-    }
-    else
-    {
-        return computed[index][length] = false;
-    }
+    return is_possible[target];
 }
 
 int main()
@@ -53,35 +37,21 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int i {0}; i < test_cases; ++i)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
-        unsigned int target_length;
-        unsigned int bars_count;
+        unsigned int target;
+        unsigned int bars;
 
-        cin >> target_length >> bars_count;
+        cin >> target >> bars;
 
-        vector<unsigned int> bars(bars_count);
+        vector<unsigned int> lengths(bars);
 
-        for (unsigned int j {0}; j < bars_count; ++j)
+        for (auto& length : lengths)
         {
-            cin >> bars[j];
+            cin >> length;
         }
 
-        vector<vector<int>> computed(
-            bars_count,
-            vector<int>(target_length + 1, not_computed)
-        );
-
-        if (could_be_made(bars, 0, target_length, computed))
-        {
-            cout << "YES";
-        }
-        else
-        {
-            cout << "NO";
-        }
-
-        cout << '\n';
+        cout << (could_be_made(lengths, target) ? "YES" : "NO") << '\n';
     }
 
     return 0;
