@@ -1,5 +1,7 @@
 # Canadian Computing Competition: 2012 Stage 1
 
-* [Speed fine are not fine!][]
+* [J1: Speed fine are not fine!][]
+* [J2: Sounds fishy!][]
 
-[Speed fine are not fine!]: http://www.dmoj.ca/problem/ccc12j1
+[J1: Speed fine are not fine!]: http://www.dmoj.ca/problem/ccc12j1
+[J2: Sounds fishy!]:            https://dmoj.ca/problem/ccc12j2
