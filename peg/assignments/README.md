@@ -17,6 +17,7 @@
 | [Interleaving Leaves][]     | [interleaving_leaves.cpp][]     |
 | [Cyclopian Air][]           | [cyclopian_air.cpp][]           |
 | [Cyclopian Cash][]          | [cyclopian_cash.cpp][]          |
+| [Maximum Sum][]             | [maximum_sum.cpp][]             |
 
 [A plus B]:                http://wcipeg.com/problems/desc/aplusb
 [3n+1]:                    http://wcipeg.com/problems/desc/3nplus1
@@ -33,6 +34,7 @@
 [Interleaving Leaves]:     http://wcipeg.com/problems/desc/acmtryouts0b
 [Cyclopian Air]:           http://wcipeg.com/problems/desc/fur1
 [Cyclopian Cash]:          http://wcipeg.com/problems/desc/fur3
+[Maximum Sum]:             http://wcipeg.com/problems/desc/dp1p1
 
 [a_plus_b.cpp]:                a_plus_b.cpp
 [3n+1.cpp]:                    3n+1.cpp
@@ -49,3 +51,4 @@
 [interleaving_leaves.cpp]:     interleaving_leaves.cpp
 [cyclopian_air.cpp]:           cyclopian_air.cpp
 [cyclopian_cash.cpp]:          cyclopian_cash.cpp
+[maximum_sum.cpp]:             maximum_sum.cpp
