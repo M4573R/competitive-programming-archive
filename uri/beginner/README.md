@@ -20,6 +20,7 @@
 | 1016 | [Distance][]                    | [distance.cpp][]                    |
 | 1017 | [Fuel Spent][]                  | [fuel_spent.cpp][]                  |
 | 1018 | [Banknotes][]                   | [banknotes.cpp][]                   |
+| 1019 | [Time Conversion][]             | [time_conversion.cpp][]             |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -39,6 +40,7 @@
 [Distance]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1016
 [Fuel Spent]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1017
 [Banknotes]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1018
+[Time Conversion]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1019
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -58,3 +60,4 @@
 [distance.cpp]:                    distance.cpp
 [fuel_spent.cpp]:                  fuel_spent.cpp
 [banknotes.cpp]:                   banknotes.cpp
+[time_conversion.cpp]:             time_conversion.cpp
