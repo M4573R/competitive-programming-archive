@@ -15,6 +15,7 @@
 | 1011 | [Sphere][]                      | [sphere.cpp][]                      |
 | 1012 | [Area][]                        | [area.cpp][]                        |
 | 1013 | [The Greatest][]                | [the_greatest.cpp][]                |
+| 1014 | [Consumption][]                 | [consumption.cpp][]                 |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -29,6 +30,7 @@
 [Sphere]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1011
 [Area]:                        https://www.urionlinejudge.com.br/judge/en/problems/view/1012
 [The Greatest]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1013
+[Consumption]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1014
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -43,3 +45,4 @@
 [sphere.cpp]:                      sphere.cpp
 [area.cpp]:                        area.cpp
 [the_greatest.cpp]:                the_greatest.cpp
+[consumption.cpp]:                 consumption.cpp
