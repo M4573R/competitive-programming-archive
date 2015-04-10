@@ -18,6 +18,7 @@
 | 1014 | [Consumption][]                 | [consumption.cpp][]                 |
 | 1015 | [Distance Between Two Points][] | [distance_between_two_points.cpp][] |
 | 1016 | [Distance][]                    | [distance.cpp][]                    |
+| 1017 | [Fuel Spent][]                  | [fuel_spent.cpp][]                  |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -35,6 +36,7 @@
 [Consumption]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1014
 [Distance Between Two Points]: https://www.urionlinejudge.com.br/judge/en/problems/view/1015
 [Distance]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1016
+[Fuel Spent]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1017
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -52,3 +54,4 @@
 [consumption.cpp]:                 consumption.cpp
 [distance_between_two_points.cpp]: distance_between_two_points.cpp
 [distance.cpp]:                    distance.cpp
+[fuel_spent.cpp]:                  fuel_spent.cpp
