@@ -22,6 +22,7 @@
 | 1018 | [Banknotes][]                   | [banknotes.cpp][]                   |
 | 1019 | [Time Conversion][]             | [time_conversion.cpp][]             |
 | 1020 | [Age in Days][]                 | [age_in_days.cpp][]                 |
+| 1021 | [Banknotes and Coins][]         | [banknotes_and_coins.cpp][]         |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -43,6 +44,8 @@
 [Banknotes]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1018
 [Time Conversion]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1019
 [Age in Days]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1020
+[Banknotes and Coins]:         https://www.urionlinejudge.com.br/judge/en/problems/view/1021
+
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
 [simple_sum.cpp]:                  simple_sum.cpp
@@ -63,3 +66,4 @@
 [banknotes.cpp]:                   banknotes.cpp
 [time_conversion.cpp]:             time_conversion.cpp
 [age_in_days.cpp]:                 age_in_days.cpp
+[banknotes_and_coins.cpp]:         banknotes_and_coins.cpp
