@@ -8,6 +8,7 @@
 | 1004 | [Simple Product][]              | [simple_product.cpp][]              |
 | 1005 | [Average 1][]                   | [average_1.cpp][]                   |
 | 1006 | [Average 2][]                   | [average_2.cpp][]                   |
+| 1007 | [Difference][]                  | [difference.cpp][]                  |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -15,6 +16,7 @@
 [Simple Product]:              https://www.urionlinejudge.com.br/judge/en/problems/view/1004
 [Average 1]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1005
 [Average 2]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1006
+[Difference]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1007
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -22,3 +24,4 @@
 [simple_product.cpp]:              simple_product.cpp
 [average_1.cpp]:                   average_1.cpp
 [average_2.cpp]:                   average_2.cpp
+[difference.cpp]:                  difference.cpp
