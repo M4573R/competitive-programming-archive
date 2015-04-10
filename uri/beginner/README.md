@@ -13,6 +13,7 @@
 | 1009 | [Salary with Bonus][]           | [salary_with_bonus.cpp][]           |
 | 1010 | [Simple Calculate][]            | [simple_calculate.cpp][]            |
 | 1011 | [Sphere][]                      | [sphere.cpp][]                      |
+| 1012 | [Area][]                        | [area.cpp][]                        |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -25,6 +26,7 @@
 [Salary with Bonus]:           https://www.urionlinejudge.com.br/judge/en/problems/view/1009
 [Simple Calculate]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1010
 [Sphere]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1011
+[Area]:                        https://www.urionlinejudge.com.br/judge/en/problems/view/1012
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -37,3 +39,4 @@
 [salary_with_bonus.cpp]:           salary_with_bonus.cpp
 [simple_calculate.cpp]:            simple_calculate.cpp
 [sphere.cpp]:                      sphere.cpp
+[area.cpp]:                        area.cpp
