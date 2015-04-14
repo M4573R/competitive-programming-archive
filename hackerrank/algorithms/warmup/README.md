@@ -23,6 +23,7 @@
 | [Find Digits][]              | [find_digits.cpp][]             |
 | [Is Fibo][]                  | [is_fibo.cpp][]                 |
 | [Angry Professor][]          | [angry_professor.cpp][]         |
+| [Taum and B'day][]           | [taum_and_bday.cpp][]           |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -45,6 +46,7 @@
 [Find Digits]:             https://www.hackerrank.com/challenges/find-digits
 [Is Fibo]:                 https://www.hackerrank.com/challenges/is-fibo
 [Angry Professor]:         https://www.hackerrank.com/challenges/angry-professor
+[Taum and B'day]:          https://www.hackerrank.com/challenges/taum-and-bday
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -67,3 +69,4 @@
 [find_digits.cpp]:             find_digits.cpp
 [is_fibo.cpp]:                 is_fibo.cpp
 [angry_professor.cpp]:         angry_professor.cpp
+[taum_and_bday.cpp]:           taum_and_bday.cpp
