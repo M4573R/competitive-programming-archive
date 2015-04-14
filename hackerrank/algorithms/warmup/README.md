@@ -22,6 +22,7 @@
 | [Sherlock and The Beast][]   | [sherlock_and_the_beast.cpp][]  |
 | [Find Digits][]              | [find_digits.cpp][]             |
 | [Is Fibo][]                  | [is_fibo.cpp][]                 |
+| [Angry Professor][]          | [angry_professor.cpp][]         |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -43,6 +44,7 @@
 [Sherlock and The Beast]:  https://www.hackerrank.com/challenges/sherlock-and-the-beast
 [Find Digits]:             https://www.hackerrank.com/challenges/find-digits
 [Is Fibo]:                 https://www.hackerrank.com/challenges/is-fibo
+[Angry Professor]:         https://www.hackerrank.com/challenges/angry-professor
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -64,3 +66,4 @@
 [sherlock_and_the_beast.cpp]:  sherlock_and_the_beast.cpp
 [find_digits.cpp]:             find_digits.cpp
 [is_fibo.cpp]:                 is_fibo.cpp
+[angry_professor.cpp]:         angry_professor.cpp
