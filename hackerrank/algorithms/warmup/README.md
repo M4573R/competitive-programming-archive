@@ -24,6 +24,7 @@
 | [Is Fibo][]                  | [is_fibo.cpp][]                 |
 | [Angry Professor][]          | [angry_professor.cpp][]         |
 | [Taum and B'day][]           | [taum_and_bday.cpp][]           |
+| [Song of Pi][]               | [song_of_pi.cpp][]              |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -47,6 +48,7 @@
 [Is Fibo]:                 https://www.hackerrank.com/challenges/is-fibo
 [Angry Professor]:         https://www.hackerrank.com/challenges/angry-professor
 [Taum and B'day]:          https://www.hackerrank.com/challenges/taum-and-bday
+[Song of Pi]:              https://www.hackerrank.com/challenges/song-of-pi
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -70,3 +72,4 @@
 [is_fibo.cpp]:                 is_fibo.cpp
 [angry_professor.cpp]:         angry_professor.cpp
 [taum_and_bday.cpp]:           taum_and_bday.cpp
+[song_of_pi.cpp]:              song_of_pi.cpp
