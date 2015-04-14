@@ -25,6 +25,7 @@
 | [Angry Professor][]          | [angry_professor.cpp][]         |
 | [Taum and B'day][]           | [taum_and_bday.cpp][]           |
 | [Song of Pi][]               | [song_of_pi.cpp][]              |
+| [Identify Smith Numbers][]   | [identify_smith_numbers.cpp][]  |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -49,6 +50,7 @@
 [Angry Professor]:         https://www.hackerrank.com/challenges/angry-professor
 [Taum and B'day]:          https://www.hackerrank.com/challenges/taum-and-bday
 [Song of Pi]:              https://www.hackerrank.com/challenges/song-of-pi
+[Identify Smith Numbers]:  https://www.hackerrank.com/challenges/identify-smith-numbers
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -73,3 +75,4 @@
 [angry_professor.cpp]:         angry_professor.cpp
 [taum_and_bday.cpp]:           taum_and_bday.cpp
 [song_of_pi.cpp]:              song_of_pi.cpp
+[identify_smith_numbers.cpp]:  identify_smith_numbers.cpp
