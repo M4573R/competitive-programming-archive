@@ -27,6 +27,7 @@
 | [Song of Pi][]               | [song_of_pi.cpp][]              |
 | [Identify Smith Numbers][]   | [identify_smith_numbers.cpp][]  |
 | [The Time in Words][]        | [the_time_in_words.cpp][]       |
+| [Kaprekar Numbers][]         | [kaprekar_numbers.cpp][]        |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -53,6 +54,7 @@
 [Song of Pi]:              https://www.hackerrank.com/challenges/song-of-pi
 [Identify Smith Numbers]:  https://www.hackerrank.com/challenges/identify-smith-numbers
 [The Time in Words]:       https://www.hackerrank.com/challenges/the-time-in-words
+[Kaprekar Numbers]:        https://www.hackerrank.com/challenges/kaprekar-numbers
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -79,3 +81,4 @@
 [song_of_pi.cpp]:              song_of_pi.cpp
 [identify_smith_numbers.cpp]:  identify_smith_numbers.cpp
 [the_time_in_words.cpp]:       the_time_in_words.cpp
+[kaprekar_numbers.cpp]:        kaprekar_numbers.cpp
