@@ -9,29 +9,29 @@ using namespace std;
 
 const int infinity = numeric_limits<int>::max();
 
-struct Point
+struct Stone
 {
     int x;
     int y;
     int z;
 };
 
-bool operator==(const Point& left, const Point& right)
+bool operator==(const Stone& left, const Stone& right)
 {
     return left.x == right.x && left.y == right.y && left.z == right.z;
 }
 
-istream& operator>>(istream& in, Point& point)
+istream& operator>>(istream& in, Stone& Stone)
 {
-    return in >> point.x >> point.y >> point.z;
+    return in >> Stone.x >> Stone.y >> Stone.z;
 }
 
-ostream& operator<<(ostream& out, const Point& point)
+ostream& operator<<(ostream& out, const Stone& Stone)
 {
-    return out << point.x << ' ' << point.y << ' ' << point.z;
+    return out << Stone.x << ' ' << Stone.y << ' ' << Stone.z;
 }
 
-int distance2(const Point& left, const Point& right)
+int distance2(const Stone& left, const Stone& right)
 {
     if (left.z != right.z)
     {
@@ -66,9 +66,9 @@ bool operator<(const Edge& left, const Edge& right)
 void read_input(int& dimensions,
                 int& jump_length,
                 int& stones_count,
-                vector<Point>& stones,
-                Point& start,
-                Point& end)
+                vector<Stone>& stones,
+                Stone& start,
+                Stone& end)
 {
     cin >> dimensions >> jump_length >> stones_count;
 
@@ -82,9 +82,9 @@ void read_input(int& dimensions,
     cin >> start >> end;
 }
 
-void find_indices(const vector<Point>& stones,
-                  const Point& start,
-                  const Point& end,
+void find_indices(const vector<Stone>& stones,
+                  const Stone& start,
+                  const Stone& end,
                   int& start_index,
                   int& end_index)
 {
@@ -101,7 +101,7 @@ void find_indices(const vector<Point>& stones,
     }
 }
 
-void build_graph(const vector<Point>& stones,
+void build_graph(const vector<Stone>& stones,
                  int jump_length,
                  vector< vector<Edge> >& graph)
 {
@@ -160,7 +160,7 @@ void dijkstra(const vector< vector<Edge> >& graph,
 }
 
 void find_shortest_path(const vector< vector<Edge> >& graph,
-                        const vector<Point>& stones,
+                        const vector<Stone>& stones,
                         int start_index,
                         int end_index)
 {
@@ -200,10 +200,10 @@ int main()
     int jump_length;
     int stones_count;
 
-    vector<Point> stones;
+    vector<Stone> stones;
 
-    Point start;
-    Point end;
+    Stone start;
+    Stone end;
 
     read_input(dimensions, jump_length, stones_count, stones, start, end);
 
