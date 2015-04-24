@@ -19,6 +19,7 @@
 |  1684 | [Frequent Values][]                    | [frequent_values.cpp][]                  |
 |  1716 | [Can you answer these queries III][]   | [can_you_answer_these_queries_3.cpp][]   |
 |  2123 | [Candy I][]                            | [candy1.cpp][]                           |
+|  2713 | [Can you answer these queries IV][]    | [can_you_answer_these_queries_4.cpp][]   |
 |  3410 | [Feynman][]                            | [feynman.cpp][]                          |
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
 |  3693 | [Maximum Sum][]                        | [maximum_sum.cpp][]                      |
@@ -46,6 +47,7 @@
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
 [Can you answer these queries III]:   http://www.spoj.com/problems/GSS3/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
+[Can you answer these queries IV]:    http://www.spoj.com/problems/GSS4/
 [Feynman]:                            http://www.spoj.com/problems/SAMER08F/
 [The last digit]:                     http://www.spoj.com/problems/LASTDIG/
 [Maximum Sum]:                        http://www.spoj.com/problems/KGSS/
@@ -73,6 +75,7 @@
 [frequent_values.cpp]:                  frequent_values.cpp
 [can_you_answer_these_queries_3.cpp]:   can_you_answer_these_queries_3.cpp
 [candy1.cpp]:                           candy1.cpp
+[can_you_answer_these_queries_4.cpp]:   can_you_answer_these_queries_4.cpp
 [feynman.cpp]:                          feynman.cpp
 [the_last_digit.cpp]:                   the_last_digit.cpp
 [maximum_sum.cpp]:                      maximum_sum.cpp
