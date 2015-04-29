@@ -10,6 +10,7 @@
 | 1120 | [Sum of Sequential Numbers][]     | [sum_of_sequential_numbers.cpp][]    |
 | 1131 | [Copying][]                       | [copying.cpp][]                      |
 | 1139 | [City Blocks][]                   | [city_blocks.cpp][]                  |
+| 1146 | [Maximum Sum][]                   | [maximum_sum.cpp][]                  |
 | 1149 | [Sinus Dances][]                  | [sinus_dances.cpp][]                 |
 | 1161 | [Stripies][]                      | [stripies.cpp][]                     |
 | 1180 | [Stone Game][]                    | [stone_game.cpp][]                   |
@@ -25,6 +26,7 @@
 [Sum of Sequential Numbers]:     http://acm.timus.ru/problem.aspx?space=1&num=1120
 [Copying]:                       http://acm.timus.ru/problem.aspx?space=1&num=1131
 [City Blocks]:                   http://acm.timus.ru/problem.aspx?space=1&num=1139
+[Maximum Sum]:                   http://acm.timus.ru/problem.aspx?space=1&num=1146
 [Sinus Dances]:                  http://acm.timus.ru/problem.aspx?space=1&num=1149
 [Stripies]:                      http://acm.timus.ru/problem.aspx?space=1&num=1161
 [Stone Game]:                    http://acm.timus.ru/problem.aspx?space=1&num=1180
@@ -40,6 +42,7 @@
 [sum_of_sequential_numbers.cpp]:    sum_of_sequential_numbers.cpp
 [copying.cpp]:                      copying.cpp
 [city_blocks.cpp]:                  city_blocks.cpp
+[maximum_sum.cpp]:                  maximum_sum.cpp
 [sinus_dances.cpp]:                 sinus_dances.cpp
 [stripies.cpp]:                     stripies.cpp
 [stone_game.cpp]:                   stone_game.cpp
