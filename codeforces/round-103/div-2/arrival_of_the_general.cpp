@@ -17,7 +17,7 @@ int main()
     unsigned int soldiers;
     cin >> soldiers;
 
-    vector<unsigned> heights(soldiers);
+    vector<unsigned int> heights(soldiers);
 
     for (auto& height : heights)
     {
