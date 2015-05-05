@@ -1,0 +1,30 @@
+#include <algorithm>
+#include <iostream>
+
+using namespace std;
+
+inline
+void use_io_optimizations()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+}
+
+int main()
+{
+    use_io_optimizations();
+
+    long x;
+    long y;
+
+    cin >> x >> y;
+
+    if (x > 0 && y > 0 && (x + y) % 2 != 0)
+    {
+        swap(x, y);
+    }
+
+    cout << x << ' ' << y << '\n';
+
+    return 0;
+}

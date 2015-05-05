@@ -3,6 +3,7 @@
 |  ID  |        Problem statement        |              Solution               |
 |:----:|:--------------------------------|:-----------------------------------:|
 | 1209 | [1, 10, 100, 1000 ...][]        | [1_10_100_1000.cpp][]               |
+| 1214 | [Strange Procedure][]           | [strange_procedure.cpp][]           |
 | 1224 | [Spiral][]                      | [spiral.cpp][]                      |
 | 1225 | [Flags][]                       | [flags.cpp][]                       |
 | 1243 | [Divorce of the Seven Dwarfs][] | [divorce_of_the_seven_dwarfs.cpp][] |
@@ -15,6 +16,7 @@
 | 1297 | [Palindrome][]                  | [palindrome.cpp][]                  |
 
 [1, 10, 100, 1000 ...]:        http://acm.timus.ru/problem.aspx?space=1&num=1209
+[Strange Procedure]:           http://acm.timus.ru/problem.aspx?space=1&num=1214
 [Spiral]:                      http://acm.timus.ru/problem.aspx?space=1&num=1224
 [Flags]:                       http://acm.timus.ru/problem.aspx?space=1&num=1225
 [Divorce of the Seven Dwarfs]: http://acm.timus.ru/problem.aspx?space=1&num=1243
@@ -27,6 +29,7 @@
 [Palindrome]:                  http://acm.timus.ru/problem.aspx?space=1&num=1297
 
 [1_10_100_1000.cpp]:               1_10_100_1000.cpp
+[strange_procedure.cpp]:           strange_procedure.cpp
 [spiral.cpp]:                      spiral.cpp
 [flags.cpp]:                       flags.cpp
 [divorce_of_the_seven_dwarfs.cpp]: divorce_of_the_seven_dwarfs.cpp
