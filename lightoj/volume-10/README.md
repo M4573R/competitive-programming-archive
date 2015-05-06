@@ -10,6 +10,7 @@
 | 1005 | [Rooks][]                  | [rooks.cpp][]                  |
 | 1006 | [Hex-a-bonacci][]          | [hex_a_bonacci.cpp][]          |
 | 1009 | [Back to Underworld][]     | [back_to_underworld.cpp][]     |
+| 1011 | [Marriage Ceremonies][]    | [marriage_ceremonies.cpp][]    |
 | 1019 | [Brush (V)][]              | [brush_v.cpp][]                |
 | 1034 | [Hit the Light Switches][] | [hit_the_light_switches.cpp][] |
 | 1041 | [Road Construction][]      | [road_construction.cpp][]      |
@@ -22,6 +23,7 @@
 [Rooks]:                  http://www.lightoj.com/volume_showproblem.php?problem=1005
 [Hex-a-bonacci]:          http://www.lightoj.com/volume_showproblem.php?problem=1006
 [Back to Underworld]:     http://www.lightoj.com/volume_showproblem.php?problem=1009
+[Marriage Ceremonies]:    http://www.lightoj.com/volume_showproblem.php?problem=1011
 [Brush (V)]:              http://www.lightoj.com/volume_showproblem.php?problem=1019
 [Hit the Light Switches]: http://www.lightoj.com/volume_showproblem.php?problem=1034
 [Road Construction]:      http://www.lightoj.com/volume_showproblem.php?problem=1041
@@ -34,6 +36,8 @@
 [rooks.cpp]:                  rooks.cpp
 [hex_a_bonacci.cpp]:          hex_a_bonacci.cpp
 [back_to_underworld.cpp]:     back_to_underworld.cpp
+[marriage_ceremonies.cpp]:    marriage_ceremonies.cpp
+
 [brush_v.cpp]:                brush_v.cpp
 [hit_the_light_switches.cpp]: hit_the_light_switches.cpp
 [road_construction.cpp]:      road_construction.cpp
