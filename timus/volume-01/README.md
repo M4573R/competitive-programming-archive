@@ -6,6 +6,7 @@
 | 1001 | [Reverse Root][]        | [reverse_root.cpp][]        |
 | 1005 | [Stone Pile][]          | [stone_pile.cpp][]          |
 | 1009 | [K-based Numbers][]     | [k_based_numbers.cpp][]     |
+| 1014 | [Product of Digits][]   | [product_of_digits.cpp][]   |
 | 1020 | [Rope][]                | [rope.cpp][]                |
 | 1025 | [Democracy in Danger][] | [democracy_in_danger.cpp][] |
 | 1028 | [Stars][]               | [stars.cpp][]               |
@@ -18,6 +19,7 @@
 [Reverse Root]:        http://acm.timus.ru/problem.aspx?space=1&num=1001
 [Stone Pile]:          http://acm.timus.ru/problem.aspx?space=1&num=1005
 [K-based Numbers]:     http://acm.timus.ru/problem.aspx?space=1&num=1009
+[Product of Digits]:   http://acm.timus.ru/problem.aspx?space=1&num=1014
 [Rope]:                http://acm.timus.ru/problem.aspx?space=1&num=1020
 [Democracy in Danger]: http://acm.timus.ru/problem.aspx?space=1&num=1025
 [Stars]:               http://acm.timus.ru/problem.aspx?space=1&num=1028
@@ -30,6 +32,7 @@
 [reverse_root.cpp]:        reverse_root.cpp
 [stone_pile.cpp]:          stone_pile.cpp
 [k_based_numbers.cpp]:     k_based_numbers.cpp
+[product_of_digits.cpp]:   product_of_digits.cpp
 [rope.cpp]:                rope.cpp
 [democracy_in_danger.cpp]: democracy_in_danger.cpp
 [stars.cpp]:               stars.cpp
