@@ -14,6 +14,7 @@
 | 1019 | [Brush (V)][]              | [brush_v.cpp][]                |
 | 1034 | [Hit the Light Switches][] | [hit_the_light_switches.cpp][] |
 | 1041 | [Road Construction][]      | [road_construction.cpp][]      |
+| 1080 | [Binary Simulation][]      | [binary_simulation.cpp][]      |
 
 [Greetings from LightOJ]: http://www.lightoj.com/volume_showproblem.php?problem=1000
 [Opposite Task]:          http://www.lightoj.com/volume_showproblem.php?problem=1001
@@ -27,6 +28,7 @@
 [Brush (V)]:              http://www.lightoj.com/volume_showproblem.php?problem=1019
 [Hit the Light Switches]: http://www.lightoj.com/volume_showproblem.php?problem=1034
 [Road Construction]:      http://www.lightoj.com/volume_showproblem.php?problem=1041
+[Binary Simulation]:      http://www.lightoj.com/volume_showproblem.php?problem=1080
 
 [greetings_from_lightoj.cpp]: greetings_from_lightoj.cpp
 [opposite_task.cpp]:          opposite_task.cpp
@@ -37,7 +39,7 @@
 [hex_a_bonacci.cpp]:          hex_a_bonacci.cpp
 [back_to_underworld.cpp]:     back_to_underworld.cpp
 [marriage_ceremonies.cpp]:    marriage_ceremonies.cpp
-
 [brush_v.cpp]:                brush_v.cpp
 [hit_the_light_switches.cpp]: hit_the_light_switches.cpp
 [road_construction.cpp]:      road_construction.cpp
+[binary_simulation.cpp]:      binary_simulation.cpp
