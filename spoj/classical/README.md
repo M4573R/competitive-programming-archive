@@ -30,6 +30,7 @@
 | 10582 | [subarrays][]                          | [subarrays.cpp][]                        |
 | 11772 | [Negative Score][]                     | [negative_score.cpp][]                   |
 | 13990 | [Web islands][]                        | [web_islands.cpp][]                      |
+| 16487 | [Update the array!][]                  | [update_the_array.cpp][]                 |
 
 [Life, the Universe, and Everything]: http://www.spoj.com/problems/TEST/
 [Prime Generator]:                    http://www.spoj.com/problems/PRIME1/
@@ -59,6 +60,7 @@
 [subarrays]:                          http://www.spoj.com/problems/ARRAYSUB/
 [Negative Score]:                     http://www.spoj.com/problems/RPLN/
 [Web islands]:                        http://www.spoj.com/problems/WEBISL/
+[Update the array!]:                  http://www.spoj.com/problems/UPDATEIT/
 
 [life_the_universe_and_everything.cpp]: life_the_universe_and_everything.cpp
 [prime_generator.cpp]:                  prime_generator.cpp
@@ -88,3 +90,4 @@
 [subarrays.cpp]:                        subarrays.cpp
 [negative_score.cpp]:                   negative_score.cpp
 [web_islands.cpp]:                      web_islands.cpp
+[update_the_array.cpp]:                 update_the_array.cpp
