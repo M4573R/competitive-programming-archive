@@ -25,8 +25,8 @@ public:
         for (int i {0}; i < columns; ++i)
         {
             if (is_free[i] &&
-                (i <= 0 || is_free[i - 1]) &&
-                (i >= columns || is_free[i + 1]))
+                (i == 0 || is_free[i - 1]) &&
+                (i == columns - 1 || is_free[i + 1]))
             {
                 ++trees;
                 is_free[i] = false;
