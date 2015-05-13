@@ -2,6 +2,7 @@
 
 |  ID  |        Problem statement        |              Solution               |
 |:----:|:--------------------------------|:-----------------------------------:|
+| 1203 | [Scientific Conference][]       | [scientific_conference.cpp][]       |
 | 1209 | [1, 10, 100, 1000 ...][]        | [1_10_100_1000.cpp][]               |
 | 1214 | [Strange Procedure][]           | [strange_procedure.cpp][]           |
 | 1224 | [Spiral][]                      | [spiral.cpp][]                      |
@@ -16,6 +17,7 @@
 | 1293 | [Eniya][]                       | [eniya.cpp][]                       |
 | 1297 | [Palindrome][]                  | [palindrome.cpp][]                  |
 
+[Scientific Conference]:       http://acm.timus.ru/problem.aspx?space=1&num=1203
 [1, 10, 100, 1000 ...]:        http://acm.timus.ru/problem.aspx?space=1&num=1209
 [Strange Procedure]:           http://acm.timus.ru/problem.aspx?space=1&num=1214
 [Spiral]:                      http://acm.timus.ru/problem.aspx?space=1&num=1224
@@ -30,6 +32,7 @@
 [Eniya]:                       http://acm.timus.ru/problem.aspx?space=1&num=1293
 [Palindrome]:                  http://acm.timus.ru/problem.aspx?space=1&num=1297
 
+[scientific_conference.cpp]:       scientific_conference.cpp
 [1_10_100_1000.cpp]:               1_10_100_1000.cpp
 [strange_procedure.cpp]:           strange_procedure.cpp
 [spiral.cpp]:                      spiral.cpp
