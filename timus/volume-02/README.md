@@ -6,6 +6,7 @@
 | 1104 | [Don't Ask Woman about Her Age][] | [dont_ask_woman_about_her_age.cpp][] |
 | 1106 | [Two Teams][]                     | [two_teams.cpp][]                    |
 | 1110 | [Power][]                         | [power.cpp][]                        |
+| 1118 | [Nontrivial Numbers][]            | [nontrivial_numbers.cpp][]           |
 | 1119 | [Metro][]                         | [metro.cpp][]                        |
 | 1120 | [Sum of Sequential Numbers][]     | [sum_of_sequential_numbers.cpp][]    |
 | 1131 | [Copying][]                       | [copying.cpp][]                      |
@@ -23,6 +24,7 @@
 [Don't Ask Woman about Her Age]: http://acm.timus.ru/problem.aspx?space=1&num=1104
 [Two Teams]:                     http://acm.timus.ru/problem.aspx?space=1&num=1106
 [Power]:                         http://acm.timus.ru/problem.aspx?space=1&num=1110
+[Nontrivial Numbers]:            http://acm.timus.ru/problem.aspx?space=1&num=1118
 [Metro]:                         http://acm.timus.ru/problem.aspx?space=1&num=1119
 [Sum of Sequential Numbers]:     http://acm.timus.ru/problem.aspx?space=1&num=1120
 [Copying]:                       http://acm.timus.ru/problem.aspx?space=1&num=1131
@@ -40,6 +42,7 @@
 [dont_ask_woman_about_her_age.cpp]: dont_ask_woman_about_her_age.cpp
 [two_teams.cpp]:                    two_teams.cpp
 [power.cpp]:                        power.cpp
+[nontrivial_numbers.cpp]:           nontrivial_numbers.cpp
 [metro.cpp]:                        metro.cpp
 [sum_of_sequential_numbers.cpp]:    sum_of_sequential_numbers.cpp
 [copying.cpp]:                      copying.cpp
