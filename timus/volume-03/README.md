@@ -15,6 +15,7 @@
 | 1280 | [Topological Sorting][]         | [topological_sorting.cpp][]         |
 | 1290 | [Sabotage][]                    | [sabotage.cpp][]                    |
 | 1293 | [Eniya][]                       | [eniya.cpp][]                       |
+| 1296 | [Hyperjump][]                   | [hyperjump.cpp][]                   |
 | 1297 | [Palindrome][]                  | [palindrome.cpp][]                  |
 
 [Scientific Conference]:       http://acm.timus.ru/problem.aspx?space=1&num=1203
@@ -30,6 +31,7 @@
 [Topological Sorting]:         http://acm.timus.ru/problem.aspx?num=1280
 [Sabotage]:                    http://acm.timus.ru/problem.aspx?space=1&num=1290
 [Eniya]:                       http://acm.timus.ru/problem.aspx?space=1&num=1293
+[Hyperjump]:                   http://acm.timus.ru/problem.aspx?space=1&num=1296
 [Palindrome]:                  http://acm.timus.ru/problem.aspx?space=1&num=1297
 
 [scientific_conference.cpp]:       scientific_conference.cpp
@@ -45,4 +47,5 @@
 [topological_sorting.cpp]:         topological_sorting.cpp
 [sabotage.cpp]:                    sabotage.cpp
 [eniya.cpp]:                       eniya.cpp
+[hyperjump.cpp]:                   hyperjump.cpp
 [palindrome.cpp]:                  palindrome.cpp
