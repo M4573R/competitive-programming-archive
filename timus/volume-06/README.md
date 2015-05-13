@@ -7,6 +7,7 @@
 | 1545 | [Hieroglyphs][]   | [hieroglyphs.cpp][] |
 | 1563 | [Bayan][]         | [bayan.cpp][]       |
 | 1567 | [SMS-spam][]      | [sms_spam.cpp][]    |
+| 1573 | [Alchemy][]       | [alchemy.cpp][]     |
 | 1581 | [Teamwork][]      | [teamwork.cpp][]    |
 | 1585 | [Penguins][]      | [penguins.cpp][]    |
 
@@ -15,6 +16,7 @@
 [Hieroglyphs]: http://acm.timus.ru/problem.aspx?space=1&num=1545
 [Bayan]:       http://acm.timus.ru/problem.aspx?space=1&num=1563
 [SMS-spam]:    http://acm.timus.ru/problem.aspx?space=1&num=1567
+[Alchemy]:     http://acm.timus.ru/problem.aspx?space=1&num=1573
 [Teamwork]:    http://acm.timus.ru/problem.aspx?space=1&num=1581
 [Penguins]:    http://acm.timus.ru/problem.aspx?space=1&num=1585
 
@@ -23,5 +25,6 @@
 [hieroglyphs.cpp]: hieroglyphs.cpp
 [bayan.cpp]:       bayan.cpp
 [sms_spam.cpp]:    sms_spam.cpp
+[alchemy.cpp]:     alchemy.cpp
 [teamwork.cpp]:    teamwork.cpp
 [penguins.cpp]:    penguins.cpp
