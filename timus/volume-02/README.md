@@ -16,6 +16,7 @@
 | 1149 | [Sinus Dances][]                  | [sinus_dances.cpp][]                 |
 | 1161 | [Stripies][]                      | [stripies.cpp][]                     |
 | 1180 | [Stone Game][]                    | [stone_game.cpp][]                   |
+| 1192 | [Ball in a Dream][]               | [ball_in_a_dream.cpp][]              |
 | 1194 | [Handshakes][]                    | [handshakes.cpp][]                   |
 | 1196 | [History Exam][]                  | [history_exam.cpp][]                 |
 | 1197 | [Lonesome Knight][]               | [lonesome_knight.cpp][]              |
@@ -34,6 +35,7 @@
 [Sinus Dances]:                  http://acm.timus.ru/problem.aspx?space=1&num=1149
 [Stripies]:                      http://acm.timus.ru/problem.aspx?space=1&num=1161
 [Stone Game]:                    http://acm.timus.ru/problem.aspx?space=1&num=1180
+[Ball in a Dream]:               http://acm.timus.ru/problem.aspx?space=1&num=1192
 [Handshakes]:                    http://acm.timus.ru/problem.aspx?space=1&num=1194
 [History Exam]:                  http://acm.timus.ru/problem.aspx?space=1&num=1196
 [Lonesome Knight]:               http://acm.timus.ru/problem.aspx?space=1&num=1197
@@ -52,6 +54,7 @@
 [sinus_dances.cpp]:                 sinus_dances.cpp
 [stripies.cpp]:                     stripies.cpp
 [stone_game.cpp]:                   stone_game.cpp
+[ball_in_a_dream.cpp]:              ball_in_a_dream.cpp
 [handshakes.cpp]:                   handshakes.cpp
 [history_exam.cpp]:                 history_exam.cpp
 [lonesome_knight.cpp]:              lonesome_knight.cpp
