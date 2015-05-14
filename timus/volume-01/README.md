@@ -12,6 +12,7 @@
 | 1028 | [Stars][]               | [stars.cpp][]               |
 | 1068 | [Sum][]                 | [sum.cpp][]                 |
 | 1080 | [Map Coloring][]        | [map_coloring.cpp][]        |
+| 1082 | [Gaby Ivanushka][]      | [gaby_ivanushka.cpp][]      |
 | 1083 | [Factorials!!!][]       | [factorials!!!.cpp][]       |
 | 1084 | [Goat in the Garden][]  | [goat_in_the_graden.cpp][]  |
 
@@ -25,6 +26,7 @@
 [Stars]:               http://acm.timus.ru/problem.aspx?space=1&num=1028
 [Sum]:                 http://acm.timus.ru/problem.aspx?space=1&num=1068
 [Map Coloring]:        http://acm.timus.ru/problem.aspx?space=1&num=1080
+[Gaby Ivanushka]:      http://acm.timus.ru/problem.aspx?space=1&num=1082
 [Factorials!!!]:       http://acm.timus.ru/problem.aspx?space=1&num=1083
 [Goat in the Garden]:  http://acm.timus.ru/problem.aspx?space=1&num=1084
 
@@ -38,6 +40,7 @@
 [stars.cpp]:               stars.cpp
 [sum.cpp]:                 sum.cpp
 [map_coloring.cpp]:        map_coloring.cpp
+[gaby_ivanushka.cpp]:      gaby_ivanushka.cpp
 [factorials!!!.cpp]:       factorials!!!.cpp
 [goat_in_the_graden.cpp]:  goat_in_the_graden.cpp
 
