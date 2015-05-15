@@ -12,14 +12,14 @@ void use_io_optimizations()
 
 unsigned int upper_limit(unsigned int digits)
 {
-    unsigned int max {0};
+    unsigned int limit {0};
 
     for (unsigned int i {0}; i < digits; ++i)
     {
-        max = 10 * max + 9;
+        limit = 10 * limit + 9;
     }
 
-    return max;
+    return limit;
 }
 
 unsigned int digits_sum(unsigned int number)
