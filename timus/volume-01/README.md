@@ -11,6 +11,7 @@
 | 1025 | [Democracy in Danger][] | [democracy_in_danger.cpp][] |
 | 1028 | [Stars][]               | [stars.cpp][]               |
 | 1068 | [Sum][]                 | [sum.cpp][]                 |
+| 1079 | [Maximum][]             | [maximum.cpp][]             |
 | 1080 | [Map Coloring][]        | [map_coloring.cpp][]        |
 | 1082 | [Gaby Ivanushka][]      | [gaby_ivanushka.cpp][]      |
 | 1083 | [Factorials!!!][]       | [factorials!!!.cpp][]       |
@@ -26,6 +27,7 @@
 [Stars]:               http://acm.timus.ru/problem.aspx?space=1&num=1028
 [Sum]:                 http://acm.timus.ru/problem.aspx?space=1&num=1068
 [Map Coloring]:        http://acm.timus.ru/problem.aspx?space=1&num=1080
+[Maximum]:             http://acm.timus.ru/problem.aspx?space=1&num=1079
 [Gaby Ivanushka]:      http://acm.timus.ru/problem.aspx?space=1&num=1082
 [Factorials!!!]:       http://acm.timus.ru/problem.aspx?space=1&num=1083
 [Goat in the Garden]:  http://acm.timus.ru/problem.aspx?space=1&num=1084
@@ -39,6 +41,7 @@
 [democracy_in_danger.cpp]: democracy_in_danger.cpp
 [stars.cpp]:               stars.cpp
 [sum.cpp]:                 sum.cpp
+[maximum.cpp]:             maximum.cpp
 [map_coloring.cpp]:        map_coloring.cpp
 [gaby_ivanushka.cpp]:      gaby_ivanushka.cpp
 [factorials!!!.cpp]:       factorials!!!.cpp
