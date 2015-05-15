@@ -2,6 +2,7 @@
 
 |  ID  |        Problem statement        |              Solution               |
 |:----:|:--------------------------------|:-----------------------------------:|
+| 2000 | [Grand Theft Array V][]         | [grand_theft_array_v.cpp][]         |
 | 2001 | [Mathematicians and Berries][]  | [mathematicians_and_berries.cpp][]  |
 | 2002 | [Test Task][]                   | [test_task.cpp][]                   |
 | 2005 | [Taxi for Programmers][]        | [taxi_for_programmers.cpp][]        |
@@ -13,6 +14,7 @@
 | 2031 | [Overturned Numbers][]          | [overturned_numbers.cpp][]          |
 | 2035 | [Another Dress Rehearsal][]     | [another_dress_rehearsal.cpp][]     |
 
+[Grand Theft Array V]:         http://acm.timus.ru/problem.aspx?space=1&num=2000
 [Mathematicians and Berries]:  http://acm.timus.ru/problem.aspx?space=1&num=2001
 [Test Task]:                   http://acm.timus.ru/problem.aspx?space=1&num=2002
 [Taxi for Programmers]:        http://acm.timus.ru/problem.aspx?space=1&num=2005
@@ -24,6 +26,7 @@
 [Overturned Numbers]:          http://acm.timus.ru/problem.aspx?space=1&num=2031
 [Another Dress Rehearsal]:     http://acm.timus.ru/problem.aspx?space=1&num=2035
 
+[grand_theft_array_v.cpp]:         grand_theft_array_v.cpp
 [mathematicians_and_berries.cpp]:  mathematicians_and_berries.cpp
 [test_task.cpp]:                   test_task.cpp
 [taxi_for_programmers.cpp]:        taxi_for_programmers.cpp
