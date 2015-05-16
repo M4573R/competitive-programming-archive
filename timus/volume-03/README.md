@@ -7,6 +7,7 @@
 | 1214 | [Strange Procedure][]           | [strange_procedure.cpp][]           |
 | 1224 | [Spiral][]                      | [spiral.cpp][]                      |
 | 1225 | [Flags][]                       | [flags.cpp][]                       |
+| 1226 | [esreveR redrO][]               | [esrever_redro.cpp][]               |
 | 1228 | [Array][]                       | [array.cpp][]                       |
 | 1243 | [Divorce of the Seven Dwarfs][] | [divorce_of_the_seven_dwarfs.cpp][] |
 | 1263 | [Elections][]                   | [elections.cpp][]                   |
@@ -23,6 +24,7 @@
 [Strange Procedure]:           http://acm.timus.ru/problem.aspx?space=1&num=1214
 [Spiral]:                      http://acm.timus.ru/problem.aspx?space=1&num=1224
 [Flags]:                       http://acm.timus.ru/problem.aspx?space=1&num=1225
+[esreveR redrO]:               http://acm.timus.ru/problem.aspx?space=1&num=1226
 [Array]:                       http://acm.timus.ru/problem.aspx?space=1&num=1228
 [Divorce of the Seven Dwarfs]: http://acm.timus.ru/problem.aspx?space=1&num=1243
 [Elections]:                   http://acm.timus.ru/problem.aspx?space=1&num=1263
@@ -39,6 +41,7 @@
 [strange_procedure.cpp]:           strange_procedure.cpp
 [spiral.cpp]:                      spiral.cpp
 [flags.cpp]:                       flags.cpp
+[esrever_redro.cpp]:               esrever_redro.cpp
 [array.cpp]:                       array.cpp
 [divorce_of_the_seven_dwarfs.cpp]: divorce_of_the_seven_dwarfs.cpp
 [elections.cpp]:                   elections.cpp
