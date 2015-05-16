@@ -2,6 +2,7 @@
 
 |  ID  |    Problem statement     |           Solution           |
 |:----:|:-------------------------|:----------------------------:|
+| 1711 | [Code Names][]           | [code_names.cpp][]           |
 | 1712 | [Cipher Grille][]        | [cipher_grille.cpp][]        |
 | 1723 | [Sandro's Book][]        | [sandros_book.cpp][]         |
 | 1731 | [Dill][]                 | [dill.cpp][]                 |
@@ -12,6 +13,7 @@
 | 1792 | [Hamming Code][]         | [hamming_code.cpp][]         |
 | 1796 | [Amusement Park][]       | [amusement_park.cpp][]       |
 
+[Code Names]:           http://acm.timus.ru/problem.aspx?space=1&num=1711
 [Cipher Grille]:        http://acm.timus.ru/problem.aspx?space=1&num=1712
 [Sandro's Book]:        http://acm.timus.ru/problem.aspx?space=1&num=1723
 [Dill]:                 http://acm.timus.ru/problem.aspx?space=1&num=1731
@@ -22,6 +24,7 @@
 [Hamming Code]:         http://acm.timus.ru/problem.aspx?space=1&num=1792
 [Amusement Park]:       http://acm.timus.ru/problem.aspx?space=1&num=1796
 
+[code_names.cpp]:           code_names.cpp
 [cipher_grille.cpp]:        cipher_grille.cpp
 [sandros_book.cpp]:         sandros_book.cpp
 [dill.cpp]:                 dill.cpp
