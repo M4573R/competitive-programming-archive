@@ -9,6 +9,7 @@
 | 1118 | [Nontrivial Numbers][]            | [nontrivial_numbers.cpp][]           |
 | 1119 | [Metro][]                         | [metro.cpp][]                        |
 | 1120 | [Sum of Sequential Numbers][]     | [sum_of_sequential_numbers.cpp][]    |
+| 1126 | [Magnetic Storms][]               | [magnetic_storms.cpp][]              |
 | 1131 | [Copying][]                       | [copying.cpp][]                      |
 | 1136 | [Parliament][]                    | [parliament.cpp][]                   |
 | 1139 | [City Blocks][]                   | [city_blocks.cpp][]                  |
@@ -28,6 +29,7 @@
 [Nontrivial Numbers]:            http://acm.timus.ru/problem.aspx?space=1&num=1118
 [Metro]:                         http://acm.timus.ru/problem.aspx?space=1&num=1119
 [Sum of Sequential Numbers]:     http://acm.timus.ru/problem.aspx?space=1&num=1120
+[Magnetic Storms]:               http://acm.timus.ru/problem.aspx?space=1&num=1126
 [Copying]:                       http://acm.timus.ru/problem.aspx?space=1&num=1131
 [Parliament]:                    http://acm.timus.ru/problem.aspx?space=1&num=1136
 [City Blocks]:                   http://acm.timus.ru/problem.aspx?space=1&num=1139
@@ -47,6 +49,7 @@
 [nontrivial_numbers.cpp]:           nontrivial_numbers.cpp
 [metro.cpp]:                        metro.cpp
 [sum_of_sequential_numbers.cpp]:    sum_of_sequential_numbers.cpp
+[magnetic_storms.cpp]:              magnetic_storms.cpp
 [copying.cpp]:                      copying.cpp
 [parliament.cpp]:                   parliament.cpp
 [city_blocks.cpp]:                  city_blocks.cpp
