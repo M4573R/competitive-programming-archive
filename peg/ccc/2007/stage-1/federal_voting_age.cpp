@@ -28,20 +28,13 @@ int main()
         {
             cout << "Yes";
         }
-        else if (year + 18 == 2007)
+        else if (year + 18 == 2007 && month < 2)
         {
-            if (month < 2)
-            {
-                cout << "Yes";
-            }
-            else if (month == 2 && day <= 27)
-            {
-                cout << "Yes";
-            }
-            else
-            {
-                cout << "No";
-            }
+            cout << "Yes";
+        }
+        else if (year + 18 == 2007 && month == 2 && day <= 27)
+        {
+            cout << "Yes";
         }
         else
         {
