@@ -28,6 +28,7 @@
 | 1037 | [Interval][]                    | [interval.cpp][]                    |
 | 1038 | [Snack][]                       | [snack.cpp][]                       |
 | 1040 | [Average 3][]                   | [average_3.cpp][]                   |
+| 1041 | [Coordinates of a Point][]      | [coordinates_of_a_point.cpp][]      |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -55,6 +56,7 @@
 [Interval]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1037
 [Snack]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1038
 [Average 3]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1040
+[Coordinates of a Point]:      https://www.urionlinejudge.com.br/judge/en/problems/view/1041
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -82,3 +84,4 @@
 [interval.cpp]:                    interval.cpp
 [snack.cpp]:                       snack.cpp
 [average_3.cpp]:                   average_3.cpp
+[coordinates_of_a_point.cpp]:      coordinates_of_a_point.cpp
