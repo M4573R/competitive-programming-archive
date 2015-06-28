@@ -32,6 +32,7 @@
 | 1042 | [Simple Sort][]                 | [simple_sort.cpp][]                 |
 | 1043 | [Triangle][]                    | [triangle.cpp][]                    |
 | 1044 | [Multiples][]                   | [multiples.cpp][]                   |
+| 1045 | [Triangle Types][]              | [triangle_types.cpp][]              |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -63,6 +64,7 @@
 [Simple Sort]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1042
 [Triangle]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1043
 [Multiples]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1044
+[Triangle Types]:              https://www.urionlinejudge.com.br/judge/en/problems/view/1045
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -94,3 +96,4 @@
 [simple_sort.cpp]:                 simple_sort.cpp
 [triangle.cpp]:                    triangle.cpp
 [multiples.cpp]:                   multiples.cpp
+[triangle_types.cpp]:              triangle_types.cpp
