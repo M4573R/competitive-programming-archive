@@ -39,6 +39,7 @@
 | 1049 | [Animal][]                      | [animal.cpp][]                      |
 | 1050 | [DDD][]                         | [ddd.cpp][]                         |
 | 1051 | [Taxes][]                       | [taxes.cpp][]                       |
+| 1052 | [Month][]                       | [month.cpp][]                       |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -77,6 +78,7 @@
 [Animal]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1049
 [DDD]:                         https://www.urionlinejudge.com.br/judge/en/problems/view/1050
 [Taxes]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1051
+[Month]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1052
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -115,3 +117,4 @@
 [animal.cpp]:                      animal.cpp
 [ddd.cpp]:                         ddd.cpp
 [taxes.cpp]:                       taxes.cpp
+[month.cpp]:                       month.cpp
