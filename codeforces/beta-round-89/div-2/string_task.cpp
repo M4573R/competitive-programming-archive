@@ -5,22 +5,25 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-inline bool is_vowel(char symbol)
+inline
+bool is_vowel(char symbol)
 {
-    static set<char> vowels = {
+    static set<char> vowels {
         'a', 'o', 'y', 'e', 'u', 'i', 'A', 'O', 'Y', 'E', 'U', 'I'
     };
 
-    return vowels.find(symbol) != vowels.end();
+    return vowels.count(symbol);
 }
 
-inline bool is_consonant(char symbol)
+inline
+bool is_consonant(char symbol)
 {
     return isalpha(symbol) && !is_vowel(symbol);
 }
@@ -34,12 +37,12 @@ int main()
 
     string output;
 
-    for (string::const_iterator i = input.cbegin(); i != input.cend(); ++i)
+    for (auto symbol : input)
     {
-        if (is_consonant(*i))
+        if (is_consonant(symbol))
         {
             output += '.';
-            output += tolower(*i);
+            output += tolower(symbol);
         }
     }
 
