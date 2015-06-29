@@ -42,6 +42,7 @@
 | 1052 | [Month][]                       | [month.cpp][]                       |
 | 1059 | [Even Numbers][]                | [even_numbers.cpp][]                |
 | 1060 | [Positive Numbers][]            | [positive_numbers.cpp][]            |
+| 1061 | [Event Time][]                  | [event_time.cpp][]                  |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -83,6 +84,7 @@
 [Month]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1052
 [Even Numbers]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1059
 [Positive Numbers]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1060
+[Event Time]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1061
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -124,3 +126,4 @@
 [month.cpp]:                       month.cpp
 [even_numbers.cpp]:                even_numbers.cpp
 [positive_numbers.cpp]:            positive_numbers.cpp
+[event_time.cpp]:                  event_time.cpp
