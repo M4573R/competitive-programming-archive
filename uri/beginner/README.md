@@ -47,6 +47,7 @@
 | 1065 | [Even Between five Numbers][]        | [even_between_five_numbers.cpp][]      |
 | 1066 | [Even, Odd, Positive and Negative][] | [even_odd_positive_and_negative.cpp][] |
 | 1067 | [Odd Numbers][]                      | [odd_numbers.cpp][]                    |
+| 1070 | [Six Odd Numbers][]                  | [six_odd_numbers.cpp][]                |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -93,6 +94,7 @@
 [Even Between five Numbers]:        https://www.urionlinejudge.com.br/judge/en/problems/view/1065
 [Even, Odd, Positive and Negative]: https://www.urionlinejudge.com.br/judge/en/problems/view/1066
 [Odd Numbers]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1067
+[Six Odd Numbers]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1070
 
 [extremely_basic.cpp]:                extremely_basic.cpp
 [area_of_a_circle.cpp]:               area_of_a_circle.cpp
@@ -139,3 +141,4 @@
 [even_between_five_numbers.cpp]:      even_between_five_numbers.cpp
 [even_odd_positive_and_negative.cpp]: even_odd_positive_and_negative.cpp
 [odd_numbers.cpp]:                    odd_numbers.cpp
+[six_odd_numbers.cpp]:                six_odd_numbers.cpp
