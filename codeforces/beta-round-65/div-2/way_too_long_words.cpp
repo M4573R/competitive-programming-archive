@@ -1,14 +1,16 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-inline void use_io_optimizations()
+constexpr unsigned int normal_word_limit {10};
+
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
-
-constexpr int normal_word_limit {10};
 
 int main()
 {
