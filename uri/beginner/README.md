@@ -38,6 +38,7 @@
 | 1048 | [Salary Increase][]             | [salary_increase.cpp][]             |
 | 1049 | [Animal][]                      | [animal.cpp][]                      |
 | 1050 | [DDD][]                         | [ddd.cpp][]                         |
+| 1051 | [Taxes][]                       | [taxes.cpp][]                       |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -75,6 +76,7 @@
 [Salary Increase]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1048
 [Animal]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1049
 [DDD]:                         https://www.urionlinejudge.com.br/judge/en/problems/view/1050
+[Taxes]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1051
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -112,3 +114,4 @@
 [salary_increase.cpp]:             salary_increase.cpp
 [animal.cpp]:                      animal.cpp
 [ddd.cpp]:                         ddd.cpp
+[taxes.cpp]:                       taxes.cpp
