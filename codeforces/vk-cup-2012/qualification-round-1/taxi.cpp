@@ -1,10 +1,11 @@
-#include <cmath>
+#include <algorithm>
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -17,7 +18,7 @@ int main()
     unsigned int groups_count;
     cin >> groups_count;
 
-    vector<unsigned int> groups_per_size(5, 0);
+    vector<unsigned int> groups_per_size(5);
 
     for (unsigned int i {0}; i < groups_count; ++i)
     {
@@ -27,21 +28,14 @@ int main()
         ++groups_per_size[group_size];
     }
 
-    unsigned int taxis = (ceil(groups_per_size[2] / 2.0) +
-                          groups_per_size[3] +
-                          groups_per_size[4]);
+    unsigned int taxis {
+        groups_per_size[2] / 2 + groups_per_size[3] + groups_per_size[4]
+    };
 
-    if (groups_per_size[1] > groups_per_size[3])
-    {
-        unsigned int difference {groups_per_size[1] - groups_per_size[3]};
+    groups_per_size[1] -= min(groups_per_size[1], groups_per_size[3]);
+    groups_per_size[2] %= 2;
 
-        if (groups_per_size[2] % 2 != 0)
-        {
-            difference = difference > 2 ? difference - 2 : 0;
-        }
-
-        taxis += ceil(difference / 4.0);
-    }
+    taxis += (2 * groups_per_size[2] + groups_per_size[1] + 3) / 4;
 
     cout << taxis << '\n';
 
