@@ -3,7 +3,8 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -20,29 +21,22 @@ int main()
 
     vector<unsigned int> scores(participants);
 
-    for (unsigned int i {0}; i < participants; ++i)
+    for (auto& score : scores)
     {
-        cin >> scores[i];
+        cin >> score;
     }
 
-    unsigned int i = kth_finisher - 1;
+    unsigned int advanced {0};
 
-    if (scores[i] == 0)
+    for (auto score : scores)
     {
-        while (i > 0 && scores[i] == scores[i - 1])
+        if (score > 0 && score >= scores[kth_finisher - 1])
         {
-            --i;
-        }
-    }
-    else
-    {
-        while (i < participants && scores[i] == scores[kth_finisher - 1])
-        {
-            ++i;
+            ++advanced;
         }
     }
 
-    cout << i << '\n';
+    cout << advanced << '\n';
 
     return 0;
 }
