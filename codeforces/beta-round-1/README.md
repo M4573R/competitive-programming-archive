@@ -1,9 +1,9 @@
 # Beta Round #1
 
-* [Theatre Square][]
-* [Spreadsheet][]
-* [Ancient Berland Circus][]
+* [A. Theatre Square][]
+* [B. Spreadsheet][]
+* [C. Ancient Berland Circus][]
 
-[Theatre Square]:         http://codeforces.com/contest/1/problem/A
-[Spreadsheet]:            http://codeforces.com/contest/1/problem/B
-[Ancient Berland Circus]: http://codeforces.com/contest/1/problem/C
+[A. Theatre Square]:         http://codeforces.com/contest/1/problem/A
+[B. Spreadsheet]:            http://codeforces.com/contest/1/problem/B
+[C. Ancient Berland Circus]: http://codeforces.com/contest/1/problem/C
