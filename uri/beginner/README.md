@@ -34,6 +34,7 @@
 | 1044 | [Multiples][]                   | [multiples.cpp][]                   |
 | 1045 | [Triangle Types][]              | [triangle_types.cpp][]              |
 | 1046 | [Game Time][]                   | [game_time.cpp][]                   |
+| 1047 | [Game Time with Minutes][]      | [game_time_with_minutes.cpp][]      |
 
 [Extremely Basic]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -67,6 +68,7 @@
 [Multiples]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1044
 [Triangle Types]:              https://www.urionlinejudge.com.br/judge/en/problems/view/1045
 [Game Time]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1046
+[Game Time with Minutes]:      https://www.urionlinejudge.com.br/judge/en/problems/view/1047
 
 [extremely_basic.cpp]:             extremely_basic.cpp
 [area_of_a_circle.cpp]:            area_of_a_circle.cpp
@@ -100,3 +102,4 @@
 [multiples.cpp]:                   multiples.cpp
 [triangle_types.cpp]:              triangle_types.cpp
 [game_time.cpp]:                   game_time.cpp
+[game_time_with_minutes.cpp]:      game_time_with_minutes.cpp
