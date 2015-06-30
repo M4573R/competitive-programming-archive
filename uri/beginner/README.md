@@ -84,6 +84,7 @@
 | 1153 | [Simple Factorial][]                 | [simple_factorial.cpp][]                 |
 | 1154 | [Ages][]                             | [ages.cpp][]                             |
 | 1155 | [S Sequence][]                       | [s_sequence.cpp][]                       |
+| 1156 | [S Sequence II][]                    | [s_sequence2.cpp][]                      |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -167,6 +168,7 @@
 [Simple Factorial]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1153
 [Ages]:                             https://www.urionlinejudge.com.br/judge/en/problems/view/1154
 [S Sequence]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1155
+[S Sequence II]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1156
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -250,3 +252,4 @@
 [simple_factorial.cpp]:                 simple_factorial.cpp
 [ages.cpp]:                             ages.cpp
 [s_sequence.cpp]:                       s_sequence.cpp
+[s_sequence2.cpp]:                      s_sequence2.cpp
