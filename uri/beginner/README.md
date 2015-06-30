@@ -91,6 +91,7 @@
 | 1160 | [Population Increase][]                | [population_increase.cpp][]              |
 | 1164 | [Perfect Number][]                     | [perfect_number.cpp][]                   |
 | 1165 | [Prime Number][]                       | [prime_number.cpp][]                     |
+| 1172 | [Array Replacement I][]                | [array_replacement_1.cpp][]              |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -181,6 +182,7 @@
 [Population Increase]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1160
 [Perfect Number]:                     https://www.urionlinejudge.com.br/judge/en/problems/view/1164
 [Prime Number]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1165
+[Array Replacement I]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1172
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -271,3 +273,4 @@
 [population_increase.cpp]:              population_increase.cpp
 [perfect_number.cpp]:                   perfect_number.cpp
 [prime_number.cpp]:                     prime_number.cpp
+[array_replacement_1.cpp]:              array_replacement_1.cpp
