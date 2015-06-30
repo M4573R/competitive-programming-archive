@@ -80,6 +80,7 @@
 | 1146 | [Growing Sequences][]                | [growing_sequences.cpp][]                |
 | 1149 | [Summing Consecutive Integers][]     | [summing_consecutive_integers.cpp][]     |
 | 1150 | [Exceeding Z][]                      | [exceeding_z.cpp][]                      |
+| 1151 | [Easy Fibonacci][]                   | [easy_fibonacci.cpp][]                   |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -159,6 +160,7 @@
 [Growing Sequences]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1146
 [Summing Consecutive Integers]:     https://www.urionlinejudge.com.br/judge/en/problems/view/1149
 [Exceeding Z]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1150
+[Easy Fibonacci]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1151
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -238,3 +240,4 @@
 [growing_sequences.cpp]:                growing_sequences.cpp
 [summing_consecutive_integers.cpp]:     summing_consecutive_integers.cpp
 [exceeding_z.cpp]:                      exceeding_z.cpp
+[easy_fibonacci.cpp]:                   easy_fibonacci.cpp
