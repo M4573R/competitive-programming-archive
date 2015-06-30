@@ -76,6 +76,7 @@
 | 1142 | [PUM][]                              | [pum.cpp][]                              |
 | 1143 | [Squared and Cubic][]                | [squared_and_cubic.cpp][]                |
 | 1144 | [Logical Sequence][]                 | [logical_sequence.cpp][]                 |
+| 1145 | [Logical Sequence 2][]               | [logical_sequence2.cpp][]                |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -151,6 +152,7 @@
 [PUM]:                              https://www.urionlinejudge.com.br/judge/en/problems/view/1142
 [Squared and Cubic]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1143
 [Logical Sequence]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1144
+[Logical Sequence 2]:               https://www.urionlinejudge.com.br/judge/en/problems/view/1145
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -226,3 +228,4 @@
 [pum.cpp]:                              pum.cpp
 [squared_and_cubic.cpp]:                squared_and_cubic.cpp
 [logical_sequence.cpp]:                 logical_sequence.cpp
+[logical_sequence2.cpp]:                logical_sequence2.cpp
