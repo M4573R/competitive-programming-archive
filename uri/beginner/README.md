@@ -60,6 +60,7 @@
 | 1095 | [Sequence IJ 1][]                    | [sequence_ij_1.cpp][]                    |
 | 1096 | [Sequence IJ 2][]                    | [sequence_ij_2.cpp][]                    |
 | 1097 | [Sequence IJ 3][]                    | [sequence_ij_3.cpp][]                    |
+| 1098 | [Sequence IJ 4][]                    | [sequence_ij_4.cpp][]                    |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -119,6 +120,7 @@
 [Sequence IJ 1]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1095
 [Sequence IJ 2]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1096
 [Sequence IJ 3]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1097
+[Sequence IJ 4]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1098
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -178,3 +180,4 @@
 [sequence_ij_1.cpp]:                    sequence_ij_1.cpp
 [sequence_ij_2.cpp]:                    sequence_ij_2.cpp
 [sequence_ij_3.cpp]:                    sequence_ij_3.cpp
+[sequence_ij_4.cpp]:                    sequence_ij_4.cpp
