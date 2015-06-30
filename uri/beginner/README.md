@@ -88,6 +88,7 @@
 | 1157 | [Divisors I][]                         | [divisors1.cpp][]                        |
 | 1158 | [Sum of Consecutive Odd Numbers III][] | [sum_of_consecutive_odd_numbers_3.cpp][] |
 | 1159 | [Sum of Consecutive Even Numbers][]    | [sum_of_consecutive_even_numbers.cpp][]  |
+| 1160 | [Population Increase][]                | [population_increase.cpp][]              |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -175,6 +176,7 @@
 [Divisors I]:                         https://www.urionlinejudge.com.br/judge/en/problems/view/1157
 [Sum of Consecutive Odd Numbers III]: https://www.urionlinejudge.com.br/judge/en/problems/view/1158 
 [Sum of Consecutive Even Numbers]:    https://www.urionlinejudge.com.br/judge/en/problems/view/1159
+[Population Increase]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1160
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -262,3 +264,4 @@
 [divisors1.cpp]:                        divisors1.cpp
 [sum_of_consecutive_odd_numbers_3.cpp]: sum_of_consecutive_odd_numbers_3.cpp
 [sum_of_consecutive_even_numbers.cpp]:  sum_of_consecutive_even_numbers.cpp
+[population_increase.cpp]:              population_increase.cpp
