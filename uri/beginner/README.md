@@ -71,6 +71,7 @@
 | 1118 | [Several Scores with Validation][]   | [several_scores_with_validation.cpp][]   |
 | 1131 | [Grenais][]                          | [grenais.cpp][]                          |
 | 1132 | [Multiples of 13][]                  | [multiples_of_13.cpp][]                  |
+| 1133 | [Rest of a Division][]               | [rest_of_a_division.cpp][]               |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -141,6 +142,7 @@
 [Several Scores with Validation]:   https://www.urionlinejudge.com.br/judge/en/problems/view/1118
 [Grenais]:                          https://www.urionlinejudge.com.br/judge/en/problems/view/1131
 [Multiples of 13]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1132
+[Rest of a Division]:               https://www.urionlinejudge.com.br/judge/en/problems/view/1133
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -211,3 +213,4 @@
 [several_scores_with_validation.cpp]:   several_scores_with_validation.cpp
 [grenais.cpp]:                          grenais.cpp
 [multiples_of_13.cpp]:                  multiples_of_13.cpp
+[rest_of_a_division.cpp]:               rest_of_a_division.cpp
