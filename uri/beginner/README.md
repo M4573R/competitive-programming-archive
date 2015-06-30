@@ -67,6 +67,7 @@
 | 1114 | [Fixed Password][]                   | [fixed_password.cpp][]                   |
 | 1115 | [Quadrant][]                         | [quadrant.cpp][]                         |
 | 1116 | [Dividing X by Y][]                  | [dividing_x_by_y.cpp][]                  |
+| 1117 | [Score Validation][]                 | [score_validation.cpp][]                 |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -133,6 +134,7 @@
 [Fixed Password]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1114
 [Quadrant]:                         https://www.urionlinejudge.com.br/judge/en/problems/view/1115
 [Dividing X by Y]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1116
+[Score Validation]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1117
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -199,3 +201,4 @@
 [fixed_password.cpp]:                   fixed_password.cpp
 [quadrant.cpp]:                         quadrant.cpp
 [dividing_x_by_y.cpp]:                  dividing_x_by_y.cpp
+[score_validation.cpp]:                 score_validation.cpp
