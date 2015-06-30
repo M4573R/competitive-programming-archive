@@ -74,6 +74,7 @@
 | 1133 | [Rest of a Division][]               | [rest_of_a_division.cpp][]               |
 | 1134 | [Type of Fuel][]                     | [type_of_fuel.cpp][]                     |
 | 1142 | [PUM][]                              | [pum.cpp][]                              |
+| 1143 | [Squared and Cubic][]                | [squared_and_cubic.cpp][]                |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -147,6 +148,7 @@
 [Rest of a Division]:               https://www.urionlinejudge.com.br/judge/en/problems/view/1133
 [Type of Fuel]:                     https://www.urionlinejudge.com.br/judge/en/problems/view/1134
 [PUM]:                              https://www.urionlinejudge.com.br/judge/en/problems/view/1142
+[Squared and Cubic]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1143
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -220,3 +222,4 @@
 [rest_of_a_division.cpp]:               rest_of_a_division.cpp
 [type_of_fuel.cpp]:                     type_of_fuel.cpp
 [pum.cpp]:                              pum.cpp
+[squared_and_cubic.cpp]:                squared_and_cubic.cpp
