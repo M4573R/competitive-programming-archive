@@ -54,6 +54,7 @@
 | 1074 | [Even or Odd][]                      | [even_or_odd.cpp][]                      |
 | 1075 | [Remaining 2][]                      | [remaining2.cpp][]                       |
 | 1078 | [Multiplication Table][]             | [multiplication_table.cpp][]             |
+| 1079 | [Weighted Averages][]                | [weighted_averages.cpp][]                |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -107,6 +108,7 @@
 [Even or Odd]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1074
 [Remaining 2]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1075
 [Multiplication Table]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1078
+[Weighted Averages]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1079
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -160,3 +162,4 @@
 [even_or_odd.cpp]:                      even_or_odd.cpp
 [remaining2.cpp]:                       remaining2.cpp
 [multiplication_table.cpp]:             multiplication_table.cpp
+[weighted_averages.cpp]:                weighted_averages.cpp
