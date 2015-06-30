@@ -55,6 +55,7 @@
 | 1075 | [Remaining 2][]                      | [remaining2.cpp][]                       |
 | 1078 | [Multiplication Table][]             | [multiplication_table.cpp][]             |
 | 1079 | [Weighted Averages][]                | [weighted_averages.cpp][]                |
+| 1080 | [Highest and Position][]             | [highest_and_position.cpp][]             |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -109,6 +110,7 @@
 [Remaining 2]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1075
 [Multiplication Table]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1078
 [Weighted Averages]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1079
+[Highest and Position]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1080
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -163,3 +165,4 @@
 [remaining2.cpp]:                       remaining2.cpp
 [multiplication_table.cpp]:             multiplication_table.cpp
 [weighted_averages.cpp]:                weighted_averages.cpp
+[highest_and_position.cpp]:             highest_and_position.cpp
