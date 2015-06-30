@@ -58,6 +58,7 @@
 | 1080 | [Highest and Position][]             | [highest_and_position.cpp][]             |
 | 1094 | [Experiments][]                      | [experiments.cpp][]                      |
 | 1095 | [Sequence IJ 1][]                    | [sequence_ij_1.cpp][]                    |
+| 1096 | [Sequence IJ 2][]                    | [sequence_ij_2.cpp][]                    |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -115,6 +116,7 @@
 [Highest and Position]:             https://www.urionlinejudge.com.br/judge/en/problems/view/1080
 [Experiments]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1094
 [Sequence IJ 1]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1095
+[Sequence IJ 2]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1096
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -172,3 +174,4 @@
 [highest_and_position.cpp]:             highest_and_position.cpp
 [experiments.cpp]:                      experiments.cpp
 [sequence_ij_1.cpp]:                    sequence_ij_1.cpp
+[sequence_ij_2.cpp]:                    sequence_ij_2.cpp
