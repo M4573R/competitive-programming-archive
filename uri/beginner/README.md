@@ -78,6 +78,7 @@
 | 1144 | [Logical Sequence][]                 | [logical_sequence.cpp][]                 |
 | 1145 | [Logical Sequence 2][]               | [logical_sequence2.cpp][]                |
 | 1146 | [Growing Sequences][]                | [growing_sequences.cpp][]                |
+| 1149 | [Summing Consecutive Integers][]     | [summing_consecutive_integers.cpp][]     |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -155,6 +156,7 @@
 [Logical Sequence]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1144
 [Logical Sequence 2]:               https://www.urionlinejudge.com.br/judge/en/problems/view/1145
 [Growing Sequences]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1146
+[Summing Consecutive Integers]:     https://www.urionlinejudge.com.br/judge/en/problems/view/1149
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -232,3 +234,4 @@
 [logical_sequence.cpp]:                 logical_sequence.cpp
 [logical_sequence2.cpp]:                logical_sequence2.cpp
 [growing_sequences.cpp]:                growing_sequences.cpp
+[summing_consecutive_integers.cpp]:     summing_consecutive_integers.cpp
