@@ -66,6 +66,7 @@
 | 1113 | [Ascending and Descending][]         | [anscending_and_descending.cpp][]        |
 | 1114 | [Fixed Password][]                   | [fixed_password.cpp][]                   |
 | 1115 | [Quadrant][]                         | [quadrant.cpp][]                         |
+| 1116 | [Dividing X by Y][]                  | [dividing_x_by_y.cpp][]                  |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -131,6 +132,7 @@
 [Ascending and Descending]:         https://www.urionlinejudge.com.br/judge/en/problems/view/1113
 [Fixed Password]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1114
 [Quadrant]:                         https://www.urionlinejudge.com.br/judge/en/problems/view/1115
+[Dividing X by Y]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1116
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -196,3 +198,4 @@
 [anscending_and_descending.cpp]:        anscending_and_descending.cpp
 [fixed_password.cpp]:                   fixed_password.cpp
 [quadrant.cpp]:                         quadrant.cpp
+[dividing_x_by_y.cpp]:                  dividing_x_by_y.cpp
