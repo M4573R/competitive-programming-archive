@@ -51,6 +51,7 @@
 | 1071 | [Sum of Consecutive Odd Numbers I][] | [sum_of_consecutive_odd_numbers_1.cpp][] |
 | 1072 | [Interval 2][]                       | [interval2.cpp][]                        |
 | 1073 | [Even Square][]                      | [even_square.cpp][]                      |
+| 1074 | [Even or Odd][]                      | [even_or_odd.cpp][]                      |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -101,6 +102,7 @@
 [Sum of Consecutive Odd Numbers I]: https://www.urionlinejudge.com.br/judge/en/problems/view/1071
 [Interval 2]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1072
 [Even Square]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1073
+[Even or Odd]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1074
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -151,3 +153,4 @@
 [sum_of_consecutive_odd_numbers_1.cpp]: sum_of_consecutive_odd_numbers_1.cpp
 [interval2.cpp]:                        interval2.cpp
 [even_square.cpp]:                      even_square.cpp
+[even_or_odd.cpp]:                      even_or_odd.cpp
