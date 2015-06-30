@@ -63,6 +63,7 @@
 | 1098 | [Sequence IJ 4][]                    | [sequence_ij_4.cpp][]                    |
 | 1099 | [Sum of Consecutive Odd Numbers 2][] | [sum_of_consecutive_odd_numbers_2.cpp][] |
 | 1101 | [Sequence of Numbers and Sum][]      | [sequence_of_numbers_and_sum.cpp][]      |
+| 1113 | [Ascending and Descending][]         | [anscending_and_descending.cpp][]        |
 
 [Extremely Basic]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                 https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -125,6 +126,7 @@
 [Sequence IJ 4]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1098
 [Sum of Consecutive Odd Numbers 2]: https://www.urionlinejudge.com.br/judge/en/problems/view/1099
 [Sequence of Numbers and Sum]:      https://www.urionlinejudge.com.br/judge/en/problems/view/1101
+[Ascending and Descending]:         https://www.urionlinejudge.com.br/judge/en/problems/view/1113
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -187,3 +189,4 @@
 [sequence_ij_4.cpp]:                    sequence_ij_4.cpp
 [sum_of_consecutive_odd_numbers_2.cpp]: sum_of_consecutive_odd_numbers_2.cpp
 [sequence_of_numbers_and_sum.cpp]:      sequence_of_numbers_and_sum.cpp
+[anscending_and_descending.cpp]:        anscending_and_descending.cpp
