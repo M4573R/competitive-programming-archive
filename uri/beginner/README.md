@@ -114,6 +114,7 @@
 | 1478 | [Square Matrix II][]                   | [square_matrix_2.cpp][]                  |
 | 1534 | [Array 123][]                          | [array_123.cpp][]                        |
 | 1541 | [Building Houses][]                    | [building_houses.cpp][]                  |
+| 1557 | [Square Matrix III][]                  | [square_matrix_3.cpp][]                  |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -227,6 +228,7 @@
 [Square Matrix II]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1478
 [Array 123]:                          https://www.urionlinejudge.com.br/judge/en/problems/view/1534
 [Building Houses]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1541
+[Square Matrix III]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1557
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -340,3 +342,4 @@
 [square_matrix_2.cpp]:                  square_matrix_2.cpp
 [array_123.cpp]:                        array_123.cpp
 [building_houses.cpp]:                  building_houses.cpp
+[square_matrix_3.cpp]:                  square_matrix_3.cpp
