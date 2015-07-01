@@ -93,6 +93,7 @@
 | 1165 | [Prime Number][]                       | [prime_number.cpp][]                     |
 | 1172 | [Array Replacement I][]                | [array_replacement_1.cpp][]              |
 | 1173 | [Array Fill I][]                       | [array_fill_1.cpp][]                     |
+| 1174 | [Array Selection I][]                  | [array_selection_1.cpp][]                |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -185,6 +186,7 @@
 [Prime Number]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1165
 [Array Replacement I]:                https://www.urionlinejudge.com.br/judge/en/problems/view/1172
 [Array Fill I]:                       https://www.urionlinejudge.com.br/judge/en/problems/view/1173
+[Array Selection I]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1174
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -277,3 +279,4 @@
 [prime_number.cpp]:                     prime_number.cpp
 [array_replacement_1.cpp]:              array_replacement_1.cpp
 [array_fill_1.cpp]:                     array_fill_1.cpp
+[array_selection_1.cpp]:                array_selection_1.cpp
