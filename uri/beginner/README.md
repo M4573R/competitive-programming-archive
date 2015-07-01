@@ -115,6 +115,7 @@
 | 1534 | [Array 123][]                          | [array_123.cpp][]                        |
 | 1541 | [Building Houses][]                    | [building_houses.cpp][]                  |
 | 1557 | [Square Matrix III][]                  | [square_matrix_3.cpp][]                  |
+| 1564 | [Brazil World Cup][]                   | [brazil_world_cup.cpp][]                 |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -229,6 +230,7 @@
 [Array 123]:                          https://www.urionlinejudge.com.br/judge/en/problems/view/1534
 [Building Houses]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1541
 [Square Matrix III]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1557
+[Brazil World Cup]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1564
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -343,3 +345,4 @@
 [array_123.cpp]:                        array_123.cpp
 [building_houses.cpp]:                  building_houses.cpp
 [square_matrix_3.cpp]:                  square_matrix_3.cpp
+[brazil_world_cup.cpp]:                 brazil_world_cup.cpp
