@@ -117,6 +117,7 @@
 | 1557 | [Square Matrix III][]                  | [square_matrix_3.cpp][]                  |
 | 1564 | [Brazil World Cup][]                   | [brazil_world_cup.cpp][]                 |
 | 1589 | [Bob Conduit][]                        | [bob_conduit.cpp][]                      |
+| 1759 | [Ho Ho Ho][]                           | [ho_ho_ho.cpp][]                         |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -233,6 +234,7 @@
 [Square Matrix III]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1557
 [Brazil World Cup]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1564
 [Bob Conduit]:                        https://www.urionlinejudge.com.br/judge/en/problems/view/1589
+[Ho Ho Ho]:                           https://www.urionlinejudge.com.br/judge/en/problems/view/1759
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -349,3 +351,4 @@
 [square_matrix_3.cpp]:                  square_matrix_3.cpp
 [brazil_world_cup.cpp]:                 brazil_world_cup.cpp
 [bob_conduit.cpp]:                      bob_conduit.cpp
+[ho_ho_ho.cpp]:                         ho_ho_ho.cpp
