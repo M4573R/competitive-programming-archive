@@ -105,6 +105,7 @@
 | 1183 | [Above the Main Diagonal][]            | [above_the_main_diagonal.cpp][]          |
 | 1184 | [Below the Main Diagonal][]            | [below_the_main_diagonal.cpp][]          |
 | 1185 | [Above the Secundary Diagonal][]       | [above_the_secundary_diagonal.cpp][]     |
+| 1186 | [Below the Secundary Diagonal][]       | [below_the_secundary_diagonal.cpp][]     |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -209,6 +210,7 @@
 [Above the Main Diagonal]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1183
 [Below the Main Diagonal]:            https://www.urionlinejudge.com.br/judge/en/problems/view/1184
 [Above the Secundary Diagonal]:       https://www.urionlinejudge.com.br/judge/en/problems/view/1185
+[Below the Secundary Diagonal]:       https://www.urionlinejudge.com.br/judge/en/problems/view/1186
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -313,3 +315,4 @@
 [above_the_main_diagonal.cpp]:          above_the_main_diagonal.cpp
 [below_the_main_diagonal.cpp]:          below_the_main_diagonal.cpp
 [above_the_secundary_diagonal.cpp]:     above_the_secundary_diagonal.cpp
+[below_the_secundary_diagonal.cpp]:     below_the_secundary_diagonal.cpp
