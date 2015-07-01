@@ -101,6 +101,7 @@
 | 1179 | [Array Fill IV][]                      | [array_fill_4.cpp][]                     |
 | 1180 | [Lowest Number and Position][]         | [lowest_number_and_position.cpp][]       |
 | 1181 | [Line in Array][]                      | [line_in_array.cpp][]                    |
+| 1182 | [Column in Array][]                    | [column_in_array.cpp][]                  |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -201,6 +202,7 @@
 [Array Fill IV]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1179
 [Lowest Number and Position]:         https://www.urionlinejudge.com.br/judge/en/problems/view/1180
 [Line in Array]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1181
+[Column in Array]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1182
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -301,3 +303,4 @@
 [array_fill_4.cpp]:                     array_fill_4.cpp
 [lowest_number_and_position.cpp]:       lowest_number_and_position.cpp
 [line_in_array.cpp]:                    line_in_array.cpp
+[column_in_array.cpp]:                  column_in_array.cpp
