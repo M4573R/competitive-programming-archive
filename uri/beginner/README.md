@@ -120,6 +120,7 @@
 | 1759 | [Ho Ho Ho][]                           | [ho_ho_ho.cpp][]                         |
 | 1789 | [The Race of Slugs][]                  | [the_race_of_slugs.cpp][]                |
 | 1827 | [Square Array IV][]                    | [square_array_4.cpp][]                   |
+| 1828 | [Bazinga!][]                           | [bazinga.cpp][]                          |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -239,6 +240,7 @@
 [Ho Ho Ho]:                           https://www.urionlinejudge.com.br/judge/en/problems/view/1759
 [The Race of Slugs]:                  https://www.urionlinejudge.com.br/judge/en/problems/view/1789
 [Square Array IV]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1827
+[Bazinga!]:                           https://www.urionlinejudge.com.br/judge/en/problems/view/1828
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -358,3 +360,4 @@
 [ho_ho_ho.cpp]:                         ho_ho_ho.cpp
 [the_race_of_slugs.cpp]:                the_race_of_slugs.cpp
 [square_array_4.cpp]:                   square_array_4.cpp
+[bazinga.cpp]:                          bazinga.cpp
