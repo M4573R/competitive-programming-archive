@@ -109,6 +109,7 @@
 | 1187 | [Superior Area][]                      | [superior_area.cpp][]                    |
 | 1188 | [Inferior Area][]                      | [inferior_area.cpp][]                    |
 | 1189 | [Left Area][]                          | [left_area.cpp][]                        |
+| 1190 | [Right Area][]                         | [right_area.cpp][]                       |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -217,6 +218,7 @@
 [Superior Area]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1187
 [Inferior Area]:                      https://www.urionlinejudge.com.br/judge/en/problems/view/1188
 [Left Area]:                          https://www.urionlinejudge.com.br/judge/en/problems/view/1189
+[Right Area]:                         https://www.urionlinejudge.com.br/judge/en/problems/view/1190
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -325,3 +327,4 @@
 [superior_area.cpp]:                    superior_area.cpp
 [inferior_area.cpp]:                    inferior_area.cpp
 [left_area.cpp]:                        left_area.cpp
+[right_area.cpp]:                       right_area.cpp
