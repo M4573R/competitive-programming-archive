@@ -112,6 +112,7 @@
 | 1190 | [Right Area][]                         | [right_area.cpp][]                       |
 | 1435 | [Square Matrix I][]                    | [square_matrix_1.cpp][]                  |
 | 1478 | [Square Matrix II][]                   | [square_matrix_2.cpp][]                  |
+| 1534 | [Array 123][]                          | [array_123.cpp][]                        |
 
 [Extremely Basic]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1001
 [Area of a Circle]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1002
@@ -223,6 +224,7 @@
 [Right Area]:                         https://www.urionlinejudge.com.br/judge/en/problems/view/1190
 [Square Matrix I]:                    https://www.urionlinejudge.com.br/judge/en/problems/view/1435
 [Square Matrix II]:                   https://www.urionlinejudge.com.br/judge/en/problems/view/1478
+[Array 123]:                          https://www.urionlinejudge.com.br/judge/en/problems/view/1534
 
 [extremely_basic.cpp]:                  extremely_basic.cpp
 [area_of_a_circle.cpp]:                 area_of_a_circle.cpp
@@ -334,3 +336,4 @@
 [right_area.cpp]:                       right_area.cpp
 [square_matrix_1.cpp]:                  square_matrix_1.cpp
 [square_matrix_2.cpp]:                  square_matrix_2.cpp
+[array_123.cpp]:                        array_123.cpp
