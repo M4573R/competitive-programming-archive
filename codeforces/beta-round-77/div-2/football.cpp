@@ -1,10 +1,10 @@
-#include <algorithm>
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -17,21 +17,17 @@ int main()
     string players;
     cin >> players;
 
-    unsigned int max_group {1};
-
-    for (auto i = players.cbegin(); i != players.cend(); ++i)
+    if (players.find("0000000") != string::npos ||
+        players.find("1111111") != string::npos)
     {
-        unsigned int current_group {1};
-
-        for (; i + 1 < players.cend() && *i == *(i + 1); ++i)
-        {
-            ++current_group;
-        }
-
-        max_group = max(max_group, current_group);
+        cout << "YES";
+    }
+    else
+    {
+        cout << "NO";
     }
 
-    cout << (max_group >= 7 ? "YES" : "NO") << '\n';
+    cout << '\n';
 
     return 0;
 }
