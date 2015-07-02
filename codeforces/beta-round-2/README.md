@@ -1,9 +1,9 @@
 # Beta Round #2
 
-* [Winner][]
-* [The least round way][]
-* [Commentator problem][]
+* [A. Winner][]
+* [B. The least round way][]
+* [C. Commentator problem][]
 
-[Winner]:              http://codeforces.com/contest/2/problem/A
-[The least round way]: http://codeforces.com/contest/2/problem/B
-[Commentator problem]: http://codeforces.com/contest/2/problem/C
+[A. Winner]:              http://codeforces.com/contest/2/problem/A
+[B. The least round way]: http://codeforces.com/contest/2/problem/B
+[C. Commentator problem]: http://codeforces.com/contest/2/problem/C

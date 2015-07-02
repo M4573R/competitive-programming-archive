@@ -1,13 +1,13 @@
 # Round #103 (Div. 2)
 
-* [Arrival of the General][]
-* [Meeting][]
-* [Anagram Search][]
-* [Missile Silos][]
-* [Competition][]
+* [A. Arrival of the General][]
+* [B. Meeting][]
+* [C. Anagram Search][]
+* [D. Missile Silos][]
+* [E. Competition][]
 
-[Arrival of the General]: http://codeforces.com/contest/144/problem/A
-[Meeting]:                http://codeforces.com/contest/144/problem/B
-[Anagram Search]:         http://codeforces.com/contest/144/problem/C
-[Missile Silos]:          http://codeforces.com/contest/144/problem/D
-[Competition]:            http://codeforces.com/contest/144/problem/E
+[A. Arrival of the General]: http://codeforces.com/contest/144/problem/A
+[B. Meeting]:                http://codeforces.com/contest/144/problem/B
+[C. Anagram Search]:         http://codeforces.com/contest/144/problem/C
+[D. Missile Silos]:          http://codeforces.com/contest/144/problem/D
+[E. Competition]:            http://codeforces.com/contest/144/problem/E
