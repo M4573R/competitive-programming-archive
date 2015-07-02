@@ -1,41 +1,18 @@
 #include <algorithm>
+#include <cctype>
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-bool is_caps_locked(const string& word)
-{
-    if (word.length() == 0)
-    {
-        return false;
-    }
-
-    if (word.length() == 1)
-    {
-        return true;
-    }
-
-    if (islower(word.front()))
-    {
-        return find_if(++word.cbegin(), word.cend(), ::islower) == word.cend();
-    }
-
-    if (isupper(word.front()))
-    {
-        return find_if(++word.cbegin(), word.cend(), ::islower) == word.cend();
-    }
-
-    return false;
-}
-
-string change_cases(const string& word)
+string invert_cases(const string& word)
 {
     string inverted_cases {word};
 
@@ -61,14 +38,16 @@ int main()
     string word;
     cin >> word;
 
-    if (is_caps_locked(word))
+    if (find_if(word.cbegin() + 1, word.cend(), ::islower) == word.cend())
     {
-        cout << change_cases(word) << '\n';
+        cout << invert_cases(word);
     }
     else
     {
-        cout << word << '\n';
+        cout << word;
     }
+
+    cout << '\n';
 
     return 0;
 }
