@@ -3,7 +3,8 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -13,21 +14,15 @@ int main()
 {
     use_io_optimizations();
 
-    unsigned int stones_count;
-    cin >> stones_count;
+    unsigned int stones;
+    cin >> stones;
 
-    string stones_colors;
-    cin >> stones_colors;
-
-    if (stones_colors.size() < 2)
-    {
-        cout << 0;
-        return 0;
-    }
+    string colors;
+    cin >> colors;
 
     unsigned int min_stones_taken {0};
 
-    for (auto i = stones_colors.cbegin(); i != stones_colors.cend() - 1; ++i)
+    for (auto i = colors.cbegin(); i != colors.cend() - 1; ++i)
     {
         if (*i == *(i + 1))
         {
@@ -35,7 +30,7 @@ int main()
         }
     }
 
-    cout << min_stones_taken;
+    cout << min_stones_taken << '\n';
 
     return 0;
 }
