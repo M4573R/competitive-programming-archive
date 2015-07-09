@@ -20,7 +20,6 @@ int main()
     string::size_type current {0};
     string::size_type next    {min(song.find("WUB", current), song.size())};
 
-
     while (current < song.size())
     {
         if (current != next)
