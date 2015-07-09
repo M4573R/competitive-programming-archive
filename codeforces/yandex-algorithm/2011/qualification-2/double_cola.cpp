@@ -1,19 +1,17 @@
 #include <iostream>
-#include <unordered_map>
+#include <string>
+#include <vector>
 
 using namespace std;
 
 constexpr unsigned int people {5};
 
-const unordered_map<unsigned int, string> names {
-    {0, "Sheldon"},
-    {1, "Leonard"},
-    {2, "Penny"},
-    {3, "Rajesh"},
-    {4, "Howard"}
+const vector<string> names {
+    "Sheldon", "Leonard", "Penny", "Rajesh", "Howard"
 };
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -33,7 +31,7 @@ int main()
         position -= iteration * people;
     }
 
-    cout << names.at((position + iteration - 1) / iteration - 1) << '\n';
+    cout << names[(position + iteration - 1) / iteration - 1] << '\n';
 
     return 0;
 }
