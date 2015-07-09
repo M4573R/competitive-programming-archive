@@ -23,19 +23,13 @@ int main()
 
     for (auto symbol : word)
     {
-        if (symbol == greeting[matches])
+        if (matches < greeting.size() && symbol == greeting[matches])
         {
             ++matches;
         }
-
-        if (matches == 5)
-        {
-            cout << "YES\n";
-            return 0;
-        }
     }
 
-    cout << "NO\n";
+    cout << (matches == greeting.size() ? "YES" : "NO") << '\n';
 
     return 0;
 }
