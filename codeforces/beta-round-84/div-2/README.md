@@ -1,4 +1,4 @@
-# Round #84 (Div. 2)
+# Beta Round #84 (Div. 2)
 
 * [A. Nearly Lucky Number][]
 * [B. Lucky String][]
