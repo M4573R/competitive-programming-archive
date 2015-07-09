@@ -1,23 +1,24 @@
-#include <algorithm>
 #include <iostream>
+#include <utility>
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-int gcd(int a, int b)
+int gcd(int left, int right)
 {
-    while (b > 0)
+    while (right > 0)
     {
-        a %= b;
-        swap(a, b);
+        left %= right;
+        swap(left, right);
     }
 
-    return a;
+    return left;
 }
 
 int main()
