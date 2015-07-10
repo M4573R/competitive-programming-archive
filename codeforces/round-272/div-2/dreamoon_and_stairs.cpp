@@ -2,7 +2,8 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -19,19 +20,14 @@ int main()
 
     if (multiples > steps)
     {
-        cout << -1 << '\n';
+        cout << -1;
     }
     else
     {
-        unsigned int min_steps {(steps + 1) / 2};
-
-        if (min_steps % multiples != 0)
-        {
-            min_steps += multiples - min_steps % multiples;
-        }
-
-        cout << min_steps << '\n';
+        cout << ((steps + 1) / 2 + multiples - 1) / multiples * multiples;
     }
+
+    cout << '\n';
 
     return 0;
 }
