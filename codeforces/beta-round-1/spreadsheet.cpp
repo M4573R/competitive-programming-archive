@@ -5,12 +5,6 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-}
-
 constexpr int alphabet_size {26};
 
 enum class NumerationSystem
@@ -18,7 +12,14 @@ enum class NumerationSystem
     First, Second
 };
 
-NumerationSystem numeration_system(string& coordinates)
+inline
+void use_io_optimizations()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+}
+
+NumerationSystem numeration_system(const string& coordinates)
 {
     if (isalpha(coordinates[1]) || coordinates.find('C', 1) == string::npos)
     {
@@ -30,7 +31,7 @@ NumerationSystem numeration_system(string& coordinates)
     }
 }
 
-string first_to_second(string& coordinates)
+string first_to_second(const string& coordinates)
 {
     ostringstream to_second;
 
@@ -48,7 +49,7 @@ string first_to_second(string& coordinates)
     return to_second.str();
 }
 
-string second_to_first(string& coordinates)
+string second_to_first(const string& coordinates)
 {
     istringstream from_second {coordinates};
     ostringstream to_first;
