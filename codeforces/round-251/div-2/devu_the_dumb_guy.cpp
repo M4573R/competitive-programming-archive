@@ -33,8 +33,8 @@ int main()
 
     for (auto count : chapters)
     {
-        min_time      += static_cast<unsigned long long>(count) * learning_time;
-        learning_time  = max(1u, learning_time - 1);
+        min_time     += static_cast<unsigned long long>(count) * learning_time;
+        learning_time = max(1u, learning_time - 1);
     }
 
     cout << min_time << '\n';
