@@ -14,7 +14,7 @@ judge archives.
 * [SPOJ](http://www.spoj.com/)
 * [UVa Online Judge](http://uva.onlinejudge.org/)
 * [ACM-ICPC Live Archive](https://icpcarchive.ecs.baylor.edu/)
-* [USACO](https://icpcarchive.ecs.baylor.edu/)
+* [USACO](http://train.usaco.org/usacogate)
 * [COCI](http://hsin.hr/coci/)
 * [CodeIT](http://codeit.bg/)
 * [Google Code Jam](https://code.google.com/codejam)
