@@ -14,6 +14,7 @@
 |   263 | [Period][]                             | [period.cpp][]                           |
 |   346 | [Bytelandian gold coins][]             | [bytelandian_gold_coins.cpp][]           |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
+|   902 | [Hangover][]                           | [hangover.cpp][]                         |
 |  1025 | [Fashion Shows][]                      | [fashion_shows.cpp][]                    |
 |  1030 | [Triple Fat Ladies][]                  | [triple_fat_ladies.cpp][]                |
 |  1043 | [Can you answer these queries I][]     | [can_you_answer_these_queries_1.cpp][]   |
@@ -47,6 +48,7 @@
 [Period]:                             http://www.spoj.com/problems/PERIOD/
 [Bytelandian gold coins]:             http://www.spoj.com/problems/COINS/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
+[Hangover]:                           http://www.spoj.com/problems/HANGOVER/
 [Fashion Shows]:                      http://www.spoj.com/problems/FASHION/
 [Triple Fat Ladies]:                  http://www.spoj.com/problems/EIGHTS/
 [Can you answer these queries I]:     http://www.spoj.com/problems/GSS1/
@@ -80,6 +82,7 @@
 [period.cpp]:                           period.cpp
 [bytelandian_gold_coins.cpp]:           bytelandian_gold_coins.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
+[hangover.cpp]:                         hangover.cpp
 [fashion_shows.cpp]:                    fashion_shows.cpp
 [triple_fat_ladies.cpp]:                triple_fat_ladies.cpp
 [can_you_answer_these_queries_1.cpp]:   can_you_answer_these_queries_1.cpp
