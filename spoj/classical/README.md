@@ -12,6 +12,7 @@
 |    54 | [Julka][]                              | [julka.cpp][]                            |
 |    61 | [Brackets][]                           | [brackets.cpp][]                         |
 |   263 | [Period][]                             | [period.cpp][]                           |
+|   346 | [Bytelandian gold coins][]             | [bytelandian_gold_coins.cpp][]           |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
 |  1025 | [Fashion Shows][]                      | [fashion_shows.cpp][]                    |
 |  1043 | [Can you answer these queries I][]     | [can_you_answer_these_queries_1.cpp][]   |
@@ -43,6 +44,7 @@
 [Julka]:                              http://www.spoj.com/problems/JULKA/
 [Brackets]:                           http://www.spoj.com/problems/BRCKTS/
 [Period]:                             http://www.spoj.com/problems/PERIOD/
+[Bytelandian gold coins]:             http://www.spoj.com/problems/COINS/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
 [Fashion Shows]:                      http://www.spoj.com/problems/FASHION/
 [Can you answer these queries I]:     http://www.spoj.com/problems/GSS1/
@@ -74,6 +76,7 @@
 [julka.cpp]:                            julka.cpp
 [brackets.cpp]:                         brackets.cpp
 [period.cpp]:                           period.cpp
+[bytelandian_gold_coins.cpp]:           bytelandian_gold_coins.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
 [fashion_shows.cpp]:                    fashion_shows.cpp
 [can_you_answer_these_queries_1.cpp]:   can_you_answer_these_queries_1.cpp
