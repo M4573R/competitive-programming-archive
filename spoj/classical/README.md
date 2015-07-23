@@ -15,6 +15,7 @@
 |   346 | [Bytelandian gold coins][]             | [bytelandian_gold_coins.cpp][]           |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
 |  1025 | [Fashion Shows][]                      | [fashion_shows.cpp][]                    |
+|  1030 | [Triple Fat Ladies][]                  | [triple_fat_ladies.cpp][]                |
 |  1043 | [Can you answer these queries I][]     | [can_you_answer_these_queries_1.cpp][]   |
 |  1112 | [Number Steps][]                       | [number_steps.cpp][]                     |
 |  1684 | [Frequent Values][]                    | [frequent_values.cpp][]                  |
@@ -47,6 +48,7 @@
 [Bytelandian gold coins]:             http://www.spoj.com/problems/COINS/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
 [Fashion Shows]:                      http://www.spoj.com/problems/FASHION/
+[Triple Fat Ladies]:                  http://www.spoj.com/problems/EIGHTS/
 [Can you answer these queries I]:     http://www.spoj.com/problems/GSS1/
 [Number Steps]:                       http://www.spoj.com/problems/NSTEPS/
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
@@ -79,6 +81,7 @@
 [bytelandian_gold_coins.cpp]:           bytelandian_gold_coins.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
 [fashion_shows.cpp]:                    fashion_shows.cpp
+[triple_fat_ladies.cpp]:                triple_fat_ladies.cpp
 [can_you_answer_these_queries_1.cpp]:   can_you_answer_these_queries_1.cpp
 [number_steps.cpp]:                     number_steps.cpp
 [frequent_values.cpp]:                  frequent_values.cpp
