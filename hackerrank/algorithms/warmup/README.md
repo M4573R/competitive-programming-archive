@@ -32,6 +32,7 @@
 | [Diagonal Difference][]      | [diagonal_difference.cpp][]     |
 | [Plus Minus][]               | [plus_minus.cpp][]              |
 | [Staircase][]                | [staircase.cpp][]               |
+| [Time Conversion][]          | [time_conversion.cpp][]         |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -63,6 +64,7 @@
 [Diagonal Difference]:     https://www.hackerrank.com/challenges/diagonal-difference
 [Plus Minus]:              https://www.hackerrank.com/challenges/plus-minus
 [Staircase]:               https://www.hackerrank.com/challenges/staircase
+[Time Conversion]:         https://www.hackerrank.com/challenges/time-conversion
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -94,3 +96,4 @@
 [diagonal_difference.cpp]:     diagonal_difference.cpp
 [plus_minus.cpp]:              plus_minus.cpp
 [staircase.cpp]:               staircase.cpp
+[time_conversion.cpp]:         time_conversion.cpp
