@@ -31,6 +31,7 @@
 | [A Very Big Sum][]           | [a_very_big_sum.cpp][]          |
 | [Diagonal Difference][]      | [diagonal_difference.cpp][]     |
 | [Plus Minus][]               | [plus_minus.cpp][]              |
+| [Staircase][]                | [staircase.cpp][]               |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -61,6 +62,7 @@
 [A Very Big Sum]:          https://www.hackerrank.com/challenges/a-very-big-sum
 [Diagonal Difference]:     https://www.hackerrank.com/challenges/diagonal-difference
 [Plus Minus]:              https://www.hackerrank.com/challenges/plus-minus
+[Staircase]:               https://www.hackerrank.com/challenges/staircase
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -91,3 +93,4 @@
 [a_very_big_sum.cpp]:          a_very_big_sum.cpp
 [diagonal_difference.cpp]:     diagonal_difference.cpp
 [plus_minus.cpp]:              plus_minus.cpp
+[staircase.cpp]:               staircase.cpp
