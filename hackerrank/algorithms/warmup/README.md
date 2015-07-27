@@ -28,6 +28,7 @@
 | [Cut the sticks][]           | [cut_the_sticks.cpp][]          |
 | [Service Lane][]             | [service_lane.cpp][]            |
 | [Manasa and Stones][]        | [manasa_and_stones.cpp][]       |
+| [A Very Big Sum][]           | [a_very_big_sum.cpp][]          |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -55,6 +56,7 @@
 [Cut the sticks]:          https://www.hackerrank.com/challenges/cut-the-sticks
 [Service Lane]:            https://www.hackerrank.com/challenges/service-lane
 [Manasa and Stones]:       https://www.hackerrank.com/challenges/manasa-and-stones
+[A Very Big Sum]:          https://www.hackerrank.com/challenges/a-very-big-sum
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -82,3 +84,4 @@
 [cut_the_sticks.cpp]:          cut_the_sticks.cpp
 [service_lane.cpp]:            service_lane.cpp
 [manasa_and_stones.cpp]:       manasa_and_stones.cpp
+[a_very_big_sum.cpp]:          a_very_big_sum.cpp
