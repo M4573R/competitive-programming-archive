@@ -33,6 +33,7 @@
 | [Plus Minus][]               | [plus_minus.cpp][]              |
 | [Staircase][]                | [staircase.cpp][]               |
 | [Time Conversion][]          | [time_conversion.cpp][]         |
+| [Library Fine][]             | [library_fine.cpp][]            |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -65,6 +66,7 @@
 [Plus Minus]:              https://www.hackerrank.com/challenges/plus-minus
 [Staircase]:               https://www.hackerrank.com/challenges/staircase
 [Time Conversion]:         https://www.hackerrank.com/challenges/time-conversion
+[Library Fine]:            https://www.hackerrank.com/challenges/library-fine
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -97,3 +99,4 @@
 [plus_minus.cpp]:              plus_minus.cpp
 [staircase.cpp]:               staircase.cpp
 [time_conversion.cpp]:         time_conversion.cpp
+[library_fine.cpp]:            library_fine.cpp
