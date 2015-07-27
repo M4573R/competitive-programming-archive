@@ -30,6 +30,7 @@
 | [Manasa and Stones][]        | [manasa_and_stones.cpp][]       |
 | [A Very Big Sum][]           | [a_very_big_sum.cpp][]          |
 | [Diagonal Difference][]      | [diagonal_difference.cpp][]     |
+| [Plus Minus][]               | [plus_minus.cpp][]              |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -59,6 +60,7 @@
 [Manasa and Stones]:       https://www.hackerrank.com/challenges/manasa-and-stones
 [A Very Big Sum]:          https://www.hackerrank.com/challenges/a-very-big-sum
 [Diagonal Difference]:     https://www.hackerrank.com/challenges/diagonal-difference
+[Plus Minus]:              https://www.hackerrank.com/challenges/plus-minus
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -88,3 +90,4 @@
 [manasa_and_stones.cpp]:       manasa_and_stones.cpp
 [a_very_big_sum.cpp]:          a_very_big_sum.cpp
 [diagonal_difference.cpp]:     diagonal_difference.cpp
+[plus_minus.cpp]:              plus_minus.cpp
