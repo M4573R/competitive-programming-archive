@@ -35,6 +35,7 @@
 | [Time Conversion][]          | [time_conversion.cpp][]         |
 | [Library Fine][]             | [library_fine.cpp][]            |
 | [Caesar Cipher][]            | [caesar_cipher.cpp][]           |
+| [Extra long factorials][]    | [extra_long_factorials.cpp][]   |
 
 [Solve me first]:          https://www.hackerrank.com/challenges/solve-me-first
 [Lonely Integer]:          https://www.hackerrank.com/challenges/lonely-integer
@@ -69,6 +70,7 @@
 [Time Conversion]:         https://www.hackerrank.com/challenges/time-conversion
 [Library Fine]:            https://www.hackerrank.com/challenges/library-fine
 [Caesar Cipher]:           https://www.hackerrank.com/challenges/caesar-cipher-1
+[Extra long factorials]:   https://www.hackerrank.com/challenges/extra-long-factorials
 
 [solve_me_first.cpp]:          solve_me_first.cpp
 [lonely_integer.cpp]:          lonely_integer.cpp
@@ -103,3 +105,4 @@
 [time_conversion.cpp]:         time_conversion.cpp
 [library_fine.cpp]:            library_fine.cpp
 [caesar_cipher.cpp]:           caesar_cipher.cpp
+[extra_long_factorials.cpp]:   extra_long_factorials.cpp
