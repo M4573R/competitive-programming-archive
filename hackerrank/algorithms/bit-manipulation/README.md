@@ -1,9 +1,15 @@
 # Bit Manipulation
 
-| Problem Statement |       Solution        |
-|:------------------|:---------------------:|
-| [Flipping bits][] | [flipping_bits.cpp][] |
+| Problem Statement  |        Solution        |
+|:-------------------|:----------------------:|
+| [Lonely Integer][] | [lonely_integer.cpp][] |
+| [Maximizing XOR][] | [maximizing_xor.cpp][] |
+| [Flipping bits][]  | [flipping_bits.cpp][]  |
 
-[Flipping bits]: https://www.hackerrank.com/challenges/flipping-bits
+[Lonely Integer]: https://www.hackerrank.com/challenges/lonely-integer
+[Maximizing XOR]: https://www.hackerrank.com/challenges/utopian-tree
+[Flipping bits]:  https://www.hackerrank.com/challenges/flipping-bits
 
-[flipping_bits.cpp]: flipping_bits.cpp
+[lonely_integer.cpp]: lonely_integer.cpp
+[maximizing_xor.cpp]: maximizing_xor.cpp
+[flipping_bits.cpp]:  flipping_bits.cpp
