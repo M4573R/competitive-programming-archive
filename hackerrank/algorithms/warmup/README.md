@@ -1,6 +1,6 @@
 # Warmup
 
-|     Problem Statement     |           Solution            |
+|     Problem statement     |           Solution            |
 |:--------------------------|:-----------------------------:|
 | [Solve me first][]        | [solve_me_first.cpp][]        |
 | [Solve me second][]       | [solve_me_second.cpp][]       |
