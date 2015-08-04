@@ -15,6 +15,7 @@
 | [Diwali Lights][]             | [diwali_lights.cpp][]             |
 | [Summing the N series][]      | [summing_the_n_series.cpp][]      |
 | [Even Odd Query][]            | [even_odd_query.cpp][]            |
+| [Sherlock and Permutations][] | [sherlock_and_permutations.cpp][] |
 | [Halloween party][]           | [halloween_party.cpp][]           |
 | [Filling Jars][]              | [filling_jars.cpp][]              |
 | [Is Fibo][]                   | [is_fibo.cpp][]                   |
@@ -32,6 +33,7 @@
 [Diwali Lights]:             https://www.hackerrank.com/challenges/diwali-lights
 [Summing the N series]:      https://www.hackerrank.com/challenges/summing-the-n-series
 [Even Odd Query]:            https://www.hackerrank.com/challenges/even-odd-query
+[Sherlock and Permutations]: https://www.hackerrank.com/challenges/sherlock-and-permutations
 [Halloween party]:           https://www.hackerrank.com/challenges/halloween-party
 [Filling Jars]:              https://www.hackerrank.com/challenges/filling-jars
 [Is Fibo]:                   https://www.hackerrank.com/challenges/is-fibo
@@ -49,6 +51,7 @@
 [diwali_lights.cpp]:             diwali_lights.cpp
 [summing_the_n_series.cpp]:      summing_the_n_series.cpp
 [even_odd_query.cpp]:            even_odd_query.cpp
+[sherlock_and_permutations.cpp]: sherlock_and_permutations.cpp
 [halloween_party.cpp]:           halloween_party.cpp
 [filling_jars.cpp]:              filling_jars.cpp
 [is_fibo.cpp]:                   is_fibo.cpp
