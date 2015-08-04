@@ -9,6 +9,7 @@
 | [Restaurant][]                | [restaurant.cpp][]                |
 | [Connecting Towns][]          | [connecting_towns.cpp][]          |
 | [Handshake][]                 | [handshake.cpp][]                 |
+| [Reverse Game][]              | [reverse_game.cpp][]              |
 | [Halloween party][]           | [halloween_party.cpp][]           |
 | [Filling Jars][]              | [filling_jars.cpp][]              |
 | [Is Fibo][]                   | [is_fibo.cpp][]                   |
@@ -20,6 +21,7 @@
 [Restaurant]:                https://www.hackerrank.com/challenges/restaurant
 [Connecting Towns]:          https://www.hackerrank.com/challenges/connecting-towns
 [Handshake]:                 https://www.hackerrank.com/challenges/handshake
+[Reverse Game]:              https://www.hackerrank.com/challenges/reverse-game
 [Halloween party]:           https://www.hackerrank.com/challenges/halloween-party
 [Filling Jars]:              https://www.hackerrank.com/challenges/filling-jars
 [Is Fibo]:                   https://www.hackerrank.com/challenges/is-fibo
@@ -31,6 +33,7 @@
 [restaurant.cpp]:                restaurant.cpp
 [connecting_towns.cpp]:          connecting_towns.cpp
 [handshake.cpp]:                 handshake.cpp
+[reverse_game.cpp]:              reverse_game.cpp
 [halloween_party.cpp]:           halloween_party.cpp
 [filling_jars.cpp]:              filling_jars.cpp
 [is_fibo.cpp]:                   is_fibo.cpp
