@@ -7,6 +7,7 @@
 | [Sherlock and Moving Tiles][] | [sherlock_and_moving_tiles.cpp][] |
 | [Possible Path][]             | [possible_path.cpp][]             |
 | [Restaurant][]                | [restaurant.cpp][]                |
+| [Connecting Towns][]          | [connecting_towns.cpp][]          |
 | [Halloween party][]           | [halloween_party.cpp][]           |
 | [Filling Jars][]              | [filling_jars.cpp][]              |
 | [Is Fibo][]                   | [is_fibo.cpp][]                   |
@@ -16,6 +17,7 @@
 [Sherlock and Moving Tiles]: https://www.hackerrank.com/challenges/sherlock-and-moving-tiles
 [Possible Path]:             https://www.hackerrank.com/challenges/possible-path
 [Restaurant]:                https://www.hackerrank.com/challenges/restaurant
+[Connecting Towns]:          https://www.hackerrank.com/challenges/connecting-towns
 [Halloween party]:           https://www.hackerrank.com/challenges/halloween-party
 [Filling Jars]:              https://www.hackerrank.com/challenges/filling-jars
 [Is Fibo]:                   https://www.hackerrank.com/challenges/is-fibo
@@ -25,6 +27,7 @@
 [sherlock_and_moving_tiles.cpp]: sherlock_and_moving_tiles.cpp
 [possible_path.cpp]:             possible_path.cpp
 [restaurant.cpp]:                restaurant.cpp
+[connecting_towns.cpp]:          connecting_towns.cpp
 [halloween_party.cpp]:           halloween_party.cpp
 [filling_jars.cpp]:              filling_jars.cpp
 [is_fibo.cpp]:                   is_fibo.cpp
