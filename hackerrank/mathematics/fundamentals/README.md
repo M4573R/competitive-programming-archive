@@ -11,6 +11,7 @@
 | [Handshake][]                 | [handshake.cpp][]                 |
 | [Reverse Game][]              | [reverse_game.cpp][]              |
 | [Strange Grid][]              | [strange_grid.cpp][]              |
+| [Sherlock and Divisors][]     | [sherlock_and_divisors.cpp][]     |
 | [Halloween party][]           | [halloween_party.cpp][]           |
 | [Filling Jars][]              | [filling_jars.cpp][]              |
 | [Is Fibo][]                   | [is_fibo.cpp][]                   |
@@ -24,6 +25,7 @@
 [Handshake]:                 https://www.hackerrank.com/challenges/handshake
 [Reverse Game]:              https://www.hackerrank.com/challenges/reverse-game
 [Strange Grid]:              https://www.hackerrank.com/challenges/strange-grid
+[Sherlock and Divisors]:     https://www.hackerrank.com/challenges/sherlock-and-divisors
 [Halloween party]:           https://www.hackerrank.com/challenges/halloween-party
 [Filling Jars]:              https://www.hackerrank.com/challenges/filling-jars
 [Is Fibo]:                   https://www.hackerrank.com/challenges/is-fibo
@@ -37,6 +39,7 @@
 [handshake.cpp]:                 handshake.cpp
 [reverse_game.cpp]:              reverse_game.cpp
 [strange_grid.cpp]:              strange_grid.cpp
+[sherlock_and_divisors.cpp]:     sherlock_and_divisors.cpp
 [halloween_party.cpp]:           halloween_party.cpp
 [filling_jars.cpp]:              filling_jars.cpp
 [is_fibo.cpp]:                   is_fibo.cpp
