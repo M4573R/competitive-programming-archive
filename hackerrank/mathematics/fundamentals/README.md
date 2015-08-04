@@ -12,6 +12,7 @@
 | [Reverse Game][]              | [reverse_game.cpp][]              |
 | [Strange Grid][]              | [strange_grid.cpp][]              |
 | [Sherlock and Divisors][]     | [sherlock_and_divisors.cpp][]     |
+| [Diwali Lights][]             | [diwali_lights.cpp][]             |
 | [Halloween party][]           | [halloween_party.cpp][]           |
 | [Filling Jars][]              | [filling_jars.cpp][]              |
 | [Is Fibo][]                   | [is_fibo.cpp][]                   |
@@ -26,6 +27,7 @@
 [Reverse Game]:              https://www.hackerrank.com/challenges/reverse-game
 [Strange Grid]:              https://www.hackerrank.com/challenges/strange-grid
 [Sherlock and Divisors]:     https://www.hackerrank.com/challenges/sherlock-and-divisors
+[Diwali Lights]:             https://www.hackerrank.com/challenges/diwali-lights
 [Halloween party]:           https://www.hackerrank.com/challenges/halloween-party
 [Filling Jars]:              https://www.hackerrank.com/challenges/filling-jars
 [Is Fibo]:                   https://www.hackerrank.com/challenges/is-fibo
@@ -40,6 +42,7 @@
 [reverse_game.cpp]:              reverse_game.cpp
 [strange_grid.cpp]:              strange_grid.cpp
 [sherlock_and_divisors.cpp]:     sherlock_and_divisors.cpp
+[diwali_lights.cpp]:             diwali_lights.cpp
 [halloween_party.cpp]:           halloween_party.cpp
 [filling_jars.cpp]:              filling_jars.cpp
 [is_fibo.cpp]:                   is_fibo.cpp
