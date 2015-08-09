@@ -17,6 +17,7 @@
 | [Even Odd Query][]            | [even_odd_query.cpp][]            |
 | [Sherlock and Permutations][] | [sherlock_and_permutations.cpp][] |
 | [K Candy Store][]             | [k_candy_store.cpp][]             |
+| [Matrix Tracing][]            | [matrix_tracing.cpp][]            |
 | [Halloween party][]           | [halloween_party.cpp][]           |
 | [Filling Jars][]              | [filling_jars.cpp][]              |
 | [Is Fibo][]                   | [is_fibo.cpp][]                   |
@@ -36,6 +37,7 @@
 [Even Odd Query]:            https://www.hackerrank.com/challenges/even-odd-query
 [Sherlock and Permutations]: https://www.hackerrank.com/challenges/sherlock-and-permutations
 [K Candy Store]:             https://www.hackerrank.com/challenges/k-candy-store
+[Matrix Tracing]:            https://www.hackerrank.com/challenges/matrix-tracing
 [Halloween party]:           https://www.hackerrank.com/challenges/halloween-party
 [Filling Jars]:              https://www.hackerrank.com/challenges/filling-jars
 [Is Fibo]:                   https://www.hackerrank.com/challenges/is-fibo
@@ -55,6 +57,7 @@
 [even_odd_query.cpp]:            even_odd_query.cpp
 [sherlock_and_permutations.cpp]: sherlock_and_permutations.cpp
 [k_candy_store.cpp]:             k_candy_store.cpp
+[matrix_tracing.cpp]:            matrix_tracing.cpp
 [halloween_party.cpp]:           halloween_party.cpp
 [filling_jars.cpp]:              filling_jars.cpp
 [is_fibo.cpp]:                   is_fibo.cpp
