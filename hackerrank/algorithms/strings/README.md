@@ -10,6 +10,7 @@
 | [The Love-Letter Mystery][] | [the_love_letter_mystery.cpp][] |
 | [Make it Anagram][]         | [make_it_anagram.cpp][]         |
 | [Anagram][]                 | [anagram.cpp][]                 |
+| [Two Strings][]             | [two_strings.cpp][]             |
 
 [Funny String]:            https://www.hackerrank.com/challenges/funny-string
 [Pangrams]:                https://www.hackerrank.com/challenges/pangrams
@@ -19,6 +20,7 @@
 [The Love-Letter Mystery]: https://www.hackerrank.com/challenges/the-love-letter-mystery
 [Make it Anagram]:         https://www.hackerrank.com/challenges/make-it-anagram
 [Anagram]:                 https://www.hackerrank.com/challenges/anagram
+[Two Strings]:             https://www.hackerrank.com/challenges/two-strings
 
 [funny_string.cpp]:            funny_string.cpp
 [pangrams.cpp]:                pangrams.cpp
@@ -28,3 +30,4 @@
 [the_love_letter_mystery.cpp]: the_love_letter_mystery.cpp
 [make_it_anagram.cpp]:         make_it_anagram.cpp
 [anagram.cpp]:                 anagram.cpp
+[two_strings.cpp]:             two_strings.cpp
