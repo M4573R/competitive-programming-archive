@@ -1,25 +1,21 @@
-#include <cmath>
 #include <iomanip>
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-constexpr char positive     {'+'};
-constexpr char negative     {'-'};
-constexpr char unrecognized {'?'};
-
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-unsigned int factorial(unsigned int n)
+unsigned int factorial(unsigned int number)
 {
     unsigned int result {1};
 
-    for (unsigned int i {2}; i <= n; ++i)
+    for (unsigned int i {2}; i <= number; ++i)
     {
         result *= i;
     }
@@ -31,6 +27,8 @@ int main()
 {
     use_io_optimizations();
 
+    cout << fixed << setprecision(12);
+
     string sent;
     string received;
 
@@ -40,54 +38,48 @@ int main()
     int negative_count     {0};
     int unrecognized_count {0};
 
-    for (char symbol : sent)
+    for (auto symbol : sent)
     {
-        switch (symbol)
+        if (symbol == '+')
         {
-        case positive:
             ++positive_count;
-            break;
-
-        case negative:
-            ++negative_count;
-            break;
         }
-    }
-
-    for (char symbol : received)
-    {
-        switch (symbol)
+        else
         {
-        case positive:
-            --positive_count;
-            break;
-
-        case negative:
-            --negative_count;
-            break;
-
-        case unrecognized:
-            ++unrecognized_count;
-            break;
+            ++negative_count;
         }
     }
 
-    cout << fixed << setprecision(12);
+    for (auto symbol : received)
+    {
+        if (symbol == '+')
+        {
+            --positive_count;
+        }
+        else if (symbol == '-')
+        {
+            --negative_count;
+        }
+        else
+        {
+            ++unrecognized_count;
+        }
+    }
 
     if (positive_count < 0 || negative_count < 0)
     {
         cout << 0.0 << '\n';
-        return 0;
     }
+    else
+    {
+        unsigned int all_choices     {1u << unrecognized_count};
 
-    unsigned int all_choices = pow(2, unrecognized_count);
-    unsigned int correct_choices {
-        factorial(static_cast<unsigned int>(unrecognized_count)) /
-        factorial(static_cast<unsigned int>(positive_count))     /
-        factorial(static_cast<unsigned int>(negative_count))
-    };
+        unsigned int correct_choices {factorial(unrecognized_count) /
+                                      factorial(positive_count)     /
+                                      factorial(negative_count)};
 
-    cout << static_cast<double>(correct_choices) / all_choices << '\n';
+        cout << static_cast<double>(correct_choices) / all_choices << '\n';
+    }
 
     return 0;
 }
