@@ -31,6 +31,7 @@ judge archives.
 * [PEG](http://wcipeg.com/)
 * [URI](https://www.urionlinejudge.com.br)
 * [E-Olymp](http://www.e-olymp.com/)
+* [Kattis](https://open.kattis.com/)
 
 ## Copyright
 
