@@ -8,6 +8,7 @@
 | [Hello World!][]         | [hello_world.cpp][]          |
 | [Imperial Measurement][] | [imperial_measurement.cpp][] |
 | [In or Out][]            | [in_or_out.cpp][]            |
+| [Quite a problem][]      | [quite_a_problem.cpp][]      |
 
 [Aaah!]:                https://open.kattis.com/problems/aaah
 [A Different Problem]:  https://open.kattis.com/problems/different
@@ -15,6 +16,7 @@
 [Hello World!]:         https://open.kattis.com/problems/hello
 [Imperial Measurement]: https://open.kattis.com/problems/measurement
 [In or Out]:            https://open.kattis.com/problems/mandelbrot
+[Quite a problem]:      https://open.kattis.com/problems/quiteaproblem
 
 [aaah.cpp]:                 aaah.cpp
 [a_different_problem.cpp]:  a_different_problem.cpp
@@ -22,3 +24,4 @@
 [hello_world.cpp]:          hello_world.cpp
 [imperial_measurement.cpp]: imperial_measurement.cpp
 [in_or_out.cpp]:            in_or_out.cpp
+[quite_a_problem.cpp]:      quite_a_problem.cpp
