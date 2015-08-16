@@ -16,6 +16,7 @@
 | [Rock-Paper-Scissors Tournament][] | [rock_paper_scissors_tournament.cpp][] |
 | [Chess][]                          | [chess.cpp][]                          |
 | [Calories From Fat][]              | [calories_from_fat.cpp][]              |
+| [Booking][]                        | [booking.cpp][]                        |
 
 [Aaah!]:                          https://open.kattis.com/problems/aaah
 [A Different Problem]:            https://open.kattis.com/problems/different
@@ -31,6 +32,7 @@
 [Rock-Paper-Scissors Tournament]: https://open.kattis.com/problems/rockpaperscissors
 [Chess]:                          https://open.kattis.com/problems/chess
 [Calories From Fat]:              https://open.kattis.com/problems/calories
+[Booking]:                        https://open.kattis.com/problems/booking
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -46,3 +48,4 @@
 [rock_paper_scissors_tournament.cpp]: rock_paper_scissors_tournament.cpp
 [chess.cpp]:                          chess.cpp
 [calories_from_fat.cpp]:              calories_from_fat.cpp
+[booking.cpp]:                        booking.cpp
