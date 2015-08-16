@@ -15,6 +15,7 @@
 | [T9 Spelling][]                    | [t9_spelling.cpp][]                    |
 | [Rock-Paper-Scissors Tournament][] | [rock_paper_scissors_tournament.cpp][] |
 | [Chess][]                          | [chess.cpp][]                          |
+| [Calories From Fat][]              | [calories_from_fat.cpp][]              |
 
 [Aaah!]:                          https://open.kattis.com/problems/aaah
 [A Different Problem]:            https://open.kattis.com/problems/different
@@ -29,6 +30,7 @@
 [T9 Spelling]:                    https://open.kattis.com/problems/t9spelling
 [Rock-Paper-Scissors Tournament]: https://open.kattis.com/problems/rockpaperscissors
 [Chess]:                          https://open.kattis.com/problems/chess
+[Calories From Fat]:              https://open.kattis.com/problems/calories
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -43,3 +45,4 @@
 [t9_spelling.cpp]:                    t9_spelling.cpp
 [rock_paper_scissors_tournament.cpp]: rock_paper_scissors_tournament.cpp
 [chess.cpp]:                          chess.cpp
+[calories_from_fat.cpp]:              calories_from_fat.cpp
