@@ -12,6 +12,7 @@
 | [Statistics][]           | [statistics.cpp][]           |
 | [Eight Queens][]         | [eight_queens.cpp][]         |
 | [Toilet Seat][]          | [toilet_seat.cpp][]          |
+| [T9 Spelling][]          | [t9_spelling.cpp][]          |
 
 [Aaah!]:                https://open.kattis.com/problems/aaah
 [A Different Problem]:  https://open.kattis.com/problems/different
@@ -23,6 +24,7 @@
 [Statistics]:           https://open.kattis.com/problems/statistics
 [Eight Queens]:         https://open.kattis.com/problems/8queens
 [Toilet Seat]:          https://open.kattis.com/problems/toilet
+[T9 Spelling]:          https://open.kattis.com/problems/t9spelling
 
 [aaah.cpp]:                 aaah.cpp
 [a_different_problem.cpp]:  a_different_problem.cpp
@@ -34,3 +36,4 @@
 [statistics.cpp]:           statistics.cpp
 [eight_queens.cpp]:         eight_queens.cpp
 [toilet_seat.cpp]:          toilet_seat.cpp
+[t9_spelling.cpp]:          t9_spelling.cpp
