@@ -14,6 +14,7 @@
 | [Toilet Seat][]                    | [toilet_seat.cpp][]                    |
 | [T9 Spelling][]                    | [t9_spelling.cpp][]                    |
 | [Rock-Paper-Scissors Tournament][] | [rock_paper_scissors_tournament.cpp][] |
+| [Chess][]                          | [chess.cpp][]                          |
 
 [Aaah!]:                          https://open.kattis.com/problems/aaah
 [A Different Problem]:            https://open.kattis.com/problems/different
@@ -27,6 +28,7 @@
 [Toilet Seat]:                    https://open.kattis.com/problems/toilet
 [T9 Spelling]:                    https://open.kattis.com/problems/t9spelling
 [Rock-Paper-Scissors Tournament]: https://open.kattis.com/problems/rockpaperscissors
+[Chess]:                          https://open.kattis.com/problems/chess
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -40,3 +42,4 @@
 [toilet_seat.cpp]:                    toilet_seat.cpp
 [t9_spelling.cpp]:                    t9_spelling.cpp
 [rock_paper_scissors_tournament.cpp]: rock_paper_scissors_tournament.cpp
+[chess.cpp]:                          chess.cpp
