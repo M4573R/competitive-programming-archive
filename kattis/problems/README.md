@@ -11,6 +11,7 @@
 | [Quite a problem][]      | [quite_a_problem.cpp][]      |
 | [Statistics][]           | [statistics.cpp][]           |
 | [Eight Queens][]         | [eight_queens.cpp][]         |
+| [Toilet Seat][]          | [toilet_seat.cpp][]          |
 
 [Aaah!]:                https://open.kattis.com/problems/aaah
 [A Different Problem]:  https://open.kattis.com/problems/different
@@ -21,6 +22,7 @@
 [Quite a problem]:      https://open.kattis.com/problems/quiteaproblem
 [Statistics]:           https://open.kattis.com/problems/statistics
 [Eight Queens]:         https://open.kattis.com/problems/8queens
+[Toilet Seat]:          https://open.kattis.com/problems/toilet
 
 [aaah.cpp]:                 aaah.cpp
 [a_different_problem.cpp]:  a_different_problem.cpp
@@ -31,3 +33,4 @@
 [quite_a_problem.cpp]:      quite_a_problem.cpp
 [statistics.cpp]:           statistics.cpp
 [eight_queens.cpp]:         eight_queens.cpp
+[toilet_seat.cpp]:          toilet_seat.cpp
