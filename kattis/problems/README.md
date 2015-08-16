@@ -10,6 +10,7 @@
 | [In or Out][]            | [in_or_out.cpp][]            |
 | [Quite a problem][]      | [quite_a_problem.cpp][]      |
 | [Statistics][]           | [statistics.cpp][]           |
+| [Eight Queens][]         | [eight_queens.cpp][]         |
 
 [Aaah!]:                https://open.kattis.com/problems/aaah
 [A Different Problem]:  https://open.kattis.com/problems/different
@@ -19,6 +20,7 @@
 [In or Out]:            https://open.kattis.com/problems/mandelbrot
 [Quite a problem]:      https://open.kattis.com/problems/quiteaproblem
 [Statistics]:           https://open.kattis.com/problems/statistics
+[Eight Queens]:         https://open.kattis.com/problems/8queens
 
 [aaah.cpp]:                 aaah.cpp
 [a_different_problem.cpp]:  a_different_problem.cpp
@@ -28,3 +30,4 @@
 [in_or_out.cpp]:            in_or_out.cpp
 [quite_a_problem.cpp]:      quite_a_problem.cpp
 [statistics.cpp]:           statistics.cpp
+[eight_queens.cpp]:         eight_queens.cpp
