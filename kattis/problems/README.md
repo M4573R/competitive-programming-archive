@@ -18,6 +18,7 @@
 | [Calories From Fat][]              | [calories_from_fat.cpp][]              |
 | [Booking][]                        | [booking.cpp][]                        |
 | [Hay Points][]                     | [hay_points.cpp][]                     |
+| [CD][]                             | [cd.cpp][]                             |
 
 [Aaah!]:                          https://open.kattis.com/problems/aaah
 [A Different Problem]:            https://open.kattis.com/problems/different
@@ -35,6 +36,7 @@
 [Calories From Fat]:              https://open.kattis.com/problems/calories
 [Booking]:                        https://open.kattis.com/problems/booking
 [Hay Points]:                     https://open.kattis.com/problems/haypoints
+[CD]:                             https://open.kattis.com/problems/cd
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -52,3 +54,4 @@
 [calories_from_fat.cpp]:              calories_from_fat.cpp
 [booking.cpp]:                        booking.cpp
 [hay_points.cpp]:                     hay_points.cpp
+[cd.cpp]:                             cd.cpp
