@@ -17,6 +17,7 @@
 | [Chess][]                          | [chess.cpp][]                          |
 | [Calories From Fat][]              | [calories_from_fat.cpp][]              |
 | [Booking][]                        | [booking.cpp][]                        |
+| [Hay Points][]                     | [hay_points.cpp][]                     |
 
 [Aaah!]:                          https://open.kattis.com/problems/aaah
 [A Different Problem]:            https://open.kattis.com/problems/different
@@ -33,6 +34,7 @@
 [Chess]:                          https://open.kattis.com/problems/chess
 [Calories From Fat]:              https://open.kattis.com/problems/calories
 [Booking]:                        https://open.kattis.com/problems/booking
+[Hay Points]:                     https://open.kattis.com/problems/haypoints
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -49,3 +51,4 @@
 [chess.cpp]:                          chess.cpp
 [calories_from_fat.cpp]:              calories_from_fat.cpp
 [booking.cpp]:                        booking.cpp
+[hay_points.cpp]:                     hay_points.cpp
