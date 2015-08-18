@@ -23,6 +23,7 @@
 | [Phone List][]                      | [phone_list.cpp][]                     |
 | [Cookie Selection][]                | [cookie_selection.cpp][]               |
 | [Trending Topic][]                  | [trending_topic.cpp][]                 |
+| [Turbo][]                           | [turbo.cpp][]                          |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -45,6 +46,7 @@
 [Phone List]:                      https://open.kattis.com/problems/phonelist
 [Cookie Selection]:                https://open.kattis.com/problems/cookieselection
 [Trending Topic]:                  https://open.kattis.com/problems/trendingtopic
+[Turbo]:                           https://open.kattis.com/problems/turbo
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -67,3 +69,4 @@
 [phone_list.cpp]:                     phone_list.cpp
 [cookie_selection.cpp]:               cookie_selection.cpp
 [trending_topic.cpp]:                 trending_topic.cpp
+[turbo.cpp]:                          turbo.cpp
