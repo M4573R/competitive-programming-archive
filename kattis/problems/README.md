@@ -24,6 +24,7 @@
 | [Cookie Selection][]                | [cookie_selection.cpp][]               |
 | [Trending Topic][]                  | [trending_topic.cpp][]                 |
 | [Turbo][]                           | [turbo.cpp][]                          |
+| [Virtual Friends][]                 | [virtual_friends.cpp][]                |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -47,6 +48,7 @@
 [Cookie Selection]:                https://open.kattis.com/problems/cookieselection
 [Trending Topic]:                  https://open.kattis.com/problems/trendingtopic
 [Turbo]:                           https://open.kattis.com/problems/turbo
+[Virtual Friends]:                 https://open.kattis.com/problems/virtualfriends
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -70,3 +72,4 @@
 [cookie_selection.cpp]:               cookie_selection.cpp
 [trending_topic.cpp]:                 trending_topic.cpp
 [turbo.cpp]:                          turbo.cpp
+[virtual_friends.cpp]:                virtual_friends.cpp
