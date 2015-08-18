@@ -20,6 +20,7 @@
 | [Hay Points][]                      | [hay_points.cpp][]                     |
 | [CD][]                              | [cd.cpp][]                             |
 | [I Can Guess the Data Structure!][] | [i_can_guess_the_data_structure.cpp][] |
+| [Phone List][]                      | [phone_list.cpp][]                     |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -39,6 +40,7 @@
 [Hay Points]:                      https://open.kattis.com/problems/haypoints
 [CD]:                              https://open.kattis.com/problems/cd
 [I Can Guess the Data Structure!]: https://open.kattis.com/problems/guessthedatastructure
+[Phone List]:                      https://open.kattis.com/problems/phonelist
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -58,3 +60,4 @@
 [hay_points.cpp]:                     hay_points.cpp
 [cd.cpp]:                             cd.cpp
 [i_can_guess_the_data_structure.cpp]: i_can_guess_the_data_structure.cpp
+[phone_list.cpp]:                     phone_list.cpp
