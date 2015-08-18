@@ -21,6 +21,7 @@
 | [CD][]                              | [cd.cpp][]                             |
 | [I Can Guess the Data Structure!][] | [i_can_guess_the_data_structure.cpp][] |
 | [Phone List][]                      | [phone_list.cpp][]                     |
+| [Cookie Selection][]                | [cookie_selection.cpp][]               |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -41,6 +42,7 @@
 [CD]:                              https://open.kattis.com/problems/cd
 [I Can Guess the Data Structure!]: https://open.kattis.com/problems/guessthedatastructure
 [Phone List]:                      https://open.kattis.com/problems/phonelist
+[Cookie Selection]:                https://open.kattis.com/problems/cookieselection
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -61,3 +63,4 @@
 [cd.cpp]:                             cd.cpp
 [i_can_guess_the_data_structure.cpp]: i_can_guess_the_data_structure.cpp
 [phone_list.cpp]:                     phone_list.cpp
+[cookie_selection.cpp]:               cookie_selection.cpp
