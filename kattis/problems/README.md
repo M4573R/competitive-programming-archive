@@ -29,6 +29,7 @@
 | [Dice Game][]                       | [dice_game.cpp][]                      |
 | [Reversed Binary Numbers][]         | [reversed_binary_numbers.cpp][]        |
 | [Kemija][]                          | [kemija.cpp][]                         |
+| [Pet][]                             | [pet.cpp][]                            |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -57,6 +58,7 @@
 [Dice Game]:                       https://open.kattis.com/problems/dicegame
 [Reversed Binary Numbers]:         https://open.kattis.com/problems/reversebinary
 [Kemija]:                          https://open.kattis.com/problems/kemija08
+[Pet]:                             https://open.kattis.com/problems/pet
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -85,3 +87,4 @@
 [dice_game.cpp]:                      dice_game.cpp
 [reversed_binary_numbers.cpp]:        reversed_binary_numbers.cpp
 [kemija.cpp]:                         kemija.cpp
+[pet.cpp]:                            pet.cpp
