@@ -26,6 +26,7 @@
 | [Turbo][]                           | [turbo.cpp][]                          |
 | [Virtual Friends][]                 | [virtual_friends.cpp][]                |
 | [Solving for Carrots][]             | [solving_for_carrots.cpp][]            |
+| [Dice Game][]                       | [dice_game.cpp][]                      |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -51,6 +52,7 @@
 [Turbo]:                           https://open.kattis.com/problems/turbo
 [Virtual Friends]:                 https://open.kattis.com/problems/virtualfriends
 [Solving for Carrots]:             https://open.kattis.com/problems/carrots
+[Dice Game]:                       https://open.kattis.com/problems/dicegame
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -76,3 +78,4 @@
 [turbo.cpp]:                          turbo.cpp
 [virtual_friends.cpp]:                virtual_friends.cpp
 [solving_for_carrots.cpp]:            solving_for_carrots.cpp
+[dice_game.cpp]:                      dice_game.cpp
