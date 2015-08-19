@@ -32,6 +32,7 @@
 | [Pet][]                             | [pet.cpp][]                            |
 | [Closing the Loop][]                | [closing_the_loop.cpp][]               |
 | [Rijeci][]                          | [rijeci.cpp][]                         |
+| [Mixed Fractions][]                 | [mixed_fractions.cpp][]                |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -63,6 +64,7 @@
 [Pet]:                             https://open.kattis.com/problems/pet
 [Closing the Loop]:                https://open.kattis.com/problems/closingtheloop
 [Rijeci]:                          https://open.kattis.com/problems/rijeci
+[Mixed Fractions]:                 https://open.kattis.com/problems/mixedfractions
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -94,3 +96,4 @@
 [pet.cpp]:                            pet.cpp
 [closing_the_loop.cpp]:               closing_the_loop.cpp
 [rijeci.cpp]:                         rijeci.cpp
+[mixed_fractions.cpp]:                mixed_fractions.cpp
