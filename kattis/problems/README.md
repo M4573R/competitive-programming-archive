@@ -1,38 +1,39 @@
 # Problems
 
-|          Problem statement          |                Solution                |
-|:------------------------------------|:--------------------------------------:|
-| [Aaah!][]                           | [aaah.cpp][]                           |
-| [A Different Problem][]             | [a_different_problem.cpp][]            |
-| [Digital display][]                 | [digital_display.cpp][]                |
-| [Hello World!][]                    | [hello_world.cpp][]                    |
-| [Imperial Measurement][]            | [imperial_measurement.cpp][]           |
-| [In or Out][]                       | [in_or_out.cpp][]                      |
-| [Quite a problem][]                 | [quite_a_problem.cpp][]                |
-| [Statistics][]                      | [statistics.cpp][]                     |
-| [Eight Queens][]                    | [eight_queens.cpp][]                   |
-| [Toilet Seat][]                     | [toilet_seat.cpp][]                    |
-| [T9 Spelling][]                     | [t9_spelling.cpp][]                    |
-| [Rock-Paper-Scissors Tournament][]  | [rock_paper_scissors_tournament.cpp][] |
-| [Chess][]                           | [chess.cpp][]                          |
-| [Calories From Fat][]               | [calories_from_fat.cpp][]              |
-| [Booking][]                         | [booking.cpp][]                        |
-| [Hay Points][]                      | [hay_points.cpp][]                     |
-| [CD][]                              | [cd.cpp][]                             |
-| [I Can Guess the Data Structure!][] | [i_can_guess_the_data_structure.cpp][] |
-| [Phone List][]                      | [phone_list.cpp][]                     |
-| [Cookie Selection][]                | [cookie_selection.cpp][]               |
-| [Trending Topic][]                  | [trending_topic.cpp][]                 |
-| [Turbo][]                           | [turbo.cpp][]                          |
-| [Virtual Friends][]                 | [virtual_friends.cpp][]                |
-| [Solving for Carrots][]             | [solving_for_carrots.cpp][]            |
-| [Dice Game][]                       | [dice_game.cpp][]                      |
-| [Reversed Binary Numbers][]         | [reversed_binary_numbers.cpp][]        |
-| [Kemija][]                          | [kemija.cpp][]                         |
-| [Pet][]                             | [pet.cpp][]                            |
-| [Closing the Loop][]                | [closing_the_loop.cpp][]               |
-| [Rijeci][]                          | [rijeci.cpp][]                         |
-| [Mixed Fractions][]                 | [mixed_fractions.cpp][]                |
+|          Problem statement          |                Solution                 |
+|:------------------------------------|:---------------------------------------:|
+| [Aaah!][]                           | [aaah.cpp][]                            |
+| [A Different Problem][]             | [a_different_problem.cpp][]             |
+| [Digital display][]                 | [digital_display.cpp][]                 |
+| [Hello World!][]                    | [hello_world.cpp][]                     |
+| [Imperial Measurement][]            | [imperial_measurement.cpp][]            |
+| [In or Out][]                       | [in_or_out.cpp][]                       |
+| [Quite a problem][]                 | [quite_a_problem.cpp][]                 |
+| [Statistics][]                      | [statistics.cpp][]                      |
+| [Eight Queens][]                    | [eight_queens.cpp][]                    |
+| [Toilet Seat][]                     | [toilet_seat.cpp][]                     |
+| [T9 Spelling][]                     | [t9_spelling.cpp][]                     |
+| [Rock-Paper-Scissors Tournament][]  | [rock_paper_scissors_tournament.cpp][]  |
+| [Chess][]                           | [chess.cpp][]                           |
+| [Calories From Fat][]               | [calories_from_fat.cpp][]               |
+| [Booking][]                         | [booking.cpp][]                         |
+| [Hay Points][]                      | [hay_points.cpp][]                      |
+| [CD][]                              | [cd.cpp][]                              |
+| [I Can Guess the Data Structure!][] | [i_can_guess_the_data_structure.cpp][]  |
+| [Phone List][]                      | [phone_list.cpp][]                      |
+| [Cookie Selection][]                | [cookie_selection.cpp][]                |
+| [Trending Topic][]                  | [trending_topic.cpp][]                  |
+| [Turbo][]                           | [turbo.cpp][]                           |
+| [Virtual Friends][]                 | [virtual_friends.cpp][]                 |
+| [Solving for Carrots][]             | [solving_for_carrots.cpp][]             |
+| [Dice Game][]                       | [dice_game.cpp][]                       |
+| [Reversed Binary Numbers][]         | [reversed_binary_numbers.cpp][]         |
+| [Kemija][]                          | [kemija.cpp][]                          |
+| [Pet][]                             | [pet.cpp][]                             |
+| [Closing the Loop][]                | [closing_the_loop.cpp][]                |
+| [Rijeci][]                          | [rijeci.cpp][]                          |
+| [Mixed Fractions][]                 | [mixed_fractions.cpp][]                 |
+| [The Easiest Problem Is This One][] | [the_easiest_problem_is_this_one.cpp][] |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -65,35 +66,37 @@
 [Closing the Loop]:                https://open.kattis.com/problems/closingtheloop
 [Rijeci]:                          https://open.kattis.com/problems/rijeci
 [Mixed Fractions]:                 https://open.kattis.com/problems/mixedfractions
+[The Easiest Problem Is This One]: https://open.kattis.com/problems/easiest
 
-[aaah.cpp]:                           aaah.cpp
-[a_different_problem.cpp]:            a_different_problem.cpp
-[digital_display.cpp]:                digital_display.cpp
-[hello_world.cpp]:                    hello_world.cpp
-[imperial_measurement.cpp]:           imperial_measurement.cpp
-[in_or_out.cpp]:                      in_or_out.cpp
-[quite_a_problem.cpp]:                quite_a_problem.cpp
-[statistics.cpp]:                     statistics.cpp
-[eight_queens.cpp]:                   eight_queens.cpp
-[toilet_seat.cpp]:                    toilet_seat.cpp
-[t9_spelling.cpp]:                    t9_spelling.cpp
-[rock_paper_scissors_tournament.cpp]: rock_paper_scissors_tournament.cpp
-[chess.cpp]:                          chess.cpp
-[calories_from_fat.cpp]:              calories_from_fat.cpp
-[booking.cpp]:                        booking.cpp
-[hay_points.cpp]:                     hay_points.cpp
-[cd.cpp]:                             cd.cpp
-[i_can_guess_the_data_structure.cpp]: i_can_guess_the_data_structure.cpp
-[phone_list.cpp]:                     phone_list.cpp
-[cookie_selection.cpp]:               cookie_selection.cpp
-[trending_topic.cpp]:                 trending_topic.cpp
-[turbo.cpp]:                          turbo.cpp
-[virtual_friends.cpp]:                virtual_friends.cpp
-[solving_for_carrots.cpp]:            solving_for_carrots.cpp
-[dice_game.cpp]:                      dice_game.cpp
-[reversed_binary_numbers.cpp]:        reversed_binary_numbers.cpp
-[kemija.cpp]:                         kemija.cpp
-[pet.cpp]:                            pet.cpp
-[closing_the_loop.cpp]:               closing_the_loop.cpp
-[rijeci.cpp]:                         rijeci.cpp
-[mixed_fractions.cpp]:                mixed_fractions.cpp
+[aaah.cpp]:                            aaah.cpp
+[a_different_problem.cpp]:             a_different_problem.cpp
+[digital_display.cpp]:                 digital_display.cpp
+[hello_world.cpp]:                     hello_world.cpp
+[imperial_measurement.cpp]:            imperial_measurement.cpp
+[in_or_out.cpp]:                       in_or_out.cpp
+[quite_a_problem.cpp]:                 quite_a_problem.cpp
+[statistics.cpp]:                      statistics.cpp
+[eight_queens.cpp]:                    eight_queens.cpp
+[toilet_seat.cpp]:                     toilet_seat.cpp
+[t9_spelling.cpp]:                     t9_spelling.cpp
+[rock_paper_scissors_tournament.cpp]:  rock_paper_scissors_tournament.cpp
+[chess.cpp]:                           chess.cpp
+[calories_from_fat.cpp]:               calories_from_fat.cpp
+[booking.cpp]:                         booking.cpp
+[hay_points.cpp]:                      hay_points.cpp
+[cd.cpp]:                              cd.cpp
+[i_can_guess_the_data_structure.cpp]:  i_can_guess_the_data_structure.cpp
+[phone_list.cpp]:                      phone_list.cpp
+[cookie_selection.cpp]:                cookie_selection.cpp
+[trending_topic.cpp]:                  trending_topic.cpp
+[turbo.cpp]:                           turbo.cpp
+[virtual_friends.cpp]:                 virtual_friends.cpp
+[solving_for_carrots.cpp]:             solving_for_carrots.cpp
+[dice_game.cpp]:                       dice_game.cpp
+[reversed_binary_numbers.cpp]:         reversed_binary_numbers.cpp
+[kemija.cpp]:                          kemija.cpp
+[pet.cpp]:                             pet.cpp
+[closing_the_loop.cpp]:                closing_the_loop.cpp
+[rijeci.cpp]:                          rijeci.cpp
+[mixed_fractions.cpp]:                 mixed_fractions.cpp
+[the_easiest_problem_is_this_one.cpp]: the_easiest_problem_is_this_one.cpp
