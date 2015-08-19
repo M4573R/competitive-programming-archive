@@ -28,6 +28,7 @@
 | [Solving for Carrots][]             | [solving_for_carrots.cpp][]            |
 | [Dice Game][]                       | [dice_game.cpp][]                      |
 | [Reversed Binary Numbers][]         | [reversed_binary_numbers.cpp][]        |
+| [Kemija][]                          | [kemija.cpp][]                         |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -55,6 +56,7 @@
 [Solving for Carrots]:             https://open.kattis.com/problems/carrots
 [Dice Game]:                       https://open.kattis.com/problems/dicegame
 [Reversed Binary Numbers]:         https://open.kattis.com/problems/reversebinary
+[Kemija]:                          https://open.kattis.com/problems/kemija08
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -82,3 +84,4 @@
 [solving_for_carrots.cpp]:            solving_for_carrots.cpp
 [dice_game.cpp]:                      dice_game.cpp
 [reversed_binary_numbers.cpp]:        reversed_binary_numbers.cpp
+[kemija.cpp]:                         kemija.cpp
