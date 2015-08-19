@@ -31,6 +31,7 @@
 | [Kemija][]                          | [kemija.cpp][]                         |
 | [Pet][]                             | [pet.cpp][]                            |
 | [Closing the Loop][]                | [closing_the_loop.cpp][]               |
+| [Rijeci][]                          | [rijeci.cpp][]                         |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -61,6 +62,7 @@
 [Kemija]:                          https://open.kattis.com/problems/kemija08
 [Pet]:                             https://open.kattis.com/problems/pet
 [Closing the Loop]:                https://open.kattis.com/problems/closingtheloop
+[Rijeci]:                          https://open.kattis.com/problems/rijeci
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -91,3 +93,4 @@
 [kemija.cpp]:                         kemija.cpp
 [pet.cpp]:                            pet.cpp
 [closing_the_loop.cpp]:               closing_the_loop.cpp
+[rijeci.cpp]:                         rijeci.cpp
