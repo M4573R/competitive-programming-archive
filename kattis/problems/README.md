@@ -25,6 +25,7 @@
 | [Trending Topic][]                  | [trending_topic.cpp][]                 |
 | [Turbo][]                           | [turbo.cpp][]                          |
 | [Virtual Friends][]                 | [virtual_friends.cpp][]                |
+| [Solving for Carrots][]             | [solving_for_carrots.cpp][]            |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -49,6 +50,7 @@
 [Trending Topic]:                  https://open.kattis.com/problems/trendingtopic
 [Turbo]:                           https://open.kattis.com/problems/turbo
 [Virtual Friends]:                 https://open.kattis.com/problems/virtualfriends
+[Solving for Carrots]:             https://open.kattis.com/problems/carrots
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -73,3 +75,4 @@
 [trending_topic.cpp]:                 trending_topic.cpp
 [turbo.cpp]:                          turbo.cpp
 [virtual_friends.cpp]:                virtual_friends.cpp
+[solving_for_carrots.cpp]:            solving_for_carrots.cpp
