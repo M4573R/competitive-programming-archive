@@ -27,6 +27,7 @@
 | [Virtual Friends][]                 | [virtual_friends.cpp][]                |
 | [Solving for Carrots][]             | [solving_for_carrots.cpp][]            |
 | [Dice Game][]                       | [dice_game.cpp][]                      |
+| [Reversed Binary Numbers][]         | [reversed_binary_numbers.cpp][]        |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -53,6 +54,7 @@
 [Virtual Friends]:                 https://open.kattis.com/problems/virtualfriends
 [Solving for Carrots]:             https://open.kattis.com/problems/carrots
 [Dice Game]:                       https://open.kattis.com/problems/dicegame
+[Reversed Binary Numbers]:         https://open.kattis.com/problems/reversebinary
 
 [aaah.cpp]:                           aaah.cpp
 [a_different_problem.cpp]:            a_different_problem.cpp
@@ -79,3 +81,4 @@
 [virtual_friends.cpp]:                virtual_friends.cpp
 [solving_for_carrots.cpp]:            solving_for_carrots.cpp
 [dice_game.cpp]:                      dice_game.cpp
+[reversed_binary_numbers.cpp]:        reversed_binary_numbers.cpp
