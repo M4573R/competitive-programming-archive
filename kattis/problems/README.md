@@ -34,6 +34,7 @@
 | [Rijeci][]                          | [rijeci.cpp][]                          |
 | [Mixed Fractions][]                 | [mixed_fractions.cpp][]                 |
 | [The Easiest Problem Is This One][] | [the_easiest_problem_is_this_one.cpp][] |
+| [Simon Says][]                      | [simon_says.cpp][]                      |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -67,6 +68,7 @@
 [Rijeci]:                          https://open.kattis.com/problems/rijeci
 [Mixed Fractions]:                 https://open.kattis.com/problems/mixedfractions
 [The Easiest Problem Is This One]: https://open.kattis.com/problems/easiest
+[Simon Says]:                      https://open.kattis.com/problems/simon
 
 [aaah.cpp]:                            aaah.cpp
 [a_different_problem.cpp]:             a_different_problem.cpp
@@ -100,3 +102,4 @@
 [rijeci.cpp]:                          rijeci.cpp
 [mixed_fractions.cpp]:                 mixed_fractions.cpp
 [the_easiest_problem_is_this_one.cpp]: the_easiest_problem_is_this_one.cpp
+[simon_says.cpp]:                      simon_says.cpp
