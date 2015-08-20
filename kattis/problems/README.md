@@ -38,6 +38,7 @@
 | [Black Friday][]                    | [black_friday.cpp][]                    |
 | [Tri][]                             | [tri.cpp][]                             |
 | [Billiard][]                        | [billiard.cpp][]                        |
+| [Ladder][]                          | [ladder.cpp][]                          |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -75,6 +76,7 @@
 [Black Friday]:                    https://open.kattis.com/problems/blackfriday
 [Tri]:                             https://open.kattis.com/problems/tri
 [Billiard]:                        https://open.kattis.com/problems/billiard
+[Ladder]:                          https://open.kattis.com/problems/ladder
 
 [aaah.cpp]:                            aaah.cpp
 [a_different_problem.cpp]:             a_different_problem.cpp
@@ -112,3 +114,4 @@
 [black_friday.cpp]:                    black_friday.cpp
 [tri.cpp]:                             tri.cpp
 [billiard.cpp]:                        billiard.cpp
+[ladder.cpp]:                          ladder.cpp
