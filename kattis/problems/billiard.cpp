@@ -13,6 +13,7 @@ void use_io_optimizations()
     cin.tie(nullptr);
 }
 
+inline
 double to_degrees(double radians)
 {
     return 180 / pi * radians;
