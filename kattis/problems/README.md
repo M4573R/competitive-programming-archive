@@ -37,6 +37,7 @@
 | [Simon Says][]                      | [simon_says.cpp][]                      |
 | [Black Friday][]                    | [black_friday.cpp][]                    |
 | [Tri][]                             | [tri.cpp][]                             |
+| [Billiard][]                        | [billiard.cpp][]                        |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -73,6 +74,7 @@
 [Simon Says]:                      https://open.kattis.com/problems/simon
 [Black Friday]:                    https://open.kattis.com/problems/blackfriday
 [Tri]:                             https://open.kattis.com/problems/tri
+[Billiard]:                        https://open.kattis.com/problems/billiard
 
 [aaah.cpp]:                            aaah.cpp
 [a_different_problem.cpp]:             a_different_problem.cpp
@@ -109,3 +111,4 @@
 [simon_says.cpp]:                      simon_says.cpp
 [black_friday.cpp]:                    black_friday.cpp
 [tri.cpp]:                             tri.cpp
+[billiard.cpp]:                        billiard.cpp
