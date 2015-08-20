@@ -35,6 +35,7 @@
 | [Mixed Fractions][]                 | [mixed_fractions.cpp][]                 |
 | [The Easiest Problem Is This One][] | [the_easiest_problem_is_this_one.cpp][] |
 | [Simon Says][]                      | [simon_says.cpp][]                      |
+| [Black Friday][]                    | [black_friday.cpp][]                    |
 
 [Aaah!]:                           https://open.kattis.com/problems/aaah
 [A Different Problem]:             https://open.kattis.com/problems/different
@@ -69,6 +70,7 @@
 [Mixed Fractions]:                 https://open.kattis.com/problems/mixedfractions
 [The Easiest Problem Is This One]: https://open.kattis.com/problems/easiest
 [Simon Says]:                      https://open.kattis.com/problems/simon
+[Black Friday]:                    https://open.kattis.com/problems/blackfriday
 
 [aaah.cpp]:                            aaah.cpp
 [a_different_problem.cpp]:             a_different_problem.cpp
@@ -103,3 +105,4 @@
 [mixed_fractions.cpp]:                 mixed_fractions.cpp
 [the_easiest_problem_is_this_one.cpp]: the_easiest_problem_is_this_one.cpp
 [simon_says.cpp]:                      simon_says.cpp
+[black_friday.cpp]:                    black_friday.cpp
