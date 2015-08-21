@@ -12,6 +12,7 @@
 | [Anagram][]                 | [anagram.cpp][]                 |
 | [Two Strings][]             | [two_strings.cpp][]             |
 | [Bigger is Greater][]       | [bigger_is_greater.cpp][]       |
+| [Sherlock and Anagrams][]   | [sherlock_and_anagrams.cpp][]   |
 
 [Funny String]:            https://www.hackerrank.com/challenges/funny-string
 [Pangrams]:                https://www.hackerrank.com/challenges/pangrams
@@ -23,6 +24,7 @@
 [Anagram]:                 https://www.hackerrank.com/challenges/anagram
 [Two Strings]:             https://www.hackerrank.com/challenges/two-strings
 [Bigger is Greater]:       https://www.hackerrank.com/challenges/bigger-is-greater
+[Sherlock and Anagrams]:   https://www.hackerrank.com/challenges/sherlock-and-anagrams
 
 [funny_string.cpp]:            funny_string.cpp
 [pangrams.cpp]:                pangrams.cpp
@@ -34,3 +36,4 @@
 [anagram.cpp]:                 anagram.cpp
 [two_strings.cpp]:             two_strings.cpp
 [bigger_is_greater.cpp]:       bigger_is_greater.cpp
+[sherlock_and_anagrams.cpp]:   sherlock_and_anagrams.cpp
