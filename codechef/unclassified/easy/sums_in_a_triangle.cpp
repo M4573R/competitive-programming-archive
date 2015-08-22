@@ -4,28 +4,26 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-unsigned int longest_path(vector<vector<unsigned int>>& triangle)
+unsigned int longest_path(const vector<vector<unsigned int>>& triangle)
 {
-    if (triangle.empty())
-    {
-        return 0;
-    }
+    vector<vector<unsigned int>> subtasks {triangle};
 
-    for (vector<unsigned int>::size_type i {triangle.size() - 1}; i > 0; --i)
+    for (unsigned int i {subtasks.size() - 1}; i > 0; --i)
     {
-        for (vector<unsigned int>::size_type j {0}; j < i; ++j)
+        for (unsigned int j {0}; j < i; ++j)
         {
-            triangle[i - 1][j] += max(triangle[i][j], triangle[i][j + 1]);
+            subtasks[i - 1][j] += max(subtasks[i][j], subtasks[i][j + 1]);
         }
     }
 
-    return triangle[0][0];
+    return subtasks[0][0];
 }
 
 int main()
@@ -35,7 +33,7 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int t {0}; t < test_cases; ++t)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
         unsigned int rows;
         cin >> rows;
