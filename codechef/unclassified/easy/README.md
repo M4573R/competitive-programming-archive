@@ -13,7 +13,6 @@
 | [Transform the Expression][]           | [transform_the_expression.cpp][]         |
 | [Ambiguous Permutations][]             | [ambiguous_permutations.cpp][]           |
 | [Yet Another Number Game][]            | [yet_another_number_game.cpp][]          |
-| [Packaging Cupcakes][]                 | [packaging_cupcakes.cpp][]               |
 | [Prime Palindromes][]                  | [prime_palindromes.cpp][]                |
 | [Ciel and A-B Problem][]               | [ciel_and_a_b_problem.cpp][]             |
 | [Ciel and Receipt][]                   | [ciel_and_receipt.cpp][]                 |
@@ -30,7 +29,6 @@
 [Transform the Expression]:           https://www.codechef.com/problems/ONP
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Yet Another Number Game]:            https://www.codechef.com/problems/NUMGAME
-[Packaging Cupcakes]:                 https://www.codechef.com/problems/MUFFINS3
 [Prime Palindromes]:                  http://www.codechef.com/problems/PRPALIN
 [Ciel and A-B Problem]:               http://www.codechef.com/problems/CIELAB
 [Ciel and Receipt]:                   http://www.codechef.com/problems/CIELRCPT
@@ -47,7 +45,6 @@
 [transform_the_expression.cpp]:         transform_the_expression.cpp
 [ambiguous_permutations.cpp]:           ambiguous_permutations.cpp
 [yet_another_number_game.cpp]:          yet_another_number_game.cpp
-[packaging_cupcakes.cpp]:               packaging_cupcakes.cpp
 [prime_palindromes.cpp]:                prime_palindromes.cpp
 [ciel_and_a_b_problem.cpp]:             ciel_and_a_b_problem.cpp
 [ciel_and_receipt.cpp]:                 ciel_and_receipt.cpp
