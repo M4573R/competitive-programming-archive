@@ -22,7 +22,7 @@
 | [Ciel and Receipt][]                   | [ciel_and_receipt.cpp][]                 |
 | [Count of Maximum][]                   | [count_of_maximum.cpp][]                 |
 
-[Life, the Universe, and Everything]: http://www.codechef.com/problems/COOLING
+[Life, the Universe, and Everything]: https://www.codechef.com/problems/TEST
 [ATM]:                                http://www.codechef.com/problems/HS08TEST
 [Enormous Input Test]:                http://www.codechef.com/problems/INTEST
 [Factorial]:                          http://www.codechef.com/problems/FCTRL
