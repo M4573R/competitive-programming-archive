@@ -30,7 +30,7 @@
 [Transform the Expression]:           https://www.codechef.com/problems/ONP
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Yet Another Number Game]:            https://www.codechef.com/problems/NUMGAME
-[Packaging Cupcakes]:                 http://www.codechef.com/problems/MUFFINS3
+[Packaging Cupcakes]:                 https://www.codechef.com/problems/MUFFINS3
 [Prime Palindromes]:                  http://www.codechef.com/problems/PRPALIN
 [Ciel and A-B Problem]:               http://www.codechef.com/problems/CIELAB
 [Ciel and Receipt]:                   http://www.codechef.com/problems/CIELRCPT
