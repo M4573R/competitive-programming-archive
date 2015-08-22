@@ -12,7 +12,7 @@
 | [Sums in a Triangle][]                 | [sums_in_a_triangle.cpp][]               |
 | [Transform the Expression][]           | [transform_the_expression.cpp][]         |
 | [Ambiguous Permutations][]             | [ambiguous_permutations.cpp][]           |
-| [Double String][]                      | [double_string.cpp][]                    |
+| [Double Strings][]                     | [double_strings.cpp][]                   |
 | [Yet Another Number Game][]            | [yet_another_number_game.cpp][]          |
 | [Cooling Pies][]                       | [cooling_pies.cpp][]                     |
 | [Packaging Cupcakes][]                 | [packaging_cupcakes.cpp][]               |
@@ -31,7 +31,7 @@
 [Sums in a Triangle]:                 https://www.codechef.com/problems/SUMTRIAN
 [Transform the Expression]:           https://www.codechef.com/problems/ONP
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
-[Double String]:                      http://www.codechef.com/problems/DOUBLE
+[Double Strings]:                     https://www.codechef.com/problems/DOUBLE
 [Yet Another Number Game]:            http://www.codechef.com/problems/DOUBLE
 [Cooling Pies]:                       http://www.codechef.com/problems/COOLING
 [Packaging Cupcakes]:                 http://www.codechef.com/problems/MUFFINS3
@@ -50,7 +50,7 @@
 [sums_in_a_triangle.cpp]:               sums_in_a_triangle.cpp
 [transform_the_expression.cpp]:         transform_the_expression.cpp
 [ambiguous_permutations.cpp]:           ambiguous_permutations.cpp
-[double_string.cpp]:                    double_string.cpp
+[double_strings.cpp]:                   double_strings.cpp
 [yet_another_number_game.cpp]:          yet_another_number_game.cpp
 [cooling_pies.cpp]:                     cooling_pies.cpp
 [packaging_cupcakes.cpp]:               packaging_cupcakes.cpp

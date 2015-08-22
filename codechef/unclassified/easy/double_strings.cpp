@@ -2,7 +2,8 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -15,18 +16,18 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int i {0}; i < test_cases; ++i)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
-        unsigned int palindrome_length;
-        cin >> palindrome_length;
+        unsigned int length;
+        cin >> length;
 
-        if (palindrome_length % 2 == 0)
+        if (length % 2 == 0)
         {
-            cout << palindrome_length;
+            cout << length;
         }
         else
         {
-            cout << palindrome_length - 1;
+            cout << length - 1;
         }
 
         cout << '\n';
