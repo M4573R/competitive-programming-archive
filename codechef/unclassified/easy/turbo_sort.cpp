@@ -1,11 +1,11 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-constexpr unsigned int max_number = 1000001;
-
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -15,25 +15,21 @@ int main()
 {
     use_io_optimizations();
 
-    vector<unsigned int> frequencies(max_number);
+    unsigned int numbers_count;
+    cin >> numbers_count;
 
-    unsigned int input_size;
-    cin >> input_size;
+    vector<unsigned int> numbers(numbers_count);
 
-    for (unsigned int i {0}; i < input_size; ++i)
+    for (auto& number : numbers)
     {
-        unsigned int item;
-        cin >> item;
-
-        ++frequencies[item];
+        cin >> number;
     }
 
-    for (vector<unsigned int>::size_type i {0}; i < frequencies.size(); ++i)
+    sort(numbers.begin(), numbers.end());
+
+    for (auto number : numbers)
     {
-        for (unsigned int j {0}; j < frequencies[i]; ++j)
-        {
-            cout << i << '\n';
-        }
+        cout << number << '\n';
     }
 
     return 0;

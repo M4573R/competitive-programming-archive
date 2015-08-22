@@ -26,7 +26,7 @@
 [Enormous Input Test]:                https://www.codechef.com/problems/INTEST
 [Factorial]:                          https://www.codechef.com/problems/FCTRL
 [Small factorials]:                   https://www.codechef.com/problems/FCTRL2
-[Turbo Sort]:                         http://www.codechef.com/problems/TSORT
+[Turbo Sort]:                         https://www.codechef.com/problems/TSORT
 [The Lead Game]:                      http://www.codechef.com/problems/TLG
 [Sums in a Triangle]:                 https://www.codechef.com/problems/SUMTRIAN
 [Transform the Expression]:           http://www.codechef.com/problems/ONP
