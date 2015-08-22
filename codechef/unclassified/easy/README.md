@@ -24,7 +24,7 @@
 
 [Life, the Universe, and Everything]: https://www.codechef.com/problems/TEST
 [ATM]:                                http://www.codechef.com/problems/HS08TEST
-[Enormous Input Test]:                http://www.codechef.com/problems/INTEST
+[Enormous Input Test]:                https://www.codechef.com/problems/INTEST
 [Factorial]:                          http://www.codechef.com/problems/FCTRL
 [Small factorials]:                   http://www.codechef.com/problems/FCTRL2
 [Holes in the text]:                  http://www.codechef.com/problems/HOLES
