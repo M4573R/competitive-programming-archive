@@ -4,21 +4,22 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-vector<unsigned int> factorial_digits(unsigned int n)
+vector<unsigned int> factorial(unsigned int number)
 {
     vector<unsigned int> digits {1};
 
-    for (unsigned int i {1}; i <= n; ++i)
+    for (unsigned int i {2}; i <= number; ++i)
     {
         unsigned int carry {0};
 
-        for (unsigned int& digit : digits)
+        for (auto& digit : digits)
         {
             unsigned int product {digit * i + carry};
 
@@ -42,15 +43,15 @@ int main()
 {
     use_io_optimizations();
 
-    unsigned int input_size;
-    cin >> input_size;
+    unsigned int test_cases;
+    cin >> test_cases;
 
-    for (unsigned int i {0}; i < input_size; ++i)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
-        unsigned int n;
-        cin >> n;
+        unsigned int number;
+        cin >> number;
 
-        for (unsigned int digit : factorial_digits(n))
+        for (auto digit : factorial(number))
         {
             cout << digit;
         }

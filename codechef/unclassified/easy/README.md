@@ -25,7 +25,7 @@
 [ATM]:                                https://www.codechef.com/problems/HS08TEST
 [Enormous Input Test]:                https://www.codechef.com/problems/INTEST
 [Factorial]:                          https://www.codechef.com/problems/FCTRL
-[Small factorials]:                   http://www.codechef.com/problems/FCTRL2
+[Small factorials]:                   https://www.codechef.com/problems/FCTRL2
 [Turbo Sort]:                         http://www.codechef.com/problems/TSORT
 [The Lead Game]:                      http://www.codechef.com/problems/TLG
 [Sums in a Triangle]:                 https://www.codechef.com/problems/SUMTRIAN
