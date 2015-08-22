@@ -4,7 +4,8 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -17,41 +18,39 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int t {0}; t < test_cases; ++t)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
-        unsigned int pies_and_racks;
-        cin >> pies_and_racks;
+        unsigned int pies;
+        cin >> pies;
 
-        vector<unsigned int> pies_weights(pies_and_racks);
-        vector<unsigned int> racks_limits(pies_and_racks);
+        vector<unsigned int> weights(pies);
 
-        for (unsigned int pie {0}; pie < pies_and_racks; ++pie)
+        for (auto& weight : weights)
         {
-            cin >> pies_weights[pie];
+            cin >> weight;
         }
 
-        for (unsigned int rack {0}; rack < pies_and_racks; ++rack)
+        vector<unsigned int> limits(pies);
+
+        for (auto& limit : limits)
         {
-            cin >> racks_limits[rack];
+            cin >> limit;
         }
 
-        sort(pies_weights.begin(), pies_weights.end());
-        sort(racks_limits.begin(), racks_limits.end());
+        sort(weights.begin(), weights.end());
+        sort(limits.begin(), limits.end());
 
-        unsigned int pie  = 0;
-        unsigned int rack = 0;
+        unsigned int placed {0};
 
-        while (rack < pies_and_racks)
+        for (auto limit : limits)
         {
-            if (pies_weights[pie] <= racks_limits[rack])
+            if (weights[placed] <= limit)
             {
-                ++pie;
+                ++placed;
             }
-
-            ++rack;
         }
 
-        cout << pie << '\n';
+        cout << placed << '\n';
     }
 
     return 0;
