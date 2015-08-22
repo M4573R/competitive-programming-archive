@@ -1,12 +1,10 @@
-#include <cstdlib>
+#include <algorithm>
 #include <iostream>
 
 using namespace std;
 
-constexpr int player_one {1};
-constexpr int player_two {2};
-
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -16,43 +14,44 @@ int main()
 {
     use_io_optimizations();
 
-    int rounds;
+    unsigned int rounds;
     cin >> rounds;
 
-    int winner;
-    int winner_lead {0};
+    unsigned int winner      {0};
+    unsigned int winner_lead {0};
 
-    int player_one_total_score {0};
-    int player_two_total_score {0};
+    unsigned int first_score  {0};
+    unsigned int second_score {0};
 
-    for (int i {0}; i < rounds; ++i)
+    for (unsigned int i {0}; i < rounds; ++i)
     {
-        int player_one_points;
-        int player_two_points;
+        unsigned int first_points;
+        unsigned int second_points;
 
-        cin >> player_one_points >> player_two_points;
+        cin >> first_points >> second_points;
 
-        player_one_total_score += player_one_points;
-        player_two_total_score += player_two_points;
+        first_score  += first_points;
+        second_score += second_points;
 
-        int round_lead = abs(player_one_total_score - player_two_total_score);
+        unsigned int round_lead {max(first_score, second_score) -
+                                 min(first_score, second_score)};
 
         if (round_lead > winner_lead)
         {
-            if (player_one_total_score > player_two_total_score)
+            if (first_score > second_score)
             {
-                winner = player_one;
+                winner = 1;
             }
             else
             {
-                winner = player_two;
+                winner = 2;
             }
 
             winner_lead = round_lead;
         }
     }
 
-    cout << winner << " " << winner_lead << '\n';
+    cout << winner << ' ' << winner_lead << '\n';
 
     return 0;
 }

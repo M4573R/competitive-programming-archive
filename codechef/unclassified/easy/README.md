@@ -27,7 +27,7 @@
 [Factorial]:                          https://www.codechef.com/problems/FCTRL
 [Small factorials]:                   https://www.codechef.com/problems/FCTRL2
 [Turbo Sort]:                         https://www.codechef.com/problems/TSORT
-[The Lead Game]:                      http://www.codechef.com/problems/TLG
+[The Lead Game]:                      https://www.codechef.com/problems/TLG
 [Sums in a Triangle]:                 https://www.codechef.com/problems/SUMTRIAN
 [Transform the Expression]:           http://www.codechef.com/problems/ONP
 [Ambiguous Permutations]:             http://www.codechef.com/problems/PERMUT2
