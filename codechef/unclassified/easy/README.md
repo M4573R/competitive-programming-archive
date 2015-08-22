@@ -7,7 +7,6 @@
 | [Enormous Input Test][]                | [enormous_input_test.cpp][]              |
 | [Factorial][]                          | [factorial.cpp][]                        |
 | [Small factorials][]                   | [small_factorials.cpp][]                 |
-| [Holes in the text][]                  | [holes_in_the_text.cpp][]                |
 | [Turbo Sort][]                         | [turbo_sort.cpp][]                       |
 | [The Lead Game][]                      | [the_lead_game.cpp][]                    |
 | [Sums in a Triangle][]                 | [sums_in_a_triangle.cpp][]               |
@@ -27,7 +26,6 @@
 [Enormous Input Test]:                https://www.codechef.com/problems/INTEST
 [Factorial]:                          https://www.codechef.com/problems/FCTRL
 [Small factorials]:                   http://www.codechef.com/problems/FCTRL2
-[Holes in the text]:                  https://www.codechef.com/problems/HOLES
 [Turbo Sort]:                         http://www.codechef.com/problems/TSORT
 [The Lead Game]:                      http://www.codechef.com/problems/TLG
 [Sums in a Triangle]:                 https://www.codechef.com/problems/SUMTRIAN
@@ -47,7 +45,6 @@
 [enormous_input_test.cpp]:              enormous_input_test.cpp
 [factorial.cpp]:                        factorial.cpp
 [small_factorials.cpp]:                 small_factorials.cpp
-[holes_in_the_text.cpp]:                holes_in_the_text.cpp
 [turbo_sort.cpp]:                       turbo_sort.cpp
 [the_lead_game.cpp]:                    the_lead_game.cpp
 [sums_in_a_triangle.cpp]:               sums_in_a_triangle.cpp
