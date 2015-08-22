@@ -3,17 +3,18 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-bool is_inverse(vector<unsigned int>& permutation)
+bool is_ambiguous(const vector<unsigned int>& permutation)
 {
-    for (vector<unsigned int>::size_type i {0}; i < permutation.size(); ++i)
+    for (auto i = permutation.cbegin(); i != permutation.cend(); ++i)
     {
-        if (permutation[permutation[i] - 1] != i + 1)
+        if (permutation[permutation[*i - 1] - 1] != *i)
         {
             return false;
         }
@@ -26,21 +27,23 @@ int main()
 {
     use_io_optimizations();
 
-    unsigned int permutation_size;
-    cin >> permutation_size;
-
-    while (permutation_size > 0)
+    for (unsigned int length; cin >> length && length > 0; )
     {
-        vector<unsigned int> permutation(permutation_size);
+        vector<unsigned int> permutation(length);
 
-        for (unsigned int i {0}; i < permutation_size; ++i)
+        for (auto& element : permutation)
         {
-            cin >> permutation[i];
+            cin >> element;
         }
 
-        cout << (is_inverse(permutation) ? "ambiguous\n" : "not ambiguous\n");
-
-        cin >> permutation_size;
+        if (is_ambiguous(permutation))
+        {
+            cout << "ambiguous\n";
+        }
+        else
+        {
+            cout << "not ambiguous\n";
+        }
     }
 
     return 0;

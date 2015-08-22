@@ -30,7 +30,7 @@
 [The Lead Game]:                      https://www.codechef.com/problems/TLG
 [Sums in a Triangle]:                 https://www.codechef.com/problems/SUMTRIAN
 [Transform the Expression]:           https://www.codechef.com/problems/ONP
-[Ambiguous Permutations]:             http://www.codechef.com/problems/PERMUT2
+[Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Double String]:                      http://www.codechef.com/problems/DOUBLE
 [Yet Another Number Game]:            http://www.codechef.com/problems/DOUBLE
 [Cooling Pies]:                       http://www.codechef.com/problems/COOLING
