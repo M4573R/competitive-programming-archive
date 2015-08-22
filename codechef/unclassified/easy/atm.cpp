@@ -1,11 +1,10 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
-constexpr double fee {0.50};
-
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -15,17 +14,19 @@ int main()
 {
     use_io_optimizations();
 
-    unsigned short amount;
+    cout << fixed << setprecision(2);
+
+    unsigned int cash;
     double balance;
 
-    cin >> amount >> balance;
+    cin >> cash >> balance;
 
-    if ((amount % 5 == 0) && (amount + fee <= balance))
+    if ((cash % 5 == 0) && (cash + 0.5 <= balance))
     {
-        balance -= amount + fee;
+        balance -= cash + 0.5;
     }
 
-    cout << fixed << setprecision(2) << balance << '\n';
+    cout << balance << '\n';
 
     return 0;
 }
