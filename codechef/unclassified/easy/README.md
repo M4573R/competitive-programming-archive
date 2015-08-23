@@ -14,7 +14,6 @@
 | [Ambiguous Permutations][]             | [ambiguous_permutations.cpp][]           |
 | [Yet Another Number Game][]            | [yet_another_number_game.cpp][]          |
 | [Prime Palindromes][]                  | [prime_palindromes.cpp][]                |
-| [Count of Maximum][]                   | [count_of_maximum.cpp][]                 |
 
 [Life, the Universe, and Everything]: https://www.codechef.com/problems/TEST
 [ATM]:                                https://www.codechef.com/problems/HS08TEST
@@ -28,7 +27,6 @@
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Yet Another Number Game]:            https://www.codechef.com/problems/NUMGAME
 [Prime Palindromes]:                  https://www.codechef.com/problems/PRPALIN
-[Count of Maximum]:                   https://www.codechef.com/problems/MAXCOUNT
 
 [life_the_universe_and_everything.cpp]: life_the_universe_and_everything.cpp
 [atm.cpp]:                              atm.cpp
@@ -42,4 +40,3 @@
 [ambiguous_permutations.cpp]:           ambiguous_permutations.cpp
 [yet_another_number_game.cpp]:          yet_another_number_game.cpp
 [prime_palindromes.cpp]:                prime_palindromes.cpp
-[count_of_maximum.cpp]:                 count_of_maximum.cpp
