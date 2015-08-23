@@ -4,7 +4,8 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -14,39 +15,34 @@ int main()
 {
     use_io_optimizations();
 
-    int test_cases;
+    unsigned int test_cases;
     cin >> test_cases;
 
-    for (int i {0}; i < test_cases; ++i)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
-        int soldiers;
-        int rounds;
+        unsigned int soldiers;
+        unsigned int rounds;
 
         cin >> soldiers >> rounds;
 
-        int min_position {soldiers - 1};
-        int max_position {0};
+        unsigned int min_position {soldiers - 1};
+        unsigned int max_position {0};
 
-        for (int j {0}; j < rounds; ++j)
+        for (unsigned int i {0}; i < rounds; ++i)
         {
-            int position;
+            unsigned int position;
             cin >> position;
 
             min_position = min(min_position, position);
             max_position = max(max_position, position);
         }
 
-        for (int soldier {0}; soldier < soldiers; ++soldier)
+        for (unsigned int i {0}; i < soldiers; ++i)
         {
-            cout << max(soldier - min_position, max_position - soldier);
-
-            if (soldier < soldiers - 1)
-            {
-                cout << ' ';
-            }
+            cout << max(static_cast<int>(i) - static_cast<int>(min_position),
+                        static_cast<int>(max_position) - static_cast<int>(i))
+                 << " \n"[i + 1 == soldiers];
         }
-
-        cout << '\n';
     }
 
     return 0;
