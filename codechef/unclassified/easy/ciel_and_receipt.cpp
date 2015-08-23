@@ -2,13 +2,12 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
-
-constexpr unsigned int priciest_menu {2048};
 
 int main()
 {
@@ -17,17 +16,17 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int i {0}; i < test_cases; ++i)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
         unsigned int price;
         cin >> price;
 
         unsigned int menus {0};
 
-        for (unsigned int j {priciest_menu}; j >= 1; j /= 2)
+        for (unsigned int i {2048}; i >= 1; i /= 2)
         {
-            menus += price / j;
-            price %= j;
+            menus += price / i;
+            price %= i;
         }
 
         cout << menus << '\n';

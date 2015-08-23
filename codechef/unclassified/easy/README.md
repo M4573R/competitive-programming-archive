@@ -29,7 +29,7 @@
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Yet Another Number Game]:            https://www.codechef.com/problems/NUMGAME
 [Prime Palindromes]:                  https://www.codechef.com/problems/PRPALIN
-[Ciel and Receipt]:                   http://www.codechef.com/problems/CIELRCPT
+[Ciel and Receipt]:                   https://www.codechef.com/problems/CIELRCPT
 [Count of Maximum]:                   http://www.codechef.com/problems/MAXCOUNT
 
 [life_the_universe_and_everything.cpp]: life_the_universe_and_everything.cpp
