@@ -2,7 +2,8 @@
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -17,16 +18,18 @@ int main()
 
     cin >> left >> right;
 
-    unsigned int correct_answer = left - right;
+    unsigned int difference {left - right};
 
-    if (correct_answer % 10 == 9)
+    if (difference % 10 == 9)
     {
-        cout << correct_answer - 1 << '\n';
+        cout << difference - 1;
     }
     else
     {
-        cout << correct_answer + 1 << '\n';
+        cout << difference + 1;
     }
+
+    cout << '\n';
 
     return 0;
 }

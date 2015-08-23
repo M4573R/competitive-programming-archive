@@ -30,7 +30,7 @@
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Yet Another Number Game]:            https://www.codechef.com/problems/NUMGAME
 [Prime Palindromes]:                  https://www.codechef.com/problems/PRPALIN
-[Ciel and A-B Problem]:               http://www.codechef.com/problems/CIELAB
+[Ciel and A-B Problem]:               https://www.codechef.com/problems/CIELAB
 [Ciel and Receipt]:                   http://www.codechef.com/problems/CIELRCPT
 [Count of Maximum]:                   http://www.codechef.com/problems/MAXCOUNT
 
