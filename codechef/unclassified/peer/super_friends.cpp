@@ -12,8 +12,8 @@ void use_io_optimizations()
     cin.tie(nullptr);
 }
 
-unsigned long long exponentiate(unsigned long long base,
-                                unsigned long long exponent)
+unsigned long long exponentiate(unsigned int base,
+                                unsigned int exponent)
 {
     unsigned long long result    {1};
     unsigned long long aggregate {base};
