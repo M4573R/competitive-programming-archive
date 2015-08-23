@@ -13,6 +13,7 @@
 |    61 | [Brackets][]                           | [brackets.cpp][]                         |
 |   263 | [Period][]                             | [period.cpp][]                           |
 |   346 | [Bytelandian gold coins][]             | [bytelandian_gold_coins.cpp][]           |
+|   394 | [Alphacode][]                          | [alphacode.cpp][]                        |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
 |   902 | [Hangover][]                           | [hangover.cpp][]                         |
 |  1025 | [Fashion Shows][]                      | [fashion_shows.cpp][]                    |
@@ -48,6 +49,7 @@
 [Brackets]:                           http://www.spoj.com/problems/BRCKTS/
 [Period]:                             http://www.spoj.com/problems/PERIOD/
 [Bytelandian gold coins]:             http://www.spoj.com/problems/COINS/
+[Alphacode]:                          http://www.spoj.com/problems/ACODE/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
 [Hangover]:                           http://www.spoj.com/problems/HANGOVER/
 [Fashion Shows]:                      http://www.spoj.com/problems/FASHION/
@@ -83,6 +85,7 @@
 [brackets.cpp]:                         brackets.cpp
 [period.cpp]:                           period.cpp
 [bytelandian_gold_coins.cpp]:           bytelandian_gold_coins.cpp
+[alphacode.cpp]:                        alphacode.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
 [hangover.cpp]:                         hangover.cpp
 [fashion_shows.cpp]:                    fashion_shows.cpp
