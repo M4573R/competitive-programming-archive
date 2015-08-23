@@ -14,7 +14,6 @@
 | [Ambiguous Permutations][]             | [ambiguous_permutations.cpp][]           |
 | [Yet Another Number Game][]            | [yet_another_number_game.cpp][]          |
 | [Prime Palindromes][]                  | [prime_palindromes.cpp][]                |
-| [Ciel and A-B Problem][]               | [ciel_and_a_b_problem.cpp][]             |
 | [Ciel and Receipt][]                   | [ciel_and_receipt.cpp][]                 |
 | [Count of Maximum][]                   | [count_of_maximum.cpp][]                 |
 
@@ -30,7 +29,6 @@
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Yet Another Number Game]:            https://www.codechef.com/problems/NUMGAME
 [Prime Palindromes]:                  https://www.codechef.com/problems/PRPALIN
-[Ciel and A-B Problem]:               https://www.codechef.com/problems/CIELAB
 [Ciel and Receipt]:                   http://www.codechef.com/problems/CIELRCPT
 [Count of Maximum]:                   http://www.codechef.com/problems/MAXCOUNT
 
@@ -46,6 +44,5 @@
 [ambiguous_permutations.cpp]:           ambiguous_permutations.cpp
 [yet_another_number_game.cpp]:          yet_another_number_game.cpp
 [prime_palindromes.cpp]:                prime_palindromes.cpp
-[ciel_and_a_b_problem.cpp]:             ciel_and_a_b_problem.cpp
 [ciel_and_receipt.cpp]:                 ciel_and_receipt.cpp
 [count_of_maximum.cpp]:                 count_of_maximum.cpp
