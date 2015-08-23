@@ -1,20 +1,30 @@
 #include <algorithm>
 #include <iostream>
 #include <map>
+#include <utility>
 
 using namespace std;
 
-inline void use_io_optimizations()
+inline
+void use_io_optimizations()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
 
-inline bool max_frequency_min_value(const pair<unsigned int, unsigned int>& left,
-                                    const pair<unsigned int, unsigned int>& right)
+struct MaxFrequencyMinValue
 {
-    return left.second < right.second || left.first > right.first;
-}
+    bool operator()(const pair<unsigned int, unsigned int>& left,
+                    const pair<unsigned int, unsigned int>& right)
+    {
+        if (left.second == right.second)
+        {
+            return left.first > right.first;
+        }
+
+        return left.second < right.second;
+    }
+};
 
 int main()
 {
@@ -23,29 +33,27 @@ int main()
     unsigned int test_cases;
     cin >> test_cases;
 
-    for (unsigned int i {0}; i < test_cases; ++i)
+    for (unsigned int test {0}; test < test_cases; ++test)
     {
-        unsigned int length;
-        cin >> length;
+        unsigned int values;
+        cin >> values;
 
         map<unsigned int, unsigned int> frequencies;
 
-        for (unsigned int j {0}; j < length; ++j)
+        for (unsigned int i {0}; i < values; ++i)
         {
-            unsigned int element;
-            cin >> element;
+            unsigned int value;
+            cin >> value;
 
-            ++frequencies[element];
+            ++frequencies[value];
         }
 
-        auto element_and_frequency = max_element(frequencies.cbegin(),
-                                                 frequencies.cend(),
-                                                 max_frequency_min_value);
+        auto value_and_frequency = max_element(frequencies.cbegin(),
+                                               frequencies.cend(),
+                                               MaxFrequencyMinValue());
 
-        cout << element_and_frequency->first
-             << ' '
-             << element_and_frequency->second
-             << '\n';
+        cout << value_and_frequency->first  << ' '
+             << value_and_frequency->second << '\n';
     }
 
     return 0;

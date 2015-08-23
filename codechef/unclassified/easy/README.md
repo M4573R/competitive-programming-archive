@@ -28,7 +28,7 @@
 [Ambiguous Permutations]:             https://www.codechef.com/problems/PERMUT2
 [Yet Another Number Game]:            https://www.codechef.com/problems/NUMGAME
 [Prime Palindromes]:                  https://www.codechef.com/problems/PRPALIN
-[Count of Maximum]:                   http://www.codechef.com/problems/MAXCOUNT
+[Count of Maximum]:                   https://www.codechef.com/problems/MAXCOUNT
 
 [life_the_universe_and_everything.cpp]: life_the_universe_and_everything.cpp
 [atm.cpp]:                              atm.cpp
