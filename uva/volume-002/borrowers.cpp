@@ -150,8 +150,6 @@ int main()
         {
             place_back_books(shelves, borrowed, returned);
         }
-
-        cin.ignore();
     }
 
     return 0;
