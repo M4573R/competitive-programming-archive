@@ -6,7 +6,7 @@
 
 using namespace std;
 
-const unsigned int max_time {60 * 60};
+constexpr unsigned int max_time {60 * 60};
 
 inline
 void use_io_optimizations()
@@ -15,11 +15,11 @@ void use_io_optimizations()
     cin.tie(nullptr);
 }
 
-bool all_green(unsigned int time, const vector<unsigned int>& cycles)
+bool all_green(const vector<unsigned int>& cycles, unsigned int time)
 {
-    for (unsigned int i {0}; i < cycles.size(); ++i)
+    for (auto cycle : cycles)
     {
-        if (time % (2 * cycles[i]) >= cycles[i] - 5)
+        if (time % (2 * cycle) >= cycle - 5)
         {
             return false;
         }
@@ -38,18 +38,16 @@ int main()
     {
         istringstream in {line};
 
-        unsigned int min_cycle {max_time};
         vector<unsigned int> cycles;
 
         for (unsigned int cycle; in >> cycle; )
         {
             cycles.push_back(cycle);
-            min_cycle = min(min_cycle, cycle);
         }
 
-        unsigned int time {2 * min_cycle};
+        unsigned int time {*min_element(cycles.cbegin(), cycles.cend()) * 2};
 
-        while (time <= max_time && !all_green(time, cycles))
+        while (time <= max_time && !all_green(cycles, time))
         {
             ++time;
         }
