@@ -1,5 +1,6 @@
 #include <iostream>
 #include <map>
+#include <sstream>
 #include <string>
 #include <vector>
 
@@ -14,95 +15,124 @@ void use_io_optimizations()
 
 struct Array
 {
-    int base_address;
-    int dimensions;
-    int element_size;
+    unsigned int base_address;
+    unsigned int dimensions;
+    unsigned int element_size;
 
-    vector<int> lower_bounds;
-    vector<int> upper_bounds;
+    vector<int> lower;
+    vector<int> upper;
     vector<int> constants;
 
-    void calculate_constants();
+    void calculate_constants()
+    {
+        constants.resize(dimensions + 1);
+        constants.back() = element_size;
+
+        for (unsigned int i {dimensions - 1}; i > 0; --i)
+        {
+            constants[i] = constants[i + 1] * (upper[i] - lower[i] + 1);
+        }
+
+        constants.front() = base_address;
+
+        for (unsigned int i {1}; i <= dimensions; ++i)
+        {
+            constants.front() -= constants[i] * lower[i - 1];
+        }
+    }
 };
-
-void Array::calculate_constants()
-{
-    constants.resize(dimensions + 1);
-    constants.back() = element_size;
-
-    for (int i {dimensions - 1}; i > 0; --i)
-    {
-        constants[i] = constants[i + 1] * (upper_bounds[i] - lower_bounds[i] + 1);
-    }
-
-    constants.front() = base_address;
-
-    for (int i {1}; i <= dimensions; ++i)
-    {
-        constants.front() -= constants[i] * lower_bounds[i - 1];
-    }
-}
 
 istream& operator>>(istream& in, Array& array)
 {
-    in >> array.base_address >> array.element_size >> array.dimensions;
+    in >> array.base_address
+       >> array.element_size
+       >> array.dimensions;
 
-    array.lower_bounds.resize(array.dimensions);
-    array.upper_bounds.resize(array.dimensions);
+    array.lower.resize(array.dimensions);
+    array.upper.resize(array.dimensions);
 
-    for (int i {0}; i < array.dimensions; ++i)
+    for (unsigned int i {0}; i < array.dimensions; ++i)
     {
-        cin >> array.lower_bounds[i] >> array.upper_bounds[i];
+        cin >> array.lower[i] >> array.upper[i];
     }
 
     array.calculate_constants();
+
+    return in;
+}
+
+struct Reference
+{
+    string array;
+    vector<int> indices;
+};
+
+istream& operator>>(istream& in, Reference& reference)
+{
+    in >> reference.array;
+
+    string rest;
+    getline(in, rest);
+
+    istringstream indices {rest};
+
+    for (int index; indices >> index; )
+    {
+        reference.indices.push_back(index);
+    }
+}
+
+void read_input(map<string, Array>& arrays, vector<Reference>& references)
+{
+    unsigned int arrays_count;
+    unsigned int references_count;
+
+    cin >> arrays_count >> references_count;
+
+    for (unsigned int i {0}; i < arrays_count; ++i)
+    {
+        string name;
+        Array array;
+
+        cin >> name >> array;
+
+        arrays[name] = array;
+    }
+
+    references.resize(references_count);
+
+    for (auto& reference : references)
+    {
+        cin >> reference;
+    }
 }
 
 int main()
 {
     use_io_optimizations();
 
-    int arrays_count;
-    int references;
+    map<string, Array> arrays;
+    vector<Reference> references;
 
-    cin >> arrays_count >> references;
+    read_input(arrays, references);
 
-    map<string, int> positions;
-    vector<Array> arrays(arrays_count);
-
-    for (int i {0}; i < arrays_count; ++i)
+    for (const auto& reference : references)
     {
-        string name;
+        auto array            = arrays[reference.array];
+        auto physical_address = array.constants.front();
 
-        cin >> name;
-        cin >> arrays[i];
+        cout << reference.array << '[';
 
-        positions[name] = i;
-    }
-
-    for (int i {0}; i < references; ++i)
-    {
-        string name;
-        cin >> name;
-
-        int position         {positions[name]};
-        int physical_address {arrays[position].constants.front()};
-
-        cout << name << '[';
-
-        for (int j {0}; j < arrays[position].dimensions; ++j)
+        for (unsigned int i {0}; i < array.dimensions; ++i)
         {
-            if (j != 0)
+            if (i != 0)
             {
                 cout << ", ";
             }
 
-            int index;
-            cin >> index;
+            cout << reference.indices[i];
 
-            cout << index;
-
-            physical_address += arrays[position].constants[j + 1] * index;
+            physical_address += array.constants[i + 1] * reference.indices[i];
         }
 
         cout << "] = " << physical_address << '\n';
