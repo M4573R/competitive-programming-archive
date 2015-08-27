@@ -13,7 +13,7 @@
 | 494 | [Kindergarten Counting Game][]     | [kindergarten_counting_game.cpp][]  |
 | 499 | [What's The Frequency, Kenneth?][] | [whats_the_frequency_kenneth.cpp][] |
 
-[Machined Surfaces]:              http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=355
+[Machined Surfaces]:              https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=355
 [MPI Maelstrom]:                  http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=364
 [Integer Inquiry]:                https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=365
 [Project Scheduling]:             http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=393

@@ -1,7 +1,6 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-#include <vector>
 
 using namespace std;
 
@@ -20,18 +19,19 @@ int main()
     {
         cin.ignore();
 
-        vector<unsigned int> holes(rows);
+        unsigned int total_void {0};
+        unsigned int min_void   {25};
 
-        for (auto& hole : holes)
+        for (unsigned int i {0}; i < rows; ++i)
         {
             string row;
             getline(cin, row);
 
-            hole = count(row.cbegin(), row.cend(), ' ');
-        }
+            unsigned int row_void = count(row.cbegin(), row.cend(), ' ');
 
-        unsigned int total_void {accumulate(holes.cbegin(), holes.cend(), 0u)};
-        unsigned int min_void   {*min_element(holes.cbegin(), holes.cend())};
+            total_void += row_void;
+            min_void    = min(min_void, row_void);
+        }
 
         cout << total_void - rows * min_void << '\n';
     }
