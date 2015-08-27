@@ -23,8 +23,7 @@ int main()
 
     for (unsigned int test {0}; test < test_cases; ++test)
     {
-        cin.ignore();
-        cin.ignore();
+        cin.ignore(2);
 
         string line;
         getline(cin, line);
