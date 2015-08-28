@@ -17,6 +17,7 @@
 | 1082 | [Gaby Ivanushka][]       | [gaby_ivanushka.cpp][]      |
 | 1083 | [Factorials!!!][]        | [factorials!!!.cpp][]       |
 | 1084 | [Goat in the Garden][]   | [goat_in_the_graden.cpp][]  |
+| 1086 | [Cryptography][]         | [cryptography.cpp][]        |
 
 [A+B Problem]:          http://acm.timus.ru/problem.aspx?space=1&num=1000
 [Reverse Root]:         http://acm.timus.ru/problem.aspx?space=1&num=1001
@@ -33,6 +34,7 @@
 [Gaby Ivanushka]:       http://acm.timus.ru/problem.aspx?space=1&num=1082
 [Factorials!!!]:        http://acm.timus.ru/problem.aspx?space=1&num=1083
 [Goat in the Garden]:   http://acm.timus.ru/problem.aspx?space=1&num=1084
+[Cryptography]:         http://acm.timus.ru/problem.aspx?space=1&num=1086
 
 [a+b_problem.cpp]:         a+b_problem.cpp
 [reverse_root.cpp]:        reverse_root.cpp
@@ -49,4 +51,4 @@
 [gaby_ivanushka.cpp]:      gaby_ivanushka.cpp
 [factorials!!!.cpp]:       factorials!!!.cpp
 [goat_in_the_graden.cpp]:  goat_in_the_graden.cpp
-
+[cryptography.cpp]:        cryptography.cpp
