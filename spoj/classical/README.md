@@ -35,6 +35,7 @@
 |  7974 | [What's Next][]                        | [whats_next.cpp][]                       |
 |  8002 | [Horrible Queries][]                   | [horrible_queries.cpp][]                 |
 |  8545 | [Subset sum][]                         | [subset_sum.cpp][]                       |
+|  9948 | [Will it ever stop][]                  | [will_it_ever_stop.cpp][]                |
 | 10582 | [subarrays][]                          | [subarrays.cpp][]                        |
 | 11772 | [Negative Score][]                     | [negative_score.cpp][]                   |
 | 13990 | [Web islands][]                        | [web_islands.cpp][]                      |
@@ -73,6 +74,7 @@
 [What's Next]:                        http://www.spoj.com/problems/ACPC10A/
 [Horrible Queries]:                   http://www.spoj.com/problems/HORRIBLE/
 [Subset sum]:                         http://www.spoj.com/problems/MAIN72/
+[Will it ever stop]:                  http://www.spoj.com/problems/WILLITST/
 [subarrays]:                          http://www.spoj.com/problems/ARRAYSUB/
 [Negative Score]:                     http://www.spoj.com/problems/RPLN/
 [Web islands]:                        http://www.spoj.com/problems/WEBISL/
@@ -111,6 +113,7 @@
 [whats_next.cpp]:                       whats_next.cpp
 [horrible_queries.cpp]:                 horrible_queries.cpp
 [subset_sum.cpp]:                       subset_sum.cpp
+[will_it_ever_stop.cpp]:                will_it_ever_stop.cpp
 [subarrays.cpp]:                        subarrays.cpp
 [negative_score.cpp]:                   negative_score.cpp
 [web_islands.cpp]:                      web_islands.cpp
