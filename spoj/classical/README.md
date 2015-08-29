@@ -5,6 +5,7 @@
 |     1 | [Life, the Universe, and Everything][] | [life_the_universe_and_everything.cpp][] |
 |     2 | [Prime Generator][]                    | [prime_generator.cpp][]                  |
 |     4 | [Transform the Expression][]           | [transform_the_expression.cpp][]         |
+|     5 | [The Next Palindrome][]                | [the_next_palindrome.cpp][]              |
 |    11 | [Factorial][]                          | [factorial.cpp][]                        |
 |    24 | [Small factorials][]                   | [small_factorials.cpp][]                 |
 |    26 | [Build the Fence][]                    | [build_the_fence.cpp][]                  |
@@ -41,6 +42,7 @@
 [Life, the Universe, and Everything]: http://www.spoj.com/problems/TEST/
 [Prime Generator]:                    http://www.spoj.com/problems/PRIME1/
 [Transform the Expression]:           http://www.spoj.com/problems/ONP/
+[The Next Palindrome]:                http://www.spoj.com/problems/PALIN/
 [Factorial]:                          http://www.spoj.com/problems/FCTRL/
 [Small factorials]:                   http://www.spoj.com/problems/FCTRL2/
 [Build the Fence]:                    http://www.spoj.com/problems/BSHEEP/
@@ -77,6 +79,7 @@
 [life_the_universe_and_everything.cpp]: life_the_universe_and_everything.cpp
 [prime_generator.cpp]:                  prime_generator.cpp
 [transform_the_expression.cpp]:         transform_the_expression.cpp
+[the_next_palindrome.cpp]:              the_next_palindrome.cpp
 [factorial.cpp]:                        factorial.cpp
 [small_factorials.cpp]:                 small_factorials.cpp
 [build_the_fence.cpp]:                  small_factorials.cpp
