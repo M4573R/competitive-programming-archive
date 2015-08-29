@@ -13,6 +13,7 @@
 |    54 | [Julka][]                              | [julka.cpp][]                            |
 |    61 | [Brackets][]                           | [brackets.cpp][]                         |
 |   263 | [Period][]                             | [period.cpp][]                           |
+|   302 | [Count on Cantor][]                    | [count_on_cantor.cpp][]                  |
 |   346 | [Bytelandian gold coins][]             | [bytelandian_gold_coins.cpp][]           |
 |   394 | [Alphacode][]                          | [alphacode.cpp][]                        |
 |   400 | [To and Fro][]                         | [to_and_fro.cpp][]                       |
@@ -50,6 +51,7 @@
 [Julka]:                              http://www.spoj.com/problems/JULKA/
 [Brackets]:                           http://www.spoj.com/problems/BRCKTS/
 [Period]:                             http://www.spoj.com/problems/PERIOD/
+[Count on Cantor]:                    http://www.spoj.com/problems/CANTON/
 [Bytelandian gold coins]:             http://www.spoj.com/problems/COINS/
 [Alphacode]:                          http://www.spoj.com/problems/ACODE/
 [To and Fro]:                         http://www.spoj.com/problems/TOANDFRO/
@@ -87,6 +89,7 @@
 [julka.cpp]:                            julka.cpp
 [brackets.cpp]:                         brackets.cpp
 [period.cpp]:                           period.cpp
+[count_on_cantor.cpp]:                  count_on_cantor.cpp
 [bytelandian_gold_coins.cpp]:           bytelandian_gold_coins.cpp
 [alphacode.cpp]:                        alphacode.cpp
 [to_and_fro.cpp]:                       to_and_fro.cpp
