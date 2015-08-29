@@ -11,6 +11,7 @@
 | 15708 | [Divisibility][]               | [divisibility.cpp][]            |
 | 15710 | [Iterated sums][]              | [iterated_sums.cpp][]           |
 | 15711 | [Wow][]                        | [wow.cpp][]                     |
+| 17102 | [Fun with Sequences][]         | [fun_with_sequences.cpp][]      |
 | 17921 | [Xor][]                        | [xor.cpp][]                     |
 
 [Test 1]:                     http://www.spoj.com/problems/TESTINT/
@@ -22,6 +23,7 @@
 [Divisibility]:               http://www.spoj.com/problems/SMPDIV/
 [Iterated sums]:              http://www.spoj.com/problems/SMPSUM/
 [Wow]:                        http://www.spoj.com/problems/SMPWOW/
+[Fun with Sequences]:         http://www.spoj.com/problems/SMPSEQ3/
 [Xor]:                        http://www.spoj.com/problems/BSCXOR/
 
 [test1.cpp]:                   test1.cpp
@@ -33,4 +35,5 @@
 [divisibility.cpp]:            divisibility.cpp
 [iterated_sums.cpp]:           iterated_sums.cpp
 [wow.cpp]:                     wow.cpp
+[fun_with_sequences.cpp]:      fun_with_sequences.cpp
 [xor.cpp]:                     xor.cpp
