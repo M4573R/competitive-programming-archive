@@ -32,6 +32,7 @@ judge archives.
 * [URI](https://www.urionlinejudge.com.br)
 * [E-Olymp](http://www.e-olymp.com/)
 * [Kattis](https://open.kattis.com/)
+* [COJ](http://coj.uci.cu/)
 
 ## Copyright
 
