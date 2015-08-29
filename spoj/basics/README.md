@@ -7,6 +7,7 @@
 | 12176 | [Character Patterns (Act 1)][] | [character_patterns_act1.cpp][] |
 | 12177 | [Character Patterns (Act 2)][] | [character_patterns_act2.cpp][] |
 | 12178 | [Character Patterns (Act 3)][] | [character_patterns_act3.cpp][] |
+| 12180 | [Character Patterns (Act 4)][] | [character_patterns_act4.cpp][] |
 | 15708 | [Divisibility][]               | [divisibility.cpp][]            |
 | 15710 | [Iterated sums][]              | [iterated_sums.cpp][]           |
 | 15711 | [Wow][]                        | [wow.cpp][]                     |
@@ -17,6 +18,7 @@
 [Character Patterns (Act 1)]: http://www.spoj.com/problems/CPTTRN1/
 [Character Patterns (Act 2)]: http://www.spoj.com/problems/CPTTRN2/
 [Character Patterns (Act 3)]: http://www.spoj.com/problems/CPTTRN3/
+[Character Patterns (Act 4)]: http://www.spoj.com/problems/CPTTRN4/
 [Divisibility]:               http://www.spoj.com/problems/SMPDIV/
 [Iterated sums]:              http://www.spoj.com/problems/SMPSUM/
 [Wow]:                        http://www.spoj.com/problems/SMPWOW/
@@ -27,6 +29,7 @@
 [character_patterns_act1.cpp]: character_patterns_act1.cpp
 [character_patterns_act2.cpp]: character_patterns_act2.cpp
 [character_patterns_act3.cpp]: character_patterns_act3.cpp
+[character_patterns_act4.cpp]: character_patterns_act4.cpp
 [divisibility.cpp]:            divisibility.cpp
 [iterated_sums.cpp]:           iterated_sums.cpp
 [wow.cpp]:                     wow.cpp
