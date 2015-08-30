@@ -11,6 +11,7 @@
 | 1642 | [1D Maze][]                | [1d_maze.cpp](./1d_maze.cpp)                               |
 | 1644 | [A Whole Lot of Walnuts][] | [a_whole_lot_of_walnuts.cpp](./a_whole_lot_of_walnuts.cpp) |
 | 1654 | [Cipher Message][]         | [cipher_message.cpp](./cipher_message.cpp)                 |
+| 1683 | [Fridge][]                 | [fridge.cpp][]                                             |
 
 [AntiCAPS]:               http://acm.timus.ru/problem.aspx?space=1&num=1601
 [Taxi]:                   http://acm.timus.ru/problem.aspx?space=1&num=1607
@@ -21,6 +22,7 @@
 [1D Maze]:                http://acm.timus.ru/problem.aspx?space=1&num=1642
 [A Whole Lot of Walnuts]: http://acm.timus.ru/problem.aspx?space=1&num=1644
 [Cipher Message]:         http://acm.timus.ru/problem.aspx?space=1&num=1654
+[Fridge]:                 http://acm.timus.ru/problem.aspx?space=1&num=1683
 
 [anticaps.cpp]:               anticaps.cpp
 [taxi.cpp]:                   taxi.cpp
@@ -31,3 +33,4 @@
 [1d_maze.cpp]:                1d_maze.cpp
 [a_whole_lot_of_walnuts.cpp]: a_whole_lot_of_walnuts.cpp
 [cipher_message.cpp]:         cipher_message.cpp
+[fridge.cpp]:                 fridge.cpp
