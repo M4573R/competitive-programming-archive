@@ -5,6 +5,7 @@
 | 1820 | [Ural Steaks][]            | [ural_steaks.cpp][]            |
 | 1837 | [Isenbaev's Number][]      | [isenbaevs_number.cpp][]       |
 | 1846 | [GCD 2010][]               | [gcd_2010.cpp][]               |
+| 1868 | [Prediction Contest][]     | [prediction_contest.cpp][]     |
 | 1873 | [GOV Chronicles][]         | [gov_chronicles.cpp][]         |
 | 1876 | [Centipede's Morning][]    | [centipedes_morning.cpp][]     |
 | 1877 | [Bicycle Codes][]          | [bicycle_codes.cpp][]          |
@@ -15,6 +16,7 @@
 [Ural Steaks]:            http://acm.timus.ru/problem.aspx?space=1&num=1820
 [Isenbaev's Number]:      http://acm.timus.ru/problem.aspx?space=1&num=1837
 [GCD 2010]:               http://acm.timus.ru/problem.aspx?space=1&num=1846
+[Prediction Contest]:     http://acm.timus.ru/problem.aspx?space=1&num=1868
 [GOV Chronicles]:         http://acm.timus.ru/problem.aspx?space=1&num=1873
 [Centipede's Morning]:    http://acm.timus.ru/problem.aspx?space=1&num=1876
 [Bicycle Codes]:          http://acm.timus.ru/problem.aspx?space=1&num=1877
@@ -25,6 +27,7 @@
 [ural_steaks.cpp]:            ural_steaks.cpp
 [isenbaevs_number.cpp]:       isenbaevs_number.cpp
 [gcd_2010.cpp]:               gcd_2010.cpp
+[prediction_contest.cpp]:     prediction_contest.cpp
 [gov_chronicles.cpp]:         gov_chronicles.cpp
 [centipedes_morning.cpp]:     centipedes_morning.cpp
 [bicycle_codes.cpp]:          bicycle_codes.cpp
