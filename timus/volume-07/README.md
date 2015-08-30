@@ -12,6 +12,7 @@
 | 1644 | [A Whole Lot of Walnuts][] | [a_whole_lot_of_walnuts.cpp][] |
 | 1654 | [Cipher Message][]         | [cipher_message.cpp][]         |
 | 1683 | [Fridge][]                 | [fridge.cpp][]                 |
+| 1688 | [Team.GOV!][]              | [team_gov.cpp][]               |
 
 [AntiCAPS]:               http://acm.timus.ru/problem.aspx?space=1&num=1601
 [Taxi]:                   http://acm.timus.ru/problem.aspx?space=1&num=1607
@@ -23,6 +24,7 @@
 [A Whole Lot of Walnuts]: http://acm.timus.ru/problem.aspx?space=1&num=1644
 [Cipher Message]:         http://acm.timus.ru/problem.aspx?space=1&num=1654
 [Fridge]:                 http://acm.timus.ru/problem.aspx?space=1&num=1683
+[Team.GOV!]:              http://acm.timus.ru/problem.aspx?space=1&num=1688
 
 [anticaps.cpp]:               anticaps.cpp
 [taxi.cpp]:                   taxi.cpp
@@ -34,3 +36,4 @@
 [a_whole_lot_of_walnuts.cpp]: a_whole_lot_of_walnuts.cpp
 [cipher_message.cpp]:         cipher_message.cpp
 [fridge.cpp]:                 fridge.cpp
+[team_gov.cpp]:               team_gov.cpp
