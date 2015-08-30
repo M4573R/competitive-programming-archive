@@ -16,6 +16,7 @@
 | 1264 | [Workdays][]                            | [workdays.cpp][]                            |
 | 1272 | [Non-Yekaterinburg Subway][]            | [non_yekaterinburg_subway.cpp][]            |
 | 1280 | [Topological Sorting][]                 | [topological_sorting.cpp][]                 |
+| 1283 | [Dwarf][]                               | [dwarf.cpp][]                               |
 | 1290 | [Sabotage][]                            | [sabotage.cpp][]                            |
 | 1293 | [Eniya][]                               | [eniya.cpp][]                               |
 | 1296 | [Hyperjump][]                           | [hyperjump.cpp][]                           |
@@ -35,6 +36,7 @@
 [Workdays]:                            http://acm.timus.ru/problem.aspx?space=1&num=1264
 [Non-Yekaterinburg Subway]:            http://acm.timus.ru/problem.aspx?space=1&num=1272
 [Topological Sorting]:                 http://acm.timus.ru/problem.aspx?num=1280
+[Dwarf]:                               http://acm.timus.ru/problem.aspx?space=1&num=1283
 [Sabotage]:                            http://acm.timus.ru/problem.aspx?space=1&num=1290
 [Eniya]:                               http://acm.timus.ru/problem.aspx?space=1&num=1293
 [Hyperjump]:                           http://acm.timus.ru/problem.aspx?space=1&num=1296
@@ -54,6 +56,7 @@
 [workdays.cpp]:                            workdays.cpp
 [non_yekaterinburg_subway.cpp]:            non_yekaterinburg_subway.cpp
 [topological_sorting.cpp]:                 topological_sorting.cpp
+[dwarf.cpp]:                               dwarf.cpp
 [sabotage.cpp]:                            sabotage.cpp
 [eniya.cpp]:                               eniya.cpp
 [hyperjump.cpp]:                           hyperjump.cpp
