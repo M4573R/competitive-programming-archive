@@ -29,6 +29,7 @@
 |  2148 | [Candy III][]                          | [candy3.cpp][]                           |
 |  2157 | [Anti-Blot System][]                   | [anti_blot_system.cpp][]                 |
 |  2713 | [Can you answer these queries IV][]    | [can_you_answer_these_queries_4.cpp][]   |
+|  3375 | [Stamps][]                             | [stamps.cpp][]                           |
 |  3410 | [Feynman][]                            | [feynman.cpp][]                          |
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
 |  3693 | [Maximum Sum][]                        | [maximum_sum.cpp][]                      |
@@ -65,6 +66,7 @@
 [Number Steps]:                       http://www.spoj.com/problems/NSTEPS/
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
 [Can you answer these queries III]:   http://www.spoj.com/problems/GSS3/
+[Stamps]:                             http://www.spoj.com/problems/STAMPS/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
 [Candy III]:                          http://www.spoj.com/problems/CANDY3/
 [Anti-Blot System]:                   http://www.spoj.com/problems/ABSYS/
@@ -109,6 +111,7 @@
 [candy3.cpp]:                           candy3.cpp
 [anti_blot_system.cpp]:                 anti_blot_system.cpp
 [can_you_answer_these_queries_4.cpp]:   can_you_answer_these_queries_4.cpp
+[stamps.cpp]:                           stamps.cpp
 [feynman.cpp]:                          feynman.cpp
 [the_last_digit.cpp]:                   the_last_digit.cpp
 [maximum_sum.cpp]:                      maximum_sum.cpp
