@@ -29,6 +29,7 @@
 |  2148 | [Candy III][]                          | [candy3.cpp][]                           |
 |  2157 | [Anti-Blot System][]                   | [anti_blot_system.cpp][]                 |
 |  2713 | [Can you answer these queries IV][]    | [can_you_answer_these_queries_4.cpp][]   |
+|  2727 | [Army Strength][]                      | [army_strength.cpp][]                    |
 |  3375 | [Stamps][]                             | [stamps.cpp][]                           |
 |  3410 | [Feynman][]                            | [feynman.cpp][]                          |
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
@@ -66,11 +67,12 @@
 [Number Steps]:                       http://www.spoj.com/problems/NSTEPS/
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
 [Can you answer these queries III]:   http://www.spoj.com/problems/GSS3/
-[Stamps]:                             http://www.spoj.com/problems/STAMPS/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
 [Candy III]:                          http://www.spoj.com/problems/CANDY3/
 [Anti-Blot System]:                   http://www.spoj.com/problems/ABSYS/
 [Can you answer these queries IV]:    http://www.spoj.com/problems/GSS4/
+[Army Strength]:                      http://www.spoj.com/problems/ARMY/
+[Stamps]:                             http://www.spoj.com/problems/STAMPS/
 [Feynman]:                            http://www.spoj.com/problems/SAMER08F/
 [The last digit]:                     http://www.spoj.com/problems/LASTDIG/
 [Maximum Sum]:                        http://www.spoj.com/problems/KGSS/
@@ -111,6 +113,7 @@
 [candy3.cpp]:                           candy3.cpp
 [anti_blot_system.cpp]:                 anti_blot_system.cpp
 [can_you_answer_these_queries_4.cpp]:   can_you_answer_these_queries_4.cpp
+[army_strength.cpp]:                    army_strength.cpp
 [stamps.cpp]:                           stamps.cpp
 [feynman.cpp]:                          feynman.cpp
 [the_last_digit.cpp]:                   the_last_digit.cpp
