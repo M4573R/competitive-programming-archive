@@ -25,6 +25,7 @@
 |  1112 | [Number Steps][]                       | [number_steps.cpp][]                     |
 |  1684 | [Frequent Values][]                    | [frequent_values.cpp][]                  |
 |  1716 | [Can you answer these queries III][]   | [can_you_answer_these_queries_3.cpp][]   |
+|  1724 | [Counting Triangles][]                 | [counting_triangles.cpp][]               |
 |  2123 | [Candy I][]                            | [candy1.cpp][]                           |
 |  2148 | [Candy III][]                          | [candy3.cpp][]                           |
 |  2157 | [Anti-Blot System][]                   | [anti_blot_system.cpp][]                 |
@@ -67,6 +68,7 @@
 [Number Steps]:                       http://www.spoj.com/problems/NSTEPS/
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
 [Can you answer these queries III]:   http://www.spoj.com/problems/GSS3/
+[Counting Triangles]:                 http://www.spoj.com/problems/TRICOUNT/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
 [Candy III]:                          http://www.spoj.com/problems/CANDY3/
 [Anti-Blot System]:                   http://www.spoj.com/problems/ABSYS/
@@ -109,6 +111,7 @@
 [number_steps.cpp]:                     number_steps.cpp
 [frequent_values.cpp]:                  frequent_values.cpp
 [can_you_answer_these_queries_3.cpp]:   can_you_answer_these_queries_3.cpp
+[counting_triangles.cpp]:               counting_triangles.cpp
 [candy1.cpp]:                           candy1.cpp
 [candy3.cpp]:                           candy3.cpp
 [anti_blot_system.cpp]:                 anti_blot_system.cpp
