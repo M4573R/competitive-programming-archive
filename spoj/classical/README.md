@@ -36,6 +36,7 @@
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
 |  3693 | [Maximum Sum][]                        | [maximum_sum.cpp][]                      |
 |  4300 | [Rectangles][]                         | [rectangles.cpp][]                       |
+|  4408 | [Build a Fence][]                      | [build_a_fence.cpp][]                    |
 |  7974 | [What's Next][]                        | [whats_next.cpp][]                       |
 |  8002 | [Horrible Queries][]                   | [horrible_queries.cpp][]                 |
 |  8545 | [Subset sum][]                         | [subset_sum.cpp][]                       |
@@ -79,6 +80,7 @@
 [The last digit]:                     http://www.spoj.com/problems/LASTDIG/
 [Maximum Sum]:                        http://www.spoj.com/problems/KGSS/
 [Rectangles]:                         http://www.spoj.com/problems/AE00/
+[Build a Fence]:                      http://www.spoj.com/problems/FENCE1/
 [What's Next]:                        http://www.spoj.com/problems/ACPC10A/
 [Horrible Queries]:                   http://www.spoj.com/problems/HORRIBLE/
 [Subset sum]:                         http://www.spoj.com/problems/MAIN72/
@@ -122,6 +124,7 @@
 [the_last_digit.cpp]:                   the_last_digit.cpp
 [maximum_sum.cpp]:                      maximum_sum.cpp
 [rectangles.cpp]:                       rectangles.cpp
+[build_a_fence.cpp]:                    build_a_fence.cpp
 [whats_next.cpp]:                       whats_next.cpp
 [horrible_queries.cpp]:                 horrible_queries.cpp
 [subset_sum.cpp]:                       subset_sum.cpp
