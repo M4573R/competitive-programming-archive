@@ -42,6 +42,7 @@
 |  8545 | [Subset sum][]                         | [subset_sum.cpp][]                       |
 |  9948 | [Will it ever stop][]                  | [will_it_ever_stop.cpp][]                |
 | 10582 | [subarrays][]                          | [subarrays.cpp][]                        |
+| 11063 | [AP - Complete The Series (Easy)][]    | [ap_complete_the_series_easy.cpp][]      |
 | 11772 | [Negative Score][]                     | [negative_score.cpp][]                   |
 | 13990 | [Web islands][]                        | [web_islands.cpp][]                      |
 | 16487 | [Update the array!][]                  | [update_the_array.cpp][]                 |
@@ -86,6 +87,7 @@
 [Subset sum]:                         http://www.spoj.com/problems/MAIN72/
 [Will it ever stop]:                  http://www.spoj.com/problems/WILLITST/
 [subarrays]:                          http://www.spoj.com/problems/ARRAYSUB/
+[AP - Complete The Series (Easy)]:    http://www.spoj.com/problems/AP2/
 [Negative Score]:                     http://www.spoj.com/problems/RPLN/
 [Web islands]:                        http://www.spoj.com/problems/WEBISL/
 [Update the array!]:                  http://www.spoj.com/problems/UPDATEIT/
@@ -130,6 +132,7 @@
 [subset_sum.cpp]:                       subset_sum.cpp
 [will_it_ever_stop.cpp]:                will_it_ever_stop.cpp
 [subarrays.cpp]:                        subarrays.cpp
+[ap_complete_the_series_easy.cpp]:      ap_complete_the_series_easy.cpp
 [negative_score.cpp]:                   negative_score.cpp
 [web_islands.cpp]:                      web_islands.cpp
 [update_the_array.cpp]:                 update_the_array.cpp
