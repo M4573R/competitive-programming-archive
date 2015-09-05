@@ -25,20 +25,24 @@
 |  1112 | [Number Steps][]                       | [number_steps.cpp][]                     |
 |  1684 | [Frequent Values][]                    | [frequent_values.cpp][]                  |
 |  1716 | [Can you answer these queries III][]   | [can_you_answer_these_queries_3.cpp][]   |
+|  1724 | [Counting Triangles][]                 | [counting_triangles.cpp][]               |
 |  2123 | [Candy I][]                            | [candy1.cpp][]                           |
 |  2148 | [Candy III][]                          | [candy3.cpp][]                           |
 |  2157 | [Anti-Blot System][]                   | [anti_blot_system.cpp][]                 |
 |  2713 | [Can you answer these queries IV][]    | [can_you_answer_these_queries_4.cpp][]   |
+|  2727 | [Army Strength][]                      | [army_strength.cpp][]                    |
 |  3375 | [Stamps][]                             | [stamps.cpp][]                           |
 |  3410 | [Feynman][]                            | [feynman.cpp][]                          |
 |  3442 | [The last digit][]                     | [the_last_digit.cpp][]                   |
 |  3693 | [Maximum Sum][]                        | [maximum_sum.cpp][]                      |
 |  4300 | [Rectangles][]                         | [rectangles.cpp][]                       |
+|  4408 | [Build a Fence][]                      | [build_a_fence.cpp][]                    |
 |  7974 | [What's Next][]                        | [whats_next.cpp][]                       |
 |  8002 | [Horrible Queries][]                   | [horrible_queries.cpp][]                 |
 |  8545 | [Subset sum][]                         | [subset_sum.cpp][]                       |
 |  9948 | [Will it ever stop][]                  | [will_it_ever_stop.cpp][]                |
 | 10582 | [subarrays][]                          | [subarrays.cpp][]                        |
+| 11063 | [AP - Complete The Series (Easy)][]    | [ap_complete_the_series_easy.cpp][]      |
 | 11772 | [Negative Score][]                     | [negative_score.cpp][]                   |
 | 13990 | [Web islands][]                        | [web_islands.cpp][]                      |
 | 16487 | [Update the array!][]                  | [update_the_array.cpp][]                 |
@@ -66,20 +70,24 @@
 [Number Steps]:                       http://www.spoj.com/problems/NSTEPS/
 [Frequent Values]:                    http://www.spoj.com/problems/FREQUENT/
 [Can you answer these queries III]:   http://www.spoj.com/problems/GSS3/
-[Stamps]:                             http://www.spoj.com/problems/STAMPS/
+[Counting Triangles]:                 http://www.spoj.com/problems/TRICOUNT/
 [Candy I]:                            http://www.spoj.com/problems/CANDY/
 [Candy III]:                          http://www.spoj.com/problems/CANDY3/
 [Anti-Blot System]:                   http://www.spoj.com/problems/ABSYS/
 [Can you answer these queries IV]:    http://www.spoj.com/problems/GSS4/
+[Army Strength]:                      http://www.spoj.com/problems/ARMY/
+[Stamps]:                             http://www.spoj.com/problems/STAMPS/
 [Feynman]:                            http://www.spoj.com/problems/SAMER08F/
 [The last digit]:                     http://www.spoj.com/problems/LASTDIG/
 [Maximum Sum]:                        http://www.spoj.com/problems/KGSS/
 [Rectangles]:                         http://www.spoj.com/problems/AE00/
+[Build a Fence]:                      http://www.spoj.com/problems/FENCE1/
 [What's Next]:                        http://www.spoj.com/problems/ACPC10A/
 [Horrible Queries]:                   http://www.spoj.com/problems/HORRIBLE/
 [Subset sum]:                         http://www.spoj.com/problems/MAIN72/
 [Will it ever stop]:                  http://www.spoj.com/problems/WILLITST/
 [subarrays]:                          http://www.spoj.com/problems/ARRAYSUB/
+[AP - Complete The Series (Easy)]:    http://www.spoj.com/problems/AP2/
 [Negative Score]:                     http://www.spoj.com/problems/RPLN/
 [Web islands]:                        http://www.spoj.com/problems/WEBISL/
 [Update the array!]:                  http://www.spoj.com/problems/UPDATEIT/
@@ -107,20 +115,24 @@
 [number_steps.cpp]:                     number_steps.cpp
 [frequent_values.cpp]:                  frequent_values.cpp
 [can_you_answer_these_queries_3.cpp]:   can_you_answer_these_queries_3.cpp
+[counting_triangles.cpp]:               counting_triangles.cpp
 [candy1.cpp]:                           candy1.cpp
 [candy3.cpp]:                           candy3.cpp
 [anti_blot_system.cpp]:                 anti_blot_system.cpp
 [can_you_answer_these_queries_4.cpp]:   can_you_answer_these_queries_4.cpp
+[army_strength.cpp]:                    army_strength.cpp
 [stamps.cpp]:                           stamps.cpp
 [feynman.cpp]:                          feynman.cpp
 [the_last_digit.cpp]:                   the_last_digit.cpp
 [maximum_sum.cpp]:                      maximum_sum.cpp
 [rectangles.cpp]:                       rectangles.cpp
+[build_a_fence.cpp]:                    build_a_fence.cpp
 [whats_next.cpp]:                       whats_next.cpp
 [horrible_queries.cpp]:                 horrible_queries.cpp
 [subset_sum.cpp]:                       subset_sum.cpp
 [will_it_ever_stop.cpp]:                will_it_ever_stop.cpp
 [subarrays.cpp]:                        subarrays.cpp
+[ap_complete_the_series_easy.cpp]:      ap_complete_the_series_easy.cpp
 [negative_score.cpp]:                   negative_score.cpp
 [web_islands.cpp]:                      web_islands.cpp
 [update_the_array.cpp]:                 update_the_array.cpp
